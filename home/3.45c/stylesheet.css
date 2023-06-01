@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'aaabbb';
+    src: url('BlackJack.eot');
+    src: url('BlackJack.eot?#iefix') format('embedded-opentype'),
+        url('BlackJack.woff2') format('woff2'),
+        url('BlackJack.woff') format('woff'),
+        url('BlackJack.ttf') format('truetype'),
+        url('BlackJack.svg#BlackJack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
