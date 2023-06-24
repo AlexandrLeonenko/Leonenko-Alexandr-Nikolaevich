@@ -3,25 +3,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header{
+    border-bottom-style: solid; border-color: #D1D5DB; border-width: 1px;
+}
 .header>div{
     width: 1456px; margin: 0 auto;
 }
 .header>div>img{
     float: left;
 }
-.header>div>img>div{
+.ulcontain{
     float: right;
 }
-.header div>ul{
+.ulcontain>ul{
     float: left;
 }
 
-.header ul>li{
-    float: left;
+.ulcontain>ul>li{
+    float: left; font-size: 16px; font-weight: 600; line-height: 140%; margin-right: 40px; font-family: 'Montserrat', sans-serif;
 }
-.header ul>img{
-    float: right;
+.burger{
+    float: right; margin-left: 40px;
 }
 .header button{
     float: right;
+}
+.slider{
+    background-image: url('xxl2.png'); background-size: cover; background-repeat: no-repeat ;
+}
+.slider>div{
+    width: 1456px; margin: 0 auto; 
+}
+.slider>div>div{
+    margin-top: 136px;
+}
+.slider>div>div>div>img{
+    margin-top: -97px; margin-left: 130px;
+}
+
+.tran_exp{
+    font-size: 60px; font-weight: 800; line-height: 140%; white-space: pre; color: #9F9; font-family: 'Montserrat', sans-serif;
+}
+.compan{
+    font-size: 60px; font-weight: 800; line-height: 140%; color: #F3F3F3; white-space: pre; float: left; font-family: 'Montserrat', sans-serif;
+}
+.mi_staraemsa{
+    font-size: 18px; color: #FFF; font-family: 'Montserrat', sans-serif;
+}
+.poluch_consult{
+    white-space: pre; font-family: 'Montserrat', sans-serif;
 }
