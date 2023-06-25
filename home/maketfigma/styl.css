@@ -10,20 +10,20 @@
     width: 1456px; margin: 0 auto;
 }
 .header>div>img{
-    float: left;
+    float: left; margin-top: 26.14px;
 }
 .ulcontain{
     float: right;
 }
 .ulcontain>ul{
-    float: left;
+    float: left; margin-top: 29px;
 }
 
 .ulcontain>ul>li{
     float: left; font-size: 16px; font-weight: 600; line-height: 140%; margin-right: 40px; font-family: 'Montserrat', sans-serif;
 }
 .burger{
-    float: right; margin-left: 40px;
+    float: right; margin-left: 40px; margin-top: 25px;
 }
 .header button{
     float: right;
@@ -48,10 +48,13 @@
     font-size: 60px; font-weight: 800; line-height: 140%; color: #F3F3F3; white-space: pre; float: left; font-family: 'Montserrat', sans-serif;
 }
 .mi_staraemsa{
-    font-size: 18px; color: #FFF; font-family: 'Montserrat', sans-serif;
+    font-size: 18px; color: #FFF; font-family: 'Montserrat', sans-serif; 
 }
 .poluch_consult{
-    white-space: pre; font-family: 'Montserrat', sans-serif;
+    white-space: pre; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 140%; text-decoration-line: underline; text-transform: uppercase;
+}
+.soc_seti{
+    margin-top: 117px; margin-left: 1100px; font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600; line-height: 140%; text-transform: uppercase; color: #FFF; white-space: pre;
 }
 .nashi_dostij>div{
     width: 1456px; margin: 0 auto; margin-top: 140px;
@@ -63,14 +66,14 @@
     margin-top: 80px;
 }
 .ul_nashi_dostij>li{
-    float: left; font-size: 22px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 140%; margin-right: 21px; color: #111827; border-bottom-style: solid; border-color: #D1D5DB; border-width: 1px;
+    float: left; font-size: 22px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 140%; margin-right: 80px; color: #111827; border-bottom-style: solid; border-color: #D1D5DB; border-width: 1px;
 }
 
 .cifri_ul_nashi_dostij{
     float: left; font-size: 50px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 120%; color: #003B77;
 }
 .cifri_ul_nashi_dostij>li{
-    float: left; margin-left: 21px;
+    float: left; margin-right: 100px;
 }
 .o_kompanii{
     margin-top: 120px;
@@ -79,5 +82,8 @@
     float: left; font-size: 52px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #003B77;
 }
 .o_kompanii_opisanie{
-    white-space: pre; margin-left: 280px; margin-top: 20px; font-size: 20px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #111827;
+    white-space: pre; margin-left: 300px; margin-top: 24px; font-size: 20px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #111827;
+}
+.div_map{
+    margin-top: 60px;
 }
