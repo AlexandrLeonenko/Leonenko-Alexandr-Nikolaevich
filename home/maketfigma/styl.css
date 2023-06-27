@@ -87,3 +87,48 @@
 .div_map{
     margin-top: 60px;
 }
+.fonnn2{
+    margin-top: 240px; background-image: url('fonnn2.jpg'); background-size: cover; background-repeat: no-repeat ;
+}
+.fonnn2>div{
+    width: 1456px; margin: 0 auto; 
+}
+.fonnn2r>div>div{
+    margin-top: 136px; 
+}
+.fonnn2>div>div>div>img{
+    margin-top: -97px; margin-left: 130px;
+}
+.fonnn2 h2{
+    font-size: 52px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #FFF; margin-top: 34.16;
+}
+.fonnn2_mi_predlag{
+    white-space: pre; font-size: 24px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #FFF; margin-top: 40px; margin-left: 280px;
+}
+.spisok_kartinok{
+    margin-top: 60px;
+}
+.spisok_kartinok>li{
+    float: left; margin-right: 10px; padding-bottom: 70%;
+}
+.spisok_kartinok>li.a_li{
+    background-image: url('Plain.jpg');
+}
+.spisok_kartinok>li.b_li{
+    background-image: url('truck.jpg');
+}
+.spisok_kartinok>li.c_li{
+    background-image: url('train.jpg');
+}
+.vse_uslugi_div{
+    margin-top: 40px; margin-left: 1300px;
+}
+.vse_uslugi{
+    font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 140%; text-decoration-line: underline; text-transform: uppercase;
+}
+.spisok_kartinok>li.other{
+    float: none; clear: both;
+}
+.kukla{
+    white-space: pre;
+}
