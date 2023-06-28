@@ -84,12 +84,16 @@
     white-space: pre;
     float: left;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 28px;
 }
 
 .mi_staraemsa {
     font-size: 18px;
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    
+    
 }
 
 .poluch_consult {
@@ -99,6 +103,7 @@
     line-height: 140%;
     text-decoration-line: underline;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 
 .soc_seti {
@@ -542,9 +547,20 @@ margin-top: 60px;
 }
 .k_z_g{
     float: left;
+    margin-top: 60px;
 }
 .k_z_g>ul.spisok_k_z_g>li{
     border-bottom-style: solid;
     border-color: #D1D5DB;
     border-width: 1px;
+    font-size: 24px;
+font-family: 'Montserrat', sans-serif;
+line-height: 140%;
+color: #FFF;
+margin-bottom: 34px;
+width: 592px;
+height: 68px;
+}
+.korabl{
+    float: right;
 }
