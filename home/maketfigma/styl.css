@@ -268,7 +268,7 @@
     white-space: pre;
 }
 
-.fonnn3 {}
+
 
 .fonnn3>div {
     width: 1456px;
@@ -295,7 +295,6 @@
    margin-right: 20px;
     width: 472px;
     height: 472px;
-    float: left;
     margin-bottom: 20px;
 }
 
@@ -333,7 +332,6 @@
     display: inline-block;
     width: 472px;
     height: 472px;
-    float: left;
     margin-bottom: 20px;
     margin-top: 60px;
 
@@ -369,7 +367,6 @@
    margin-right: 20px;
     width: 472px;
     height: 472px;
-    float: left;
     margin-bottom: 20px;
 }
 
@@ -401,12 +398,13 @@
 }
 
 .four_block{
+    
     background-color: #09325B;
     background-size: auto;
     display: inline-block;
     width: 472px;
     height: 472px;
-    float: left;
+
 }
 .four_block>p.visokoe_kach{
     font-size: 22px;
@@ -426,4 +424,127 @@
     color: #FFF;
     margin-left: 50px;
     margin-bottom: 25px;
+}
+
+
+.slide_4>div{
+    width: 1456px;
+    margin: 0 auto;
+}
+.slide_4>div>h2.partneri{
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #003B77;
+    margin-top: 140px;
+}
+.blagodarya{
+    white-space: pre;
+    margin-left: 369px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #111827;
+}
+.spisok_otraslei{
+    float: left;
+}
+.spisok_otraslei>ul.spis_otr{
+    float: left;
+    margin-bottom: 40px;
+}
+.spisok_otraslei>ul.spis_otr>li{
+    float: left;
+    font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+line-height: 140%;
+border-bottom-style: solid;
+border-color: #D1D5DB;
+border-width: 1px;
+margin-top: 60px;
+
+}
+.spisok_otraslei>ul.spis_otr>li.liii{
+    margin-right: 54px;
+}
+.peredQuadro{
+    float: left;
+    margin-right: 20px;
+}
+.peredQuadro>img{
+    width: 718px;
+    height: 349px;
+}
+.quadro{
+    float: left;
+    width: 349px;
+    height: 349px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
+}
+.quadro>img{
+    margin: 139px 75px 139px 75px;
+}
+.quadro1{
+    float: left;
+    width: 349px;
+    height: 349px;
+    border-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
+}
+.quadro1>img{
+    margin: 153px 53px 153px 53px;
+}
+.quadro_redOct{
+    float: left;
+    width: 349px;
+    height: 349px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
+    margin-top: 20px;
+}
+.quadro_redOct>img{
+    margin: 143px 103px 143px 103px; 
+}
+.shirokii_nikol{
+    float: left;
+    width: 718px;
+    height: 349px;
+    border-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
+    margin-top: 20px;
+}
+.shirokii_nikol>img{
+    margin: 153px 237.5px 153px 237.5px;
+}    
+.plitka_ssilka{
+    float: left;
+    background-color: #9F9;
+    width: 349px;
+    height: 349px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.plitka_ssilka>a.stat_partnerom{
+
+    margin-top: 294px;
+    margin-bottom: 30px;
+    
+    margin-left: 106px;
+}
+.k_z_g{
+    float: left;
+}
+.k_z_g>ul.spisok_k_z_g>li{
+    border-bottom-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
 }
