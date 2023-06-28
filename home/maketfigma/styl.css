@@ -1,134 +1,429 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.header{
-    border-bottom-style: solid; border-color: #D1D5DB; border-width: 1px;
-}
-.header>div{
-    width: 1456px; margin: 0 auto;
-}
-.header>div>img{
-    float: left; margin-top: 26.14px;
-}
-.ulcontain{
-    float: right;
-}
-.ulcontain>ul{
-    float: left; margin-top: 29px;
+
+.header {
+    border-bottom-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
 }
 
-.ulcontain>ul>li{
-    float: left; font-size: 16px; font-weight: 600; line-height: 140%; margin-right: 40px; font-family: 'Montserrat', sans-serif;
+.header>div {
+    width: 1456px;
+    margin: 0 auto;
 }
-.burger{
-    float: right; margin-left: 40px; margin-top: 25px;
+
+.header>div>img {
+    float: left;
+    margin-top: 26.14px;
 }
-.header button{
+
+.ulcontain {
     float: right;
 }
-.slider{
-    background-image: url('xxl2.png'); background-size: cover; background-repeat: no-repeat ;
+
+.ulcontain>ul {
+    float: left;
+    margin-top: 29px;
 }
-.slider>div{
-    width: 1456px; margin: 0 auto; 
+
+.ulcontain>ul>li {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
-.slider>div>div{
+
+.burger {
+    float: right;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.header button {
+    float: right;
+}
+
+.slider {
+    background-image: url('xxl2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider>div {
+    width: 1456px;
+    margin: 0 auto;
+}
+
+.slider>div>div {
     margin-top: 136px;
 }
-.slider>div>div>div>img{
-    margin-top: -97px; margin-left: 130px;
+
+.slider>div>div>div>img {
+    margin-top: -97px;
 }
 
-.tran_exp{
-    font-size: 60px; font-weight: 800; line-height: 140%; white-space: pre; color: #9F9; font-family: 'Montserrat', sans-serif;
+.tran_exp {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 140%;
+    white-space: pre;
+    color: #9F9;
+    font-family: 'Montserrat', sans-serif;
 }
-.compan{
-    font-size: 60px; font-weight: 800; line-height: 140%; color: #F3F3F3; white-space: pre; float: left; font-family: 'Montserrat', sans-serif;
+
+.compan {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 140%;
+    color: #F3F3F3;
+    white-space: pre;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
 }
-.mi_staraemsa{
-    font-size: 18px; color: #FFF; font-family: 'Montserrat', sans-serif; 
+
+.mi_staraemsa {
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
 }
-.poluch_consult{
-    white-space: pre; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 140%; text-decoration-line: underline; text-transform: uppercase;
+
+.poluch_consult {
+    white-space: pre;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
 }
-.soc_seti{
-    margin-top: 117px; margin-left: 1100px; font-size: 16px; font-family: 'Montserrat', sans-serif; font-weight: 600; line-height: 140%; text-transform: uppercase; color: #FFF; white-space: pre;
+
+.soc_seti {
+    margin-top: 117px;
+    margin-left: 1100px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFF;
+    white-space: pre;
 }
-.nashi_dostij>div{
-    width: 1456px; margin: 0 auto; margin-top: 140px;
+
+.nashi_dostij>div {
+    width: 1456px;
+    margin: 0 auto;
+    margin-top: 140px;
 }
-.nashi_dostij>div>p{
-    font-size: 52px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #003B77;
+
+.nashi_dostij>div>p {
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #003B77;
 }
-.ul_nashi_dostij{
+
+.ul_nashi_dostij {
     margin-top: 80px;
 }
-.ul_nashi_dostij>li{
-    float: left; font-size: 22px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 140%; margin-right: 80px; color: #111827; border-bottom-style: solid; border-color: #D1D5DB; border-width: 1px;
+
+.ul_nashi_dostij>li {
+    float: left;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+    margin-right: 80px;
+    color: #111827;
+    border-bottom-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
 }
 
-.cifri_ul_nashi_dostij{
-    float: left; font-size: 50px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 120%; color: #003B77;
+.cifri_ul_nashi_dostij {
+    float: left;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 120%;
+    color: #003B77;
 }
-.cifri_ul_nashi_dostij>li{
-    float: left; margin-right: 100px;
+
+.cifri_ul_nashi_dostij>li {
+    float: left;
+    margin-right: 100px;
 }
-.o_kompanii{
+
+.o_kompanii {
     margin-top: 120px;
 }
-.p_o_kompanii{
-    float: left; font-size: 52px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #003B77;
+
+.p_o_kompanii {
+    float: left;
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #003B77;
 }
-.o_kompanii_opisanie{
-    white-space: pre; margin-left: 300px; margin-top: 24px; font-size: 20px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #111827;
-}
-.div_map{
-    margin-top: 60px;
-}
-.fonnn2{
-    margin-top: 240px; background-image: url('fonnn2.jpg'); background-size: cover; background-repeat: no-repeat ;
-}
-.fonnn2>div{
-    width: 1456px; margin: 0 auto; 
-}
-.fonnn2r>div>div{
-    margin-top: 136px; 
-}
-.fonnn2>div>div>div>img{
-    margin-top: -97px; margin-left: 130px;
-}
-.fonnn2 h2{
-    font-size: 52px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #FFF; margin-top: 34.16;
-}
-.fonnn2_mi_predlag{
-    white-space: pre; font-size: 24px; font-family: 'Montserrat', sans-serif; line-height: 140%; color: #FFF; margin-top: 40px; margin-left: 280px;
-}
-.spisok_kartinok{
-    margin-top: 60px;
-}
-.spisok_kartinok>li{
-    float: left; margin-right: 10px; padding-bottom: 70%;
-}
-.spisok_kartinok>li.a_li{
-    background-image: url('Plain.jpg');
-}
-.spisok_kartinok>li.b_li{
-    background-image: url('truck.jpg');
-}
-.spisok_kartinok>li.c_li{
-    background-image: url('train.jpg');
-}
-.vse_uslugi_div{
-    margin-top: 40px; margin-left: 1300px;
-}
-.vse_uslugi{
-    font-size: 18px; font-family: 'Montserrat', sans-serif; font-weight: 500; line-height: 140%; text-decoration-line: underline; text-transform: uppercase;
-}
-.spisok_kartinok>li.other{
-    float: none; clear: both;
-}
-.kukla{
+
+.o_kompanii_opisanie {
     white-space: pre;
+    margin-left: 300px;
+    margin-top: 24px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #111827;
+}
+
+.div_map {
+    margin-top: 60px;
+}
+
+.fonnn2 {
+    margin-top: 240px;
+    background-image: url('fonnn2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fonnn2>div {
+    width: 1456px;
+    margin: 0 auto;
+}
+
+.fonnn2r>div>div {
+    margin-top: 136px;
+}
+
+.fonnn2>div>div>div>img {
+    margin-top: -97px;
+}
+
+.fonnn2 h2 {
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #FFF;
+    margin-top: 34.16;
+}
+
+.fonnn2_mi_predlag {
+    white-space: pre;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #FFF;
+    margin-top: 40px;
+    margin-left: 280px;
+}
+
+.spisok_kartinok {
+    margin-top: 60px;
+}
+
+.spisok_kartinok>li {
+    float: left;
+    margin-right: 10px;
+}
+
+.spisok_kartinok>li.a_li {
+    background-image: url('Plain.jpg');
+    background-repeat: no-repeat;
+}
+
+.spisok_kartinok>li.b_li {
+    background: url('truck.jpg') 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.spisok_kartinok>li.c_li {
+    background-image: url('train.jpg');
+    background-repeat: no-repeat;
+}
+
+.vse_uslugi_div {
+    margin-top: 40px;
+    margin-left: 1300px;
+}
+
+.vse_uslugi {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.spisok_kartinok>li.other {
+    float: none;
+    clear: both;
+}
+
+.kukla {
+    white-space: pre;
+}
+
+.fonnn3 {}
+
+.fonnn3>div {
+    width: 1456px;
+    margin: 0 auto;
+}
+
+.fonnn3>div>h2 {
+    font-size: 52px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    margin-top: 140px;
+    color: #003B77;
+}
+
+.div_1{
+    margin-left: 369px;
+    margin-top: 60px;
+}
+
+.first_block {
+    background-color: #09325B;
+    
+    display: inline-block;
+   margin-right: 20px;
+    width: 472px;
+    height: 472px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.first_block>img {
+    margin: 34px 136px 0 136px;
+}
+
+.first_block>p.garantii_sohr {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+    color: #FFF;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.first_block>p.one {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #FFF;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+
+
+.second_column {
+   
+    
+    border-style: solid;
+    border-color: #D1D5DB;
+    border-width: 1px;
+    display: inline-block;
+    width: 472px;
+    height: 472px;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 60px;
+
+}
+
+.second_column>p.ecolog_stand {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 218px;
+    margin-bottom: 40px;
+}
+.second_column>p.sobludaem_ecolog_stand {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    width: 309px;
+    height: 217px;
+    margin-left: 40px;
+    margin-bottom: 113px;
+}
+
+.div_3{
+    margin-left: 369px;
+}
+.third_block {
+    background-color: #09325B;
+    
+    display: inline-block;
+   margin-right: 20px;
+    width: 472px;
+    height: 472px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.third_block>img {
+    margin: 34px 136px 0 136px;
+}
+
+.third_block>p.garantii_sohr {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+    color: #FFF;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.third_block>p.three {
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #FFF;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.div_4{
+    margin-top: -60px;
+}
+
+.four_block{
+    background-color: #09325B;
+    background-size: auto;
+    display: inline-block;
+    width: 472px;
+    height: 472px;
+    float: left;
+}
+.four_block>p.visokoe_kach{
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 218px;
+    margin-bottom: 40px;
+    color: #FFF
+}
+.four_block>p.four{
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #FFF;
+    margin-left: 50px;
+    margin-bottom: 25px;
 }
