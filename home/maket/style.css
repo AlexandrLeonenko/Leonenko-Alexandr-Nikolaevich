@@ -1,0 +1,41 @@
+
+
+
+
+.clearfix:after{content: ""; display: block; clear: both;}
+.header{
+    height: 50px; background-color: burlywood;
+}
+
+.wrap{
+    background-color: orange;
+}
+.menu{
+    float: left; background-color: red; width: 200px; height: 300px;
+}
+.banner{
+    float: right; background-color: blue; width: 200px; height: 300px;
+}
+.content{
+    margin: 0 200px; background-color: green;
+}
+.footer{
+    clear: both; background-color: grey;
+}
+
+@media print{
+    h1{
+        text-align: center;
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 1500px){
+    .menu{
+        float: none;
+        background-color: coral;
+    }
+    .banner{
+        float: none;
+        background-color: cyan;
+    }
+}

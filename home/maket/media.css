@@ -1,0 +1,16 @@
+@media print{
+    h1{
+        text-align: center;
+        background-color: blue;
+    }
+}
+@media screen and (max-width: 1500px){
+    .menu{
+        float: none;
+        background-color: coral;
+    }
+    .banner{
+        float: none;
+        background-color: cyan;
+    }
+}
