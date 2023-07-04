@@ -1,0 +1,5 @@
+.first a:nth-child(1)::after{content: ' |'; color: red; font-weight: 1000;}  
+.first a:nth-child(2)::after{content: ' |'; color: red; font-weight: 1000;}  
+.first a:nth-child(3)::after{content: ' |'; color: red; font-weight: 1000;}  
+.first a:nth-child(4)::after{content: ' |'; color: red; font-weight: 1000;}  
+
