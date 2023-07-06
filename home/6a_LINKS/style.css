@@ -3,3 +3,20 @@
 .first a:nth-child(3)::after{content: ' |'; color: red; font-weight: 1000;}  
 .first a:nth-child(4)::after{content: ' |'; color: red; font-weight: 1000;}  
 
+a:hover{color: red;}
+div>span{color: red;}
+
+.third{float: left;}
+.third>div:nth-child(1){float: left;}
+.third>div:nth-child(1)>a{float: left; margin-right: 4px;}
+.third>div:nth-child(1)>img{float: left; width: 1/5px; height: 22px;}
+.third>div:nth-child(2){float: left;}
+.third>div:nth-child(2)>a{float: left; margin-left: 4px; margin-right: 4px;}
+.third>div:nth-child(2)>img{float: left; width: 3px; height: 22px;}
+.third>div:nth-child(3){float: left;}
+.third>div:nth-child(3)>a{float: left; margin-left: 4px; margin-right: 4px;}
+.third>div:nth-child(3)>img{float: left; width: 3px; height: 22px;}
+.third>div:nth-child(4){float: left;}
+.third>div:nth-child(4)>a{float: left; margin-left: 4px; margin-right: 4px;}
+.third>div:nth-child(4)>img{float: left; width: 3px; height: 22px;}
+.third>a{float: left; margin-left: 4px;}
