@@ -1,0 +1,113 @@
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(140, 180, 231);
+    height: 60px;
+    line-height: 60px;
+    color: blue;
+    text-align: center;
+}
+
+.menu {
+    background-image: url('132.PNG');
+    background-repeat: repeat-y;
+}
+
+.spisok_sportov {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.spisok_sportov>p {
+    margin-left: 20px;
+}
+
+.miachiki {
+    background-image: url('../MAKET_TABLE/bool.png');
+    background-repeat: repeat-y;
+    background-position: right top;
+}
+
+.miachiki>div {
+    padding-left: 220px;
+}
+
+.miachiki>div>div {
+    text-align: center;
+}
+
+.miachiki>div>img {
+    float: left;
+}
+
+.footer {
+    clear: left;
+    background-color: rgb(140, 180, 231);
+    height: 60px;
+    line-height: 60px;
+    color: blue;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu {
+        background-image: url('132.PNG');
+        background-repeat: no-repeat;
+    }
+
+    .spisok_sportov {
+        background-image: url('adaptYellow.PNG');
+        background-repeat: repeat-x;
+        width: 2500px;
+        float: left;
+        margin-right: 20px;
+
+
+    }
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .miachiki {
+        background-image: url('../MAKET_TABLE/bool.png');
+        background-repeat: repeat-y;
+        background-position: right top;
+        float: left;
+    }
+
+    .miachiki>div {
+        padding-left: 0px;
+    }
+
+    .miachiki>div>div {
+        text-align: center;
+    }
+
+    .miachiki>div>img {
+        float: left;
+    }
+
+    .footer {
+        clear: left;
+        background-color: rgb(140, 180, 231);
+        height: 60px;
+        line-height: 60px;
+        color: blue;
+        text-align: center;
+    }
+
+
+}

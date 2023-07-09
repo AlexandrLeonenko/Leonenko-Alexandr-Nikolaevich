@@ -3,6 +3,11 @@
 .first a:nth-child(3)::after{content: ' |'; color: red; font-weight: 1000;}  
 .first a:nth-child(4)::after{content: ' |'; color: red; font-weight: 1000;}  
 
+.first_1 a:nth-child(2)::before{content: ' |  '; color: red; font-weight: 1000;}  
+.first_1 a:nth-child(3)::before{content: ' |  '; color: red; font-weight: 1000;}  
+.first_1 a:nth-child(4)::before{content: ' |  '; color: red; font-weight: 1000;}  
+.first_1 a:nth-child(5)::before{content: ' |  '; color: red; font-weight: 1000;}  
+
 a:hover{color: red;}
 div>span{color: red;}
 
