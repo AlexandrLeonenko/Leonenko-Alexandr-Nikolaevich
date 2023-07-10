@@ -32,10 +32,20 @@
         }
 
         @media print {
-            body>a:nth-child(1){content: "ссылка Информация на https://chesspro.ru/statistic/botvinnik.shtml";}
-            body>a:nth-child(2){content: "ссылка Информация на https://chesspro.ru/statistic/karpov.shtml";}
-            body>a:nth-child(3){content: "ссылка Информация наhttps://chesspro.ru/statistic/kasparov.shtml";}
+          
+           [href*="botvinnik"]::before{content: 'ссылка ';}
+           [href*="botvinnik"]::after{content: ' на  https://chesspro.ru/statistic/botvinnik.shtml';}
+           [href*="botvinnik"]{text-decoration: none;}
+        
+           [href*="karpov"]::before{content: 'ссылка ';}
+           [href*="karpov"]::after{content: ' на  https://chesspro.ru/statistic/karpov.shtml';}
+           [href*="karpov"]{text-decoration: none;}
+
+           [href*="kasparov"]::before{content: 'ссылка ';}
+           [href*="kasparov"]::after{content: ' на  https://chesspro.ru/statistic/kasparov.shtml';}
+           [href*="kasparov"]{text-decoration: none;}
         }
+
     </style>
     </head>
 
