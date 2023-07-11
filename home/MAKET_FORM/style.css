@@ -1,17 +1,27 @@
 
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+html{margin-top: 5px; margin-left: 5px; margin-right: 5px;}
+body>p{margin-bottom: 8px;}
 @media screen and (max-width: 384px) {
    
-    form>input:nth-child(1){width: 360px; width: 100%;}
+    form>input:nth-child(1){ width: 100%;}
     form>select{width: 100%;}
-    form>textarea{width: 360px; width: 100%;}
+    form>textarea{ width: 100%;}
     form>span{display: block;}
 }
 
 @media screen and (min-width: 385px)  {
     
-    form>input:nth-child(1){margin-left: 50px; margin-bottom: 3px; width: 65%;}
+    form>input:nth-child(1){margin-left: 50px; margin-bottom: 3px; width: 68%;}
     form>select{margin-left: 106px; margin-bottom: 5px; width: 35%;}
     form>textarea{ width: 100%;}
+    form>span.sp1{margin-left: 82px;}
+    form>span.sp2{margin-left: 5px;}
+    .komment{display: block;}
 }
 
 .ppp{color: red;}
