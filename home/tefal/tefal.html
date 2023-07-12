@@ -7,38 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body>div{
+        body>div {
             position: relative;
             margin-top: 200px;
         }
+
         .Upper {
             position: absolute;
             right: 1483px;
-            bottom: -121px;
-           
+            bottom: -174px;
+            z-index: 2;
+
+
         }
 
         .Layer {
             position: absolute;
-            top: -176px;
-            width: 516px;
+            top: -216px;
+            ;
             left: -36px;
-            
+            z-index: 1;
+
+
         }
 
         .Lower {
             position: absolute;
+            z-index: 0;
+
         }
-        .Lower:hover+.Layer{top: -143px;}
+        .Upper:hover+.Lower  {
+            bottom: -450px;
+        }
+        
+        .Upper:hover+.Layer  {
+            bottom: -450px;
+        }
+        
     </style>
 </head>
 
 <body>
     <div>
-    <img class="Upper" src="Upper.png"><br><br>
-    <img class="Lower" src="Lower.png"><br>
-    <img class="Layer" src="Layer.png">
-</div>
+        <img class="Upper" src="Upper.png">
+        <img class="Lower" src="Lower.png">
+        <img class="Layer" src="Layer.png">
+
+    </div>
+
 </body>
 
 </html>

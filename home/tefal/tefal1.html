@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div{position: relative;}
+       div>>div:first-child>img:last-child{position: absolute;}
+        div>div:last-child>img:first-child{position: absolute;}
+        div>div:first-child:hover+div>div:last-child>img:last-child{top: 200px;}
+    </style>
+</head>
+<body>
+    <div>
+        <div><img src="Upper.png"></div>
+        <div></div><img src="Lower.png"></div>
+        <div><img src="Layer.png"></div>
+    </div>
+</body>
+</html>
