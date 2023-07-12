@@ -6,21 +6,22 @@
 }
 html{margin-top: 5px; margin-left: 5px; margin-right: 5px;}
 body>p{margin-bottom: 8px;}
-@media screen and (max-width: 384px) {
+@media screen and (max-width: 540px) {
    
-    form>input:nth-child(1){ width: 100%;}
+    form>div:nth-child(2)>input:nth-child(1){ width: 100%;}
     form>select{width: 100%;}
     form>textarea{ width: 100%;}
-    form>span{display: block;}
+    form>label{display: block;}
 }
 
-@media screen and (min-width: 385px)  {
-    
-    form>input:nth-child(1){margin-left: 50px; margin-bottom: 3px; width: 68%;}
+@media screen and (min-width: 541px)  {
+    form>div:nth-child(1){float: left; display: block;}
+    form>div:nth-child(2){display: block; padding-left: 170px;}
+    form>div:nth-child(2)>input:nth-child(1){width: 100%; margin-bottom: 5px;}
     form>select{margin-left: 106px; margin-bottom: 5px; width: 35%;}
     form>textarea{ width: 100%;}
-    form>span.sp1{margin-left: 82px;}
-    form>span.sp2{margin-left: 5px;}
+    form>label.sp1{margin-left: 82px;}
+    form>label.sp2{margin-left: 5px;}
     .komment{display: block;}
 }
 

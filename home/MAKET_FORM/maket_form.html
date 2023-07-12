@@ -11,16 +11,17 @@
 <body>
     <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:
     <form method="post" action="https://fe.it-academy.by/TestForm.php">
-        Название статьи: <input type="text" name="statya"><br>
+        <div>Название статьи:</div>
+        <div><input type="text" name="statya"></div>
         Рубрика: <select name="rubrica" size="1">
             <option>Программирование</option>
             <option>Рисование</option>
             <option>Автомобилестроение</option>
         </select><br>
-        Публикация:<span class="sp1"><input type="radio" name="answer" value="site"> на сайте</span>
-        <span class="sp2"><input type="radio" name="answer" value="magazine"> в журнале</span>
-        <span class="sp2"><input type="radio" name="answer" value="site_magazine"> на сайте и в журнале</span>
-        <span class="komment">Разрешить комментарии: <input type="checkbox" name="permission" value="yes"></span>
+        Публикация:<label class="sp1"><input type="radio" name="answer" value="site"> на сайте</label>
+        <label class="sp2"><input type="radio" name="answer" value="magazine"> в журнале</label>
+        <label class="sp2"><input type="radio" name="answer" value="site_magazine"> на сайте и в журнале</label>
+        <label class="komment">Разрешить комментарии: <input type="checkbox" name="permission" value="yes"></label>
         Текст статьи:<br> <textarea name="text_statyi"></textarea><br>
         <input type="submit" value="Опубликовать">
 
@@ -28,7 +29,7 @@
     </form>
     </p>
 </body>
-<p class="ppp">На ширине экрана 384px форма отображается как в первой рамке<br>
-    На ширине 555пх отображается во втором варианте. </p>
+<p class="ppp">На ширине экрана 540px форма отображается как в первой рамке<br>
+    На ширине 541пх отображается во втором варианте. </p>
 
 </html>
