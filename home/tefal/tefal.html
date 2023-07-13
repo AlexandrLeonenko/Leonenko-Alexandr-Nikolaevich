@@ -9,39 +9,27 @@
     <style>
         body>div {
             position: relative;
-            margin-top: 200px;
+            margin-top: 30px;
         }
+        img{position: absolute; display: block;}
 
         .Upper {
-            position: absolute;
-            right: 1483px;
-            bottom: -174px;
-            z-index: 2;
-
-
+           top: 200px;
+           transition: 0.5s;
         }
 
         .Layer {
-            position: absolute;
-            top: -216px;
-            width: 516px;
-            left: -36px;
-            z-index: 1;
-
-
+           top: 200px;
+           transition: 0.5s;
         }
 
         .Lower {
-            position: absolute;
-            z-index: 0;
-
+           top: 200px;
+         
         }
-        .Upper:hover+.Lower  {
-            bottom: -450px;
-        }
-        .Upper:hover+.Layer  {
-            top: -45px;
-        }
+       
+        div:hover .Upper{top: 0px;}
+        div:hover .Layer{top: 400px;}
         
         
     </style>
@@ -49,11 +37,10 @@
 
 <body>
     <div>
-        <img class="Upper" src="Upper.png">
         <img class="Lower" src="Lower.png">
-        <img class="Layer" src="Layer.png">
-
-    </div>
+        <img class="Upper" src="Upper.png">
+        <img class="Layer" src="bottom2 (1).png">
+        </div>
 
 </body>
 
