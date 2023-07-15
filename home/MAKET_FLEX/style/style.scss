@@ -1,3 +1,9 @@
+@mixin uzkyi_screen ($w) {
+    @media screen and (max-width: $w) {
+        @content;
+    }
+}
+
 body {
     margin: 0 auto;
     box-sizing: border-box;
@@ -62,5 +68,67 @@ body {
         justify-content: center;
         height: 60px;
 
+    }
+}
+
+@include uzkyi_screen(220px) {
+    body {
+        margin-left: 10px;
+        box-sizing: border-box;
+
+        .header {
+            display: none;
+
+        }
+
+        .menu_sredniy {
+            display: flex;
+            flex-direction: column-reverse;
+
+            .spisok_sportov {
+                background-color: white;
+
+                p {
+                    margin-left: 0;
+                }
+
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    font-size: 14px;
+
+                    li {
+                        float: left;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .miachiki {
+                background-image: none;
+
+
+                div {
+
+                    p {
+
+                        font-weight: bold;
+                        text-align: center;
+
+
+                    }
+
+                    img {
+                        float: left;
+                        margin: 0 0 20px 0;
+                    }
+                }
+            }
+
+        }
+
+        .footer {
+            display: none
+        }
     }
 }

@@ -38,4 +38,35 @@ body {
     justify-content: center;
     height: 60px; }
 
+@media screen and (max-width: 220px) {
+  body {
+    margin-left: 10px;
+    box-sizing: border-box; }
+    body .header {
+      display: none; }
+    body .menu_sredniy {
+      display: flex;
+      flex-direction: column-reverse; }
+      body .menu_sredniy .spisok_sportov {
+        background-color: white; }
+        body .menu_sredniy .spisok_sportov p {
+          margin-left: 0; }
+        body .menu_sredniy .spisok_sportov ul {
+          list-style-type: none;
+          padding: 0;
+          font-size: 14px; }
+          body .menu_sredniy .spisok_sportov ul li {
+            float: left;
+            margin-right: 5px; }
+      body .menu_sredniy .miachiki {
+        background-image: none; }
+        body .menu_sredniy .miachiki div p {
+          font-weight: bold;
+          text-align: center; }
+        body .menu_sredniy .miachiki div img {
+          float: left;
+          margin: 0 0 20px 0; }
+    body .footer {
+      display: none; } }
+
 /*# sourceMappingURL=style.css.map */
