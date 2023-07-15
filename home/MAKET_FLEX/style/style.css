@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+  box-sizing: border-box; }
+  body .header {
+    display: flex;
+    background-color: #8cb4e7;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    height: 60px; }
+  body .menu_sredniy {
+    display: flex; }
+    body .menu_sredniy .spisok_sportov {
+      background-color: yellow;
+      flex-grow: 1;
+      min-width: 200px;
+      max-width: 200px;
+      flex-basis: 200px;
+      margin-right: 20px; }
+      body .menu_sredniy .spisok_sportov p {
+        margin-left: 20px; }
+    body .menu_sredniy .miachiki {
+      flex-grow: 3;
+      background-image: url("../../MAKET_TABLE/bool.png");
+      background-repeat: repeat-y;
+      background-position: right top; }
+      body .menu_sredniy .miachiki div p {
+        font-weight: bold;
+        text-align: center; }
+      body .menu_sredniy .miachiki div img {
+        float: left;
+        margin: 0 20px 0 0; }
+  body .footer {
+    display: flex;
+    background-color: #8cb4e7;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    height: 60px; }
+
+/*# sourceMappingURL=style.css.map */
