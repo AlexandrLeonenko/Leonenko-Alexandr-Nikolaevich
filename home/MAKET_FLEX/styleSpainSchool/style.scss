@@ -1,0 +1,81 @@
+.container{
+    width: 1236px; margin: 0 auto; 
+}
+.header{
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+        
+        .head_1{
+            display: flex;
+            justify-content: space-between;
+            border-bottom-style: solid;
+            border-color: rgba($color: #333, $alpha: 0.30000001192092896);
+            border-width: 1px;
+            .logo{
+                font-family: 'Oswald', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%; /* 19.6px */
+                letter-spacing: 0.28px;
+                text-transform: uppercase;
+                color: #EC1B2E;}
+            .spisok_header{
+                display: flex;
+                list-style-type: none;
+                width: 570px;
+                justify-content: space-between;
+            }
+            .zapis_na_kursi{
+                font-family: 'Oswald', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%; /* 19.6px */
+                width: 143px;
+                height: 40px;
+                padding: 10px 20px;
+                background-color: #EC1B2E;}
+        }   
+        .head_2{
+            display: flex;
+            justify-content: space-between;
+            
+            ul{
+                display: flex;
+                width: 1055px;
+                justify-content: space-between;
+                list-style-type: none;
+                
+            }
+        }
+    }
+}
+.slider{
+    background-image: url('../img/Rectangle 31.png');
+        .container{
+        display: flex;
+        flex-direction: column;
+
+            .idet_nabor{
+                width: 586px;
+                height: 310px;
+                background-color: rgba(51, 51, 51, 0.50);
+                font-family: 'Oswald', sans-serif;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 140%; /* 56px */
+                color: #FFF;   
+            }
+            .podrobnee{
+                width: 163px;
+                height: 58px;
+                padding: 15px 30px;
+                background-color: #EC1B2E;
+            }
+}
+
+}
