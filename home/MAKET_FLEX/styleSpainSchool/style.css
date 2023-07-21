@@ -2,6 +2,13 @@
   width: 1236px;
   margin: 0 auto; }
 
+.podrobnee {
+  width: 103px;
+  height: 28px;
+  padding: 15px 30px;
+  background-color: #EC1B2E;
+  color: #FFF; }
+
 .header .container {
   display: flex;
   flex-direction: column; }
@@ -47,13 +54,32 @@
       list-style-type: none; }
 
 .slider {
-  background-image: url("../img/Rectangle 31.png"); }
+  background-image: url("../img/Rectangle 31.png");
+  display: flex;
+  align-items: center; }
+  .slider .arrow_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #EC1B2E;
+    margin-left: 150px; }
+  .slider .arrow_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #EC1B2E;
+    position: relative;
+    left: 1500px; }
   .slider .container {
     display: flex;
     flex-direction: column; }
     .slider .container .idet_nabor {
-      margin-top: 141px;
-      margin-left: 108px;
+      margin-top: 126px;
+      margin-left: 25px;
       width: 526px;
       height: 280px;
       background-color: rgba(51, 51, 51, 0.5);
@@ -67,10 +93,212 @@
       padding: 15px 30px; }
     .slider .container .podrobnee {
       margin-top: 65px;
-      margin-left: 108px;
-      width: 163px;
-      height: 58px;
+      margin-left: 25px;
+      margin-bottom: 141px;
+      width: 103px;
+      height: 28px;
       padding: 15px 30px;
-      background-color: #EC1B2E; }
+      background-color: #EC1B2E;
+      color: #FFF; }
+
+.Lavita .container {
+  display: flex;
+  justify-content: space-between; }
+  .Lavita .container .school_Lavita {
+    border: solid 10px #EC1B2E;
+    margin-left: 150px;
+    margin-top: 191px; }
+    .Lavita .container .school_Lavita p {
+      margin: 86px 90px 76px 90px; }
+  .Lavita .container .huge_logo {
+    margin-top: 191px; }
+    .Lavita .container .huge_logo img {
+      width: 400px;
+      height: 346.667px; }
+
+.stoimost_obuch .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .stoimost_obuch .container .kursi_i_stoim_obuch {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 67.2px */
+    letter-spacing: 0.48px;
+    color: #333;
+    margin-top: 150px; }
+  .stoimost_obuch .container ul {
+    display: flex;
+    list-style-type: none;
+    width: 1100px;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-top: 150px;
+    /* 33.6px */ }
+    .stoimost_obuch .container ul li {
+      display: flex;
+      text-align: center; }
+  .stoimost_obuch .container .septTOmay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 68px;
+    background-color: #EC1B2E;
+    color: #FFF;
+    position: relative;
+    top: -183px;
+    right: -138px; }
+  .stoimost_obuch .container .septTOjune {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    height: 68px;
+    background-color: #EC1B2E;
+    color: #FFF;
+    position: relative;
+    top: -251px;
+    right: -385px; }
+  .stoimost_obuch .container .tabl_grupp {
+    margin-left: 100px;
+    margin-right: 200px; }
+    .stoimost_obuch .container .tabl_grupp .shapka_tabl {
+      display: flex; }
+      .stoimost_obuch .container .tabl_grupp .shapka_tabl .grupp {
+        display: flex;
+        align-items: center;
+        background-color: rgba(51, 51, 51, 0.05);
+        width: 180px;
+        height: 48px;
+        flex-grow: 1; }
+      .stoimost_obuch .container .tabl_grupp .shapka_tabl .intens {
+        display: flex;
+        align-items: center;
+        background-color: rgba(51, 51, 51, 0.05);
+        width: 180px;
+        height: 48px;
+        flex-grow: 2; }
+      .stoimost_obuch .container .tabl_grupp .shapka_tabl .stoim {
+        display: flex;
+        align-items: center;
+        background-color: rgba(51, 51, 51, 0.05);
+        width: 180px;
+        height: 48px;
+        flex-grow: 3; }
+    .stoimost_obuch .container .tabl_grupp .stroka1 {
+      display: flex;
+      border-bottom-style: solid;
+      border-color: rgba(51, 51, 51, 0.3000000119);
+      border-width: 1px; }
+      .stoimost_obuch .container .tabl_grupp .stroka1 .stolb1 {
+        display: flex;
+        flex-grow: 1;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka1 .stolb2 {
+        display: flex;
+        flex-grow: 2;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka1 .stolb3 {
+        display: flex;
+        flex-grow: 3;
+        width: 180px; }
+    .stoimost_obuch .container .tabl_grupp .stroka2 {
+      display: flex;
+      border-bottom-style: solid;
+      border-color: rgba(51, 51, 51, 0.3000000119);
+      border-width: 1px; }
+      .stoimost_obuch .container .tabl_grupp .stroka2 .stolb1 {
+        display: flex;
+        flex-grow: 1;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka2 .stolb2 {
+        display: flex;
+        flex-grow: 2;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka2 .stolb3 {
+        display: flex;
+        flex-grow: 3;
+        width: 180px; }
+    .stoimost_obuch .container .tabl_grupp .stroka3 {
+      display: flex;
+      border-bottom-style: solid;
+      border-color: rgba(51, 51, 51, 0.3000000119);
+      border-width: 1px; }
+      .stoimost_obuch .container .tabl_grupp .stroka3 .stolb1 {
+        display: flex;
+        flex-grow: 1;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka3 .stolb2 {
+        display: flex;
+        flex-grow: 2;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka3 .stolb3 {
+        display: flex;
+        flex-grow: 3;
+        width: 180px; }
+    .stoimost_obuch .container .tabl_grupp .stroka4 {
+      display: flex; }
+      .stoimost_obuch .container .tabl_grupp .stroka4 .stolb1 {
+        display: flex;
+        flex-grow: 1;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka4 .stolb2 {
+        display: flex;
+        flex-grow: 2;
+        width: 180px; }
+      .stoimost_obuch .container .tabl_grupp .stroka4 .stolb3 {
+        display: flex;
+        flex-grow: 3;
+        width: 180px; }
+
+.eczameni .container {
+  display: flex;
+  flex-direction: column; }
+  .eczameni .container .zagolovok {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 67.2px */
+    letter-spacing: 0.48px;
+    color: #333; }
+  .eczameni .container .broshura {
+    display: flex; }
+    .eczameni .container .broshura .kart {
+      margin-right: 24px; }
+      .eczameni .container .broshura .kart p {
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 33.6px */
+        text-align: center; }
+      .eczameni .container .broshura .kart ul {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 22.4px */
+        color: #333; }
+      .eczameni .container .broshura .kart .podrobnee {
+        display: flex;
+        justify-content: center;
+        margin-left: 72px; }
 
 /*# sourceMappingURL=style.css.map */
