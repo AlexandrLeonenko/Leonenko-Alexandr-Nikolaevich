@@ -4,6 +4,9 @@
 }
 
 .podrobnee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 103px;
     height: 28px;
     padding: 15px 30px;
@@ -39,11 +42,30 @@
             .spisok_header {
                 display: flex;
                 list-style-type: none;
-                width: 570px;
+                width: 701px;
                 justify-content: space-between;
+
+                li {
+                    margin-right: 45px;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    /* 19.6px */
+
+                    img {
+                        margin-right: 20px;
+                        position: relative;
+                        top: 7px;
+                    }
+                }
             }
 
             .zapis_na_kursi {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 font-family: 'Oswald', sans-serif;
                 font-size: 14px;
                 font-style: normal;
@@ -54,6 +76,7 @@
                 height: 40px;
                 padding: 10px 20px;
                 background-color: #EC1B2E;
+                color: #FFF;
             }
         }
 
@@ -66,6 +89,14 @@
                 width: 1055px;
                 justify-content: space-between;
                 list-style-type: none;
+                font-family: 'Oswald', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                /* 19.6px */
+                letter-spacing: 0.28px;
+                text-transform: uppercase;
 
             }
         }
@@ -124,6 +155,7 @@
         }
 
         .podrobnee {
+            display: flex;
             margin-top: 65px;
             margin-left: 25px;
             margin-bottom: 141px;
@@ -152,6 +184,12 @@
 
             p {
                 margin: 86px 90px 76px 90px;
+                font-family: 'Oswald', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;
+                /* 25.2px */
             }
         }
 
@@ -252,6 +290,7 @@
                     width: 180px;
                     height: 48px;
                     flex-grow: 1;
+                    padding-left: 20px;
 
                 }
 
@@ -262,6 +301,7 @@
                     width: 180px;
                     height: 48px;
                     flex-grow: 2;
+                    padding-left: 20px;
 
                 }
 
@@ -272,6 +312,7 @@
                     width: 180px;
                     height: 48px;
                     flex-grow: 3;
+                    padding-left: 20px;
 
                 }
 
@@ -283,23 +324,30 @@
                 border-bottom-style: solid;
                 border-color: rgba($color: #333, $alpha: 0.30000001192092896);
                 border-width: 1px;
+                
 
                 .stolb1 {
                     display: flex;
                     flex-grow: 1;
                     width: 180px;
+                    padding-left: 20px;
+                    
+                    
+                    
                 }
 
                 .stolb2 {
                     display: flex;
                     flex-grow: 2;
                     width: 180px;
+                    padding-left: 20px;
                 }
 
                 .stolb3 {
                     display: flex;
                     flex-grow: 3;
                     width: 180px;
+                    padding-left: 20px;
                 }
             }
 
@@ -308,23 +356,28 @@
                 border-bottom-style: solid;
                 border-color: rgba($color: #333, $alpha: 0.30000001192092896);
                 border-width: 1px;
+                
 
                 .stolb1 {
                     display: flex;
                     flex-grow: 1;
                     width: 180px;
+                    padding-left: 20px;
+                    padding-left: 20px;
                 }
 
                 .stolb2 {
                     display: flex;
                     flex-grow: 2;
                     width: 180px;
+                    padding-left: 20px;
                 }
 
                 .stolb3 {
                     display: flex;
                     flex-grow: 3;
                     width: 180px;
+                    padding-left: 20px;
                 }
             }
 
@@ -333,23 +386,28 @@
                 border-bottom-style: solid;
                 border-color: rgba($color: #333, $alpha: 0.30000001192092896);
                 border-width: 1px;
+                
+                
 
                 .stolb1 {
                     display: flex;
                     flex-grow: 1;
                     width: 180px;
+                    padding-left: 20px;
                 }
 
                 .stolb2 {
                     display: flex;
                     flex-grow: 2;
                     width: 180px;
+                    padding-left: 20px;
                 }
 
                 .stolb3 {
                     display: flex;
                     flex-grow: 3;
                     width: 180px;
+                    padding-left: 20px;
                 }
             }
 
@@ -361,18 +419,21 @@
                     display: flex;
                     flex-grow: 1;
                     width: 180px;
+                    padding-left: 20px;
                 }
 
                 .stolb2 {
                     display: flex;
                     flex-grow: 2;
                     width: 180px;
+                    padding-left: 20px;
                 }
 
                 .stolb3 {
                     display: flex;
                     flex-grow: 3;
                     width: 180px;
+                    padding-left: 20px;
                 }
             }
         }
@@ -457,14 +518,19 @@
 
 .footer {
     margin-top: 120px;
+    background-image: url('../img/poloska.PNG');
 
-    /*background-color: #333;*/
-    /*opacity: 0.05000000074505806;*/
     .container {
         display: flex;
+        border-bottom-style: solid;
+        border-color: rgba($color: #333, $alpha: 0.30000001192092896);
+        border-width: 1px;
+
 
         .main_inf {
             margin-right: 69px;
+            margin-top: 60px;
+
             .zagolovok6 {
                 font-family: Circe;
                 font-size: 14px;
@@ -492,6 +558,8 @@
 
         .ssilki_inform {
             margin-right: 69px;
+            margin-top: 60px;
+
             h4 {
                 font-family: Circe;
                 font-size: 20px;
@@ -517,5 +585,30 @@
 
 
 
+
     }
+}
+
+.footer1 {
+    background-image: url('../img/poloska.PNG');
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            font-family: Circe;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            /* 19.6px */
+            color: #333;
+            opacity: 0.5;
+        }
+
+    }
+
 }

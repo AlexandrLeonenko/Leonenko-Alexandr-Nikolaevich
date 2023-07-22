@@ -3,6 +3,9 @@
   margin: 0 auto; }
 
 .podrobnee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 103px;
   height: 28px;
   padding: 15px 30px;
@@ -31,9 +34,24 @@
     .header .container .head_1 .spisok_header {
       display: flex;
       list-style-type: none;
-      width: 570px;
+      width: 701px;
       justify-content: space-between; }
+      .header .container .head_1 .spisok_header li {
+        margin-right: 45px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 19.6px */ }
+        .header .container .head_1 .spisok_header li img {
+          margin-right: 20px;
+          position: relative;
+          top: 7px; }
     .header .container .head_1 .zapis_na_kursi {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-family: 'Oswald', sans-serif;
       font-size: 14px;
       font-style: normal;
@@ -43,7 +61,8 @@
       width: 143px;
       height: 40px;
       padding: 10px 20px;
-      background-color: #EC1B2E; }
+      background-color: #EC1B2E;
+      color: #FFF; }
   .header .container .head_2 {
     display: flex;
     justify-content: space-between; }
@@ -51,7 +70,15 @@
       display: flex;
       width: 1055px;
       justify-content: space-between;
-      list-style-type: none; }
+      list-style-type: none;
+      font-family: 'Oswald', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      /* 19.6px */
+      letter-spacing: 0.28px;
+      text-transform: uppercase; }
 
 .slider {
   background-image: url("../img/Rectangle 31.png");
@@ -92,6 +119,7 @@
       color: #FFF;
       padding: 15px 30px; }
     .slider .container .podrobnee {
+      display: flex;
       margin-top: 65px;
       margin-left: 25px;
       margin-bottom: 141px;
@@ -111,7 +139,13 @@
     width: 638px;
     height: 405px; }
     .Lavita .container .school_Lavita p {
-      margin: 86px 90px 76px 90px; }
+      margin: 86px 90px 76px 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      /* 25.2px */ }
   .Lavita .container .huge_logo {
     margin-top: 191px; }
     .Lavita .container .huge_logo img {
@@ -182,21 +216,24 @@
         background-color: rgba(51, 51, 51, 0.05);
         width: 180px;
         height: 48px;
-        flex-grow: 1; }
+        flex-grow: 1;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .shapka_tabl .intens {
         display: flex;
         align-items: center;
         background-color: rgba(51, 51, 51, 0.05);
         width: 180px;
         height: 48px;
-        flex-grow: 2; }
+        flex-grow: 2;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .shapka_tabl .stoim {
         display: flex;
         align-items: center;
         background-color: rgba(51, 51, 51, 0.05);
         width: 180px;
         height: 48px;
-        flex-grow: 3; }
+        flex-grow: 3;
+        padding-left: 20px; }
     .stoimost_obuch .container .tabl_grupp .stroka1 {
       display: flex;
       border-bottom-style: solid;
@@ -205,15 +242,18 @@
       .stoimost_obuch .container .tabl_grupp .stroka1 .stolb1 {
         display: flex;
         flex-grow: 1;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka1 .stolb2 {
         display: flex;
         flex-grow: 2;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka1 .stolb3 {
         display: flex;
         flex-grow: 3;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
     .stoimost_obuch .container .tabl_grupp .stroka2 {
       display: flex;
       border-bottom-style: solid;
@@ -222,15 +262,19 @@
       .stoimost_obuch .container .tabl_grupp .stroka2 .stolb1 {
         display: flex;
         flex-grow: 1;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka2 .stolb2 {
         display: flex;
         flex-grow: 2;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka2 .stolb3 {
         display: flex;
         flex-grow: 3;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
     .stoimost_obuch .container .tabl_grupp .stroka3 {
       display: flex;
       border-bottom-style: solid;
@@ -239,29 +283,35 @@
       .stoimost_obuch .container .tabl_grupp .stroka3 .stolb1 {
         display: flex;
         flex-grow: 1;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka3 .stolb2 {
         display: flex;
         flex-grow: 2;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka3 .stolb3 {
         display: flex;
         flex-grow: 3;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
     .stoimost_obuch .container .tabl_grupp .stroka4 {
       display: flex; }
       .stoimost_obuch .container .tabl_grupp .stroka4 .stolb1 {
         display: flex;
         flex-grow: 1;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka4 .stolb2 {
         display: flex;
         flex-grow: 2;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
       .stoimost_obuch .container .tabl_grupp .stroka4 .stolb3 {
         display: flex;
         flex-grow: 3;
-        width: 180px; }
+        width: 180px;
+        padding-left: 20px; }
   .stoimost_obuch .container .beli_block_lavita {
     background-color: #FFF;
     font-family: Circe;
@@ -320,12 +370,15 @@
 
 .footer {
   margin-top: 120px;
-  /*background-color: #333;*/
-  /*opacity: 0.05000000074505806;*/ }
+  background-image: url("../img/poloska.PNG"); }
   .footer .container {
-    display: flex; }
+    display: flex;
+    border-bottom-style: solid;
+    border-color: rgba(51, 51, 51, 0.3000000119);
+    border-width: 1px; }
     .footer .container .main_inf {
-      margin-right: 69px; }
+      margin-right: 69px;
+      margin-top: 60px; }
       .footer .container .main_inf .zagolovok6 {
         font-family: Circe;
         font-size: 14px;
@@ -341,7 +394,8 @@
         margin-right: 20px;
         margin-top: 40px; }
     .footer .container .ssilki_inform {
-      margin-right: 69px; }
+      margin-right: 69px;
+      margin-top: 60px; }
       .footer .container .ssilki_inform h4 {
         font-family: Circe;
         font-size: 20px;
@@ -358,5 +412,22 @@
         font-weight: 400;
         line-height: 140%;
         /* 19.6px */ }
+
+.footer1 {
+  background-image: url("../img/poloska.PNG"); }
+  .footer1 .container {
+    display: flex;
+    justify-content: space-between; }
+    .footer1 .container div {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      font-family: Circe;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      /* 19.6px */
+      color: #333;
+      opacity: 0.5; }
 
 /*# sourceMappingURL=style.css.map */
