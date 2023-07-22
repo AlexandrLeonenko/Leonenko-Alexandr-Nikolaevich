@@ -107,7 +107,9 @@
   .Lavita .container .school_Lavita {
     border: solid 10px #EC1B2E;
     margin-left: 150px;
-    margin-top: 191px; }
+    margin-top: 191px;
+    width: 638px;
+    height: 405px; }
     .Lavita .container .school_Lavita p {
       margin: 86px 90px 76px 90px; }
   .Lavita .container .huge_logo {
@@ -260,6 +262,21 @@
         display: flex;
         flex-grow: 3;
         width: 180px; }
+  .stoimost_obuch .container .beli_block_lavita {
+    background-color: #FFF;
+    font-family: Circe;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 140%;
+    /* 67.2px */
+    letter-spacing: 0.48px;
+    padding: 10px 30px;
+    width: 414px;
+    height: 87px;
+    position: relative;
+    top: -1778px;
+    right: -117px; }
 
 .eczameni .container {
   display: flex;
@@ -300,5 +317,46 @@
         display: flex;
         justify-content: center;
         margin-left: 72px; }
+
+.footer {
+  margin-top: 120px;
+  /*background-color: #333;*/
+  /*opacity: 0.05000000074505806;*/ }
+  .footer .container {
+    display: flex; }
+    .footer .container .main_inf {
+      margin-right: 69px; }
+      .footer .container .main_inf .zagolovok6 {
+        font-family: Circe;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 19.6px */
+        letter-spacing: 0.28px;
+        text-transform: uppercase; }
+      .footer .container .main_inf .paragr_s_kart img {
+        margin-right: 20px; }
+      .footer .container .main_inf .div_s_kart img {
+        margin-right: 20px;
+        margin-top: 40px; }
+    .footer .container .ssilki_inform {
+      margin-right: 69px; }
+      .footer .container .ssilki_inform h4 {
+        font-family: Circe;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 28px */ }
+      .footer .container .ssilki_inform .paragr_s_ssilkoi a {
+        text-decoration: none;
+        color: black;
+        font-family: Circe;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 19.6px */ }
 
 /*# sourceMappingURL=style.css.map */
