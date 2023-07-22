@@ -1,0 +1,12 @@
+.container {
+    width: 1236px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #646464;
+    .container{
+        display: flex;
+        .zakazat_evacuator{color: white;}
+        .nomer_telefona{color: yellow;}
+    }
+}
