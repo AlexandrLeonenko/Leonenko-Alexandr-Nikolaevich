@@ -2,11 +2,99 @@
     width: 1236px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     background-color: #646464;
-    .container{
+    
+
+    .container {
         display: flex;
-        .zakazat_evacuator{color: white;}
-        .nomer_telefona{color: yellow;}
+
+        .zakazat_evacuator {
+            color: white;
+        }
+
+        .nomer_telefona {
+            color: yellow;
+        }
+    }
+}
+
+.header1 {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        
+
+
+        .spisok_header {
+            display: flex;
+            width: 620px;
+            justify-content: space-between;
+
+            li {
+                list-style-type: none;
+                color: #8f8f8f;
+                text-transform: uppercase;
+            }
+        }
+
+        .knopka_vizova {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+            padding-left: 38px;
+            padding-right: 38px;
+        }
+    }
+}
+
+.kart {
+    .container {
+        display: flex;
+
+
+        .kartochki {
+            margin-right: 30px;
+            margin-top: 30px;
+
+            img {
+                width: 253px;
+                height: 160px;
+            }
+
+            h3 {
+                text-transform: uppercase;
+                font-weight: bold;
+                color: black;
+            }
+
+            .stoim {
+                display: flex;
+                justify-content: space-between;
+                color: #646464;
+                border-bottom: solid;
+                border-bottom-color: #8f8f8f;
+                border-bottom-width: 2px;
+            }
+
+            .rasch {
+                display: flex;
+                justify-content: space-between;
+            }
+            .krasnaya_knopka{
+                background-color: red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+        }
+
+
     }
 }

@@ -11,4 +11,54 @@
     .header .container .nomer_telefona {
       color: yellow; }
 
+.header1 .container {
+  display: flex;
+  justify-content: space-between; }
+  .header1 .container .spisok_header {
+    display: flex;
+    width: 620px;
+    justify-content: space-between; }
+    .header1 .container .spisok_header li {
+      list-style-type: none;
+      color: #8f8f8f;
+      text-transform: uppercase; }
+  .header1 .container .knopka_vizova {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    padding-left: 38px;
+    padding-right: 38px; }
+
+.kart .container {
+  display: flex; }
+  .kart .container .kartochki {
+    margin-right: 30px;
+    margin-top: 30px; }
+    .kart .container .kartochki img {
+      width: 253px;
+      height: 160px; }
+    .kart .container .kartochki h3 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: black; }
+    .kart .container .kartochki .stoim {
+      display: flex;
+      justify-content: space-between;
+      color: #646464;
+      border-bottom: solid;
+      border-bottom-color: #8f8f8f;
+      border-bottom-width: 2px; }
+    .kart .container .kartochki .rasch {
+      display: flex;
+      justify-content: space-between; }
+    .kart .container .kartochki .krasnaya_knopka {
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */
