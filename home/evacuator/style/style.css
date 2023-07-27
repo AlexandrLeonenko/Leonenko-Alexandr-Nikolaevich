@@ -2,6 +2,14 @@
   width: 1236px;
   margin: 0 auto; }
 
+.knopka_vizova {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  padding-left: 38px;
+  padding-right: 38px; }
+
 .header {
   background-color: #646464; }
   .header .container {
@@ -60,5 +68,91 @@
       color: white;
       padding-top: 10px;
       padding-bottom: 10px; }
+
+.prikurit_avto {
+  margin-top: 70px; }
+  .prikurit_avto .container {
+    display: flex;
+    justify-content: center; }
+    .prikurit_avto .container .foto_prikur {
+      color: black; }
+    .prikurit_avto .container .text_prikur {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: 905px; }
+
+.recomend_sto .container {
+  display: flex;
+  justify-content: center; }
+  .recomend_sto .container .foto_sto {
+    color: #646464; }
+  .recomend_sto .container .text_sto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 905px; }
+
+hgroup {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  hgroup h1 {
+    display: flex;
+    justify-content: center; }
+  hgroup h2 {
+    display: flex;
+    justify-content: center; }
+  hgroup h6 {
+    display: flex;
+    justify-content: center; }
+
+.pochemu_nas .container {
+  display: flex;
+  justify-content: center; }
+  .pochemu_nas .container .kart_1 p {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .pochemu_nas .container .kart_1 .foto_i_spisok {
+    display: flex; }
+  .pochemu_nas .container .kart_2 p {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .pochemu_nas .container .kart_2 .napolnenie {
+    display: flex; }
+    .pochemu_nas .container .kart_2 .napolnenie .net_nevip_zadach .knopka_vizova {
+      margin-top: 104px; }
+    .pochemu_nas .container .kart_2 .napolnenie .call_us {
+      background-color: #646464;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: yellow; }
+
+.text_o_kompanii .container {
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .text_o_kompanii .container div {
+    text-transform: uppercase;
+    font-weight: bold; }
+
+.chto_govoryat_clienti {
+  background-image: url("../img/notebook-12.jpg");
+  height: 839px; }
+  .chto_govoryat_clienti .container {
+    display: flex;
+    flex-direction: column; }
+    .chto_govoryat_clienti .container .otziv {
+      margin-bottom: 110px; }
+      .chto_govoryat_clienti .container .otziv p {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white; }
+      .chto_govoryat_clienti .container .otziv div {
+        color: white;
+        text-transform: lowercase; }
 
 /*# sourceMappingURL=style.css.map */
