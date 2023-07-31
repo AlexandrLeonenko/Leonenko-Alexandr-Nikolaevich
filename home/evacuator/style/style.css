@@ -155,4 +155,24 @@ hgroup {
         color: white;
         text-transform: lowercase; }
 
+.evacuatori {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; }
+  .evacuatori .yel_block h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    right: -70px; }
+  .evacuatori .yel_block div {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 20px;
+    width: 500px;
+    text-transform: uppercase;
+    font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */

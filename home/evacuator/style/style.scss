@@ -232,13 +232,15 @@ hgroup {
 
 .chto_govoryat_clienti {
     background-image: url('../img/notebook-12.jpg');
-    height: 839px    ;
+    height: 839px;
+
     .container {
         display: flex;
         flex-direction: column;
 
         .otziv {
-            margin-bottom:110px;
+            margin-bottom: 110px;
+
             p {
                 text-transform: uppercase;
                 font-weight: bold;
@@ -251,4 +253,32 @@ hgroup {
             }
         }
     }
+}
+
+.evacuatori {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+    .yel_block {
+        h3 {
+            text-transform: uppercase;
+            font-weight: bold;
+            position: relative;
+            right: -70px;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            background-color: yellow;
+            margin: 20px;
+            margin-left: 40px;
+            padding: 20px;
+            width: 500px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
 }
