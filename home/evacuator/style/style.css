@@ -175,4 +175,48 @@ hgroup {
     text-transform: uppercase;
     font-weight: bold; }
 
+.red_block {
+  display: flex;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 10px;
+  background-color: red;
+  text-transform: uppercase;
+  color: white; }
+
+footer {
+  background-color: #646464;
+  color: white; }
+  footer .container {
+    display: flex; }
+    footer .container .columnn_1 {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin-right: 50px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      footer .container .columnn_1 h5 span {
+        color: yellow; }
+    footer .container .columnn_2 {
+      display: flex;
+      flex-direction: column;
+      margin-right: 250px;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+    footer .container .columnn_3 {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  footer .enddd {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white; }
+
 /*# sourceMappingURL=style.css.map */

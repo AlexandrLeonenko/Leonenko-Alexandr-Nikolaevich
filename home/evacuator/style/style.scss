@@ -282,3 +282,63 @@ hgroup {
     }
 
 }
+
+.red_block {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+    background-color: red;
+    text-transform: uppercase;
+    color: white;
+}
+
+footer {
+    background-color: #646464;
+    color: white;
+
+    .container {
+        display: flex;
+
+        .columnn_1 {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-right: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+            h5 {
+                span {
+                    color: yellow;
+                }
+            }
+        }
+
+        .columnn_2 {
+            display: flex;
+            flex-direction: column;
+            margin-right: 250px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .columnn_3 {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .enddd {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: black;
+        color: white;
+    }
+}
