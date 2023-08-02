@@ -1,0 +1,64 @@
+
+.osnova {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 60px;
+
+    .head {
+        display: grid;
+        grid-column: 1/span 2;
+        grid-row: 1;
+        justify-items: center;
+        align-items: center;
+        background-color: #8cb4e7;
+        text-transform: uppercase;
+        color: blue;
+        font-weight: bold;
+    }
+
+    .football {
+        background-image: url('../MAKET_TABLE/bool.png');
+        background-repeat: repeat-y;
+        background-position: right top;
+
+        p {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        img {
+            float: left;
+        }
+    }
+
+    .menu {
+        background-color: yellow;
+    }
+
+    .foot {
+        display: grid;
+        grid-column: 1/span 2;
+        grid-row: 3;
+        justify-items: center;
+        align-items: center;
+        background-color: #8cb4e7;
+        text-transform: uppercase;
+        color: blue;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 220px) {
+    .head {
+        display: none;
+    }
+
+    .menu {
+        background-color: white;
+    }
+
+    .foot {
+        display: none;
+    }
+
+}
+
