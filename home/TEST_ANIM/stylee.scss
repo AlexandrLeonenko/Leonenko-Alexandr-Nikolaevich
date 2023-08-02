@@ -1,0 +1,82 @@
+@keyframes MyAnimation1 {
+    from {
+        position: relative;
+        top: 0px;
+    }
+
+    to {
+        position: relative;
+        top: 100px;
+    }
+}
+
+@keyframes MyAnimation2 {
+    from {
+        background-color: green;
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+@keyframes MyAnimation3 {
+    from {
+        background-image: url('../TEST_ANIM/1_GJ6ZL0eX8tJE54ZYFSnI9Q.png');
+        background-position: 0 0;
+    }
+
+    to {
+        background-image: url('../TEST_ANIM/1_GJ6ZL0eX8tJE54ZYFSnI9Q.png');
+        background-position: -1404px 0;
+    }
+}
+
+.anim {
+    display: flex;
+
+    .poprig {
+        background-color: red;
+        margin-right: 70px;
+        padding: 20px;
+        color: white;
+        position: relative;
+        top: 0px;
+        transition: transform 0.5s
+    }
+
+    .poprig:hover {
+        animation: MyAnimation1 5s infinite;
+    }
+
+    .shy {
+        background-color: green;
+        margin-right: 70px;
+        padding: 20px;
+        color: white;
+    }
+
+    .shy:hover {
+        animation: MyAnimation2 2s infinite;
+    }
+
+    .tolstop {
+        background-color: blue;
+        margin-right: 70px;
+        padding: 20px;
+        color: white;
+        border: solid 1px black;
+        transition: transform 0.5s;
+
+    }
+
+    .tolstop:hover {
+        transform: scale(1.2);
+    }
+}
+
+.anim_sprite {
+    width: 175px;
+    height: 312px;
+    animation: MyAnimation3 1s steps(8) infinite;
+}
