@@ -34,7 +34,7 @@
     color: blue;
     font-weight: bold; }
 
-@media screen and (max-width: 230px) {
+@media screen and (max-width: 401px) {
   .osnova {
     display: grid;
     grid-template-columns: 220px;
