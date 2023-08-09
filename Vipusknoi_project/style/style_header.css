@@ -1,0 +1,69 @@
+.container {
+  width: 1390px;
+  margin: 0 auto; }
+
+header {
+  background-image: url("../img/baground_header.png"); }
+  header .container {
+    display: flex;
+    justify-content: space-between; }
+    header .container .selects {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header .container .selects .change-lang {
+        background: none;
+        border: none;
+        color: #FFF; }
+        header .container .selects .change-lang option {
+          color: black; }
+      header .container .selects .change-currency {
+        background: none;
+        border: none;
+        color: #FFF; }
+        header .container .selects .change-currency option {
+          color: black; }
+    header .container .contacts {
+      display: flex;
+      color: #FFF;
+      justify-content: center;
+      align-items: center; }
+      header .container .contacts div {
+        margin-right: 21px; }
+      header .container .contacts .Request_a_callback {
+        background-color: #000;
+        height: 55px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+  header .container1 {
+    display: flex;
+    border-top: solid 1px #FFF;
+    border-bottom: solid 1px #FFF; }
+    header .container1 .s_emblemoi img {
+      float: left;
+      margin-right: 273px;
+      margin-left: 64px;
+      margin-top: 4px;
+      margin-bottom: 4px; }
+    header .container1 .s_emblemoi ul {
+      float: left; }
+      header .container1 .s_emblemoi ul li {
+        float: left;
+        color: #FFF;
+        list-style-type: none;
+        margin-right: 40px; }
+  header .container hgroup {
+    color: #FFF;
+    margin-top: 177px;
+    margin-bottom: 366px; }
+  header .container .letsgo {
+    margin-top: 630px;
+    z-index: 1; }
+  header .container svg {
+    position: relative;
+    top: 621px;
+    right: 525px; }
+
+/*# sourceMappingURL=style_header.css.map */

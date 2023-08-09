@@ -1,0 +1,118 @@
+.container {
+    width: 1390px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('../img/baground_header.png');
+
+
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .selects {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .change-lang {
+                background: none;
+                border: none;
+                color: #FFF;
+                ;
+
+                option {
+                    color: black;
+                }
+
+            }
+
+            .change-currency {
+                background: none;
+                border: none;
+                color: #FFF;
+                ;
+
+                option {
+                    color: black;
+                }
+            }
+        }
+
+        .contacts {
+            display: flex;
+            color: #FFF;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                margin-right: 21px;
+            }
+
+            .Request_a_callback {
+                background-color: #000;
+                height: 55px;
+                width: 250px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+
+    }
+
+    .container1 {
+        display: flex;
+        border-top: solid 1px #FFF;
+        border-bottom: solid 1px #FFF;
+
+
+
+
+        .s_emblemoi {
+            img {
+                float: left;
+                margin-right: 273px;
+                margin-left: 64px;
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+
+
+            ul {
+                float: left;
+
+                li {
+                    float: left;
+                    color: #FFF;
+                    list-style-type: none;
+                    margin-right: 40px;
+                }
+            }
+
+        }
+
+    }
+
+    .container {
+        hgroup {
+            color: #FFF;
+            margin-top: 177px;
+            margin-bottom: 366px;
+
+        }
+        .letsgo{margin-top: 630px;
+        z-index: 1;}
+
+        svg {
+            position: relative;
+            top: 621px;
+            right: 525px;
+        }
+
+        
+    }
+}
