@@ -3,117 +3,473 @@
     margin: 0 auto;
 }
 
-header {
-    background-image: url('../img/baground_header.png');
+.more {
+    width: 150px;
+    height: 65px;
+    color: #FFF;
+    font-family: Eurostile Extended;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #4F4F4F;
+    background: rgba(255, 255, 255, 0.01);
+
+}
+
+.show_all {
+    display: flex;
+    width: 240px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #4071CB;
+}
+
+.scelet {
+    background-color: #F1F0EB;
+
+    header {
+        background-image: url('../img/baground_header.png');
+        background-size: 1508px;
 
 
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-
-        .selects {
+        .container {
             display: flex;
-            align-items: center;
-            justify-content: center;
+            justify-content: space-between;
 
-            .change-lang {
-                background: none;
-                border: none;
-                color: #FFF;
-                ;
-
-                option {
-                    color: black;
-                }
-
-            }
-
-            .change-currency {
-                background: none;
-                border: none;
-                color: #FFF;
-                ;
-
-                option {
-                    color: black;
-                }
-            }
-        }
-
-        .contacts {
-            display: flex;
-            color: #FFF;
-            justify-content: center;
-            align-items: center;
-
-            div {
-                margin-right: 21px;
-            }
-
-            .Request_a_callback {
-                background-color: #000;
-                height: 55px;
-                width: 250px;
+            .selects {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-            }
-        }
 
-
-    }
-
-    .container1 {
-        display: flex;
-        border-top: solid 1px #FFF;
-        border-bottom: solid 1px #FFF;
-
-
-
-
-        .s_emblemoi {
-            img {
-                float: left;
-                margin-right: 273px;
-                margin-left: 64px;
-                margin-top: 4px;
-                margin-bottom: 4px;
-            }
-
-
-            ul {
-                float: left;
-
-                li {
-                    float: left;
+                .change-lang {
+                    background: none;
+                    border: none;
                     color: #FFF;
-                    list-style-type: none;
-                    margin-right: 40px;
+                    ;
+
+                    option {
+                        color: black;
+                    }
+
+                }
+
+                .change-currency {
+                    background: none;
+                    border: none;
+                    color: #FFF;
+                    ;
+
+                    option {
+                        color: black;
+                    }
                 }
             }
 
+            .contacts {
+                display: flex;
+                color: #FFF;
+                justify-content: center;
+                align-items: center;
+
+                div {
+                    margin-right: 21px;
+                }
+
+                .Request_a_callback {
+                    background-color: #000;
+                    height: 55px;
+                    width: 250px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+
         }
 
+        .container1 {
+            display: flex;
+            border-top: solid 1px #FFF;
+            border-bottom: solid 1px #FFF;
+
+
+
+
+            .s_emblemoi {
+                img {
+                    float: left;
+                    margin-right: 273px;
+                    margin-left: 64px;
+                    margin-top: 4px;
+                    margin-bottom: 4px;
+                }
+
+
+                ul {
+                    float: left;
+
+                    li {
+                        float: left;
+                        color: #FFF;
+                        list-style-type: none;
+                        margin-right: 40px;
+                    }
+                }
+
+            }
+
+        }
+
+        .container {
+            hgroup {
+                color: #FFF;
+                margin-top: 177px;
+                margin-bottom: 366px;
+
+
+            }
+
+            .letsgo {
+                margin-top: 630px;
+                z-index: 1;
+            }
+
+            svg {
+                position: relative;
+                top: 621px;
+                right: 525px;
+            }
+
+
+        }
     }
 
-    .container {
-        hgroup {
-            color: #FFF;
-            margin-top: 177px;
-            margin-bottom: 366px;
-            
+    .page2 {
+        background-color: #F1F0EB;
+        margin-top: 95px;
 
+        .container {
+            .uslugi {
+                display: grid;
+                grid-column-gap: 24px;
+                grid-row-gap: 24px;
+                grid-template-columns: 658px 658px;
+                grid-template-rows: 308px 308px;
+
+
+                .gelic {
+                    background-image: url('../img/Rectangle\ 4gelic.png');
+                    grid-column: 1;
+                    grid-row: 1/span 2;
+                    color: #FFF;
+
+                    p {
+                        margin-left: 30px;
+                    }
+
+                    .more {
+                        position: relative;
+                        top: 493px;
+                        right: -476px;
+                    }
+                }
+
+                .koleso {
+                    background-image: url('../img/Rectangle\ 5koleso.png');
+                    color: #FFF;
+
+                    p {
+                        margin-left: 30px;
+                    }
+
+                    .more {
+                        position: relative;
+                        top: 161px;
+                        right: -476px;
+                    }
+                }
+
+                .fara {
+                    background-image: url('../img/Rectangle\ 6fara.png');
+                    color: #FFF;
+
+                    p {
+                        margin-left: 30px;
+                    }
+
+                    .more {
+                        position: relative;
+                        top: 161px;
+                        right: -476px;
+                    }
+                }
+            }
         }
-        .letsgo{margin-top: 630px;
-        z-index: 1;}
-
-        svg {
-            position: relative;
-            top: 621px;
-            right: 525px;
-        }
-
-        
     }
+
+    .choose {
+        .container {
+            .choose_vehicle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 140px;
+                color: #000;
+                font-family: Eurostile Extended;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%;
+                /* 31.2px */
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            .body_type {
+                display: grid;
+                justify-content: center;
+                grid-template-columns: 182px 182px 182px 182px 182px 182px;
+                grid-template-rows: 65px 72px;
+
+                .bodyTypeButton {
+                    grid-column: 1/span 3;
+                    border: 1px solid #D9D9D9;
+                    border-radius: 10px 0px 0px 10px;
+                    background-color: #4071CB;
+                    color: #FFF;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-transform: uppercase;
+                }
+
+                .brandbutton {
+                    grid-column: 4/span 3;
+                    border: 1px solid #D9D9D9;
+                    border-radius: 10px 0px 0px 10px;
+                    color: black;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-transform: uppercase;
+                }
+
+                .suv {
+                    grid-column: 1;
+                    grid-row: 2;
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+
+                .sedan {
+                    grid-column: 2;
+                    grid-row: 2;
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .wagon {
+                    grid-column: 3;
+                    grid-row: 2;
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .hatch {
+                    grid-column: 4;
+                    grid-row: 2;
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .ute {
+                    grid-column: 5;
+                    grid-row: 2;
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .convert {
+                    grid-column: 6;
+                    grid-row: 2;
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .show_all {
+        color: #4071CB;
+        font-family: Eurostile Extended;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px;
+        margin-top: 68px;
+        margin-left: 600px;
+    }
+
+    .hot_deals {
+        .container {
+            .hotDeals {
+                color: #000;
+                font-family: Eurostile Extended;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%;
+                /* 39px */
+                letter-spacing: 1.5px;
+                margin-top: 60px;
+                margin-bottom: 34px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .kartochki {
+                display: grid;
+                grid-template-columns: 325px 325px 325px 325px;
+                grid-template-rows: 325px 325px;
+                justify-content: center;
+                grid-column-gap: 13px;
+                grid-row-gap: 34px;
+
+                .kart {
+                    
+                    border-radius: 10px;
+                    border: 1px solid #D9D9D9;
+                    background: #F1F0EB;
+
+                    .nameOfCar {
+                        display: flex;
+                        p{margin-right: 80px;
+                        margin-left: 20px;
+                    margin-bottom: 0px;}
+                    }
+
+                    .yearOfvipusk {
+                        color: #000;
+                        font-family: Eurostile Extended;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 13px */
+                        letter-spacing: 1.2px;
+                        margin-left: 20px;
+                        margin-top: -0px;
+                    }
+
+                    .foto_avtom {
+                        width: 223px;
+                        height: 111px;
+                        
+                    }
+
+                    .znachki {
+                        
+
+                        img {
+                            width: 49px;
+                            height: 22px;
+                            
+                        }
+                    }
+
+                    .cost {
+                        display: flex;
+                        width: 285px;
+                        height: 45px;
+                        padding: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 8px;
+                        border: 1px solid #000;
+                    }
+                }
+            }
+        }
+    }
+
 }
