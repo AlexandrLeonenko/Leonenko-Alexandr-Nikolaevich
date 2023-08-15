@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+    <style>
+        #app{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    </style>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <input type='button' value='к телефонам' onclick="render()">
+    
+
+
+    <div id="app"></div>
+    <script>
+        var phones = [
+            {
+                brand: "apple",
+                model: "iphone X",
+                year: "2017",
+                imgUrl: "https://ir.ozone.ru/s3/multimedia-a/c1000/6494225578.jpg",
+                price: "200"
+            },
+            {
+                brand: "apple",
+                model: "iphone 12",
+                year:  "2020",
+                imgUrl: "https://redstore.by/wp-content/uploads/2021/05/iphone-12-purple-select-2021.png",
+                price: "600"
+            },
+            {
+                brand: "apple",
+                model: "iphone 14",
+                year:  "2022",
+                imgUrl: "https://di-smart.by/wp-content/uploads/2022/09/apple-iphone-14-pro-max-deep-purple.png",
+                price: "1000"
+            }
+            ]
+        var app = document.getElementById("app");
+        function render() {
+            var phonesHtml = "";
+            for (i = 0; i < phones.length; i++) {
+                phonesHtml += `
+                <div class="card" style="width: 18rem;">
+                    <img src="${phones[i].imgUrl}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">${phones[i].brand}</h3>
+                            <h4 class="card-title">${phones[i].model}</h4>
+                            <h5 class="card-title">${phones[i].year}</h5>
+                            <p class="card-text">Невероятно красив...</p>
+                            <h6 class="card-title">${phones[i].price}</h6>
+                        </div>
+                </div>
+                `
+            }
+            app.innerHTML = phonesHtml;
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
