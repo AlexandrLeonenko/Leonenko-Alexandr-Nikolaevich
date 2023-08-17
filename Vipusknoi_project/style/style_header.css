@@ -1,5 +1,5 @@
 .container {
-  width: 1390px;
+  width: 1340px;
   margin: 0 auto; }
 
 .more {
@@ -30,6 +30,42 @@
   align-items: center;
   border-radius: 8px;
   border: 1px solid #4071CB; }
+
+.cifra {
+  color: #000;
+  font-family: Eurostile Extended;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 41.6px */
+  letter-spacing: 0.32px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  padding-top: 20px; }
+
+.jirn_text {
+  color: #000;
+  font-family: Eurostile Extended;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  /* 31.2px */
+  letter-spacing: 0.24px;
+  margin-bottom: 8px;
+  padding-left: 20px; }
+
+.txt {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 23.4px */
+  letter-spacing: 0.18px;
+  padding-left: 20px; }
 
 .scelet {
   background-color: #F1F0EB; }
@@ -96,7 +132,7 @@
     .scelet header .container svg {
       position: relative;
       top: 621px;
-      right: 525px; }
+      right: 495px; }
   .scelet .page2 {
     background-color: #F1F0EB;
     margin-top: 95px; }
@@ -323,5 +359,149 @@
         align-items: center;
         border-radius: 8px;
         border: 1px solid #000; }
+  .scelet .foto_maseratti .container {
+    margin-top: 60px; }
+  .scelet .kak_kupit_avto_s_dostavkoi .container {
+    margin-top: 165px; }
+    .scelet .kak_kupit_avto_s_dostavkoi .container p {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+      color: #000;
+      text-align: center;
+      font-family: Eurostile Extended;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 145%;
+      /* 43.5px */
+      letter-spacing: 1.5px;
+      text-transform: uppercase; }
+    .scelet .kak_kupit_avto_s_dostavkoi .container .instruction {
+      display: grid;
+      grid-template-columns: 325px 560px 428px;
+      grid-template-rows: 250px 18px;
+      grid-column-gap: 13px; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .zayavka {
+        grid-column: 1;
+        grid-row: 1;
+        border-radius: 10px;
+        border: 1px solid #4F4F4F; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .dogovor {
+        grid-column: 2;
+        grid-row: 1;
+        border-radius: 10px;
+        border: 1px solid #4F4F4F; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .oplata {
+        grid-column: 3;
+        grid-row: 1;
+        border-radius: 10px;
+        border: 1px solid #4F4F4F; }
+    .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 {
+      display: grid;
+      grid-template-columns: 545px 781px;
+      grid-template-rows: 245px;
+      grid-column-gap: 13px; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 .dostavka {
+        grid-column: 1;
+        grid-row: 1;
+        border-radius: 10px;
+        border: 1px solid #4F4F4F; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 .otpravit_zapros {
+        grid-column: 2;
+        grid-row: 1;
+        border-radius: 10px;
+        border: 1px solid #4F4F4F; }
+        .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 .otpravit_zapros .txt_s_knopkoi {
+          display: flex;
+          justify-content: space-between; }
+          .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 .otpravit_zapros .txt_s_knopkoi button {
+            width: 285px;
+            height: 45px;
+            border-radius: 8px;
+            border: 1px solid #4F4F4F;
+            margin-right: 62px; }
+  .scelet .R8 .container {
+    background-image: url("../img/Rectangle 9.png");
+    margin-top: 110px; }
+    .scelet .R8 .container .kartochki_na_R8 {
+      display: flex;
+      justify-content: center; }
+      .scelet .R8 .container .kartochki_na_R8 .kartochka {
+        width: 315px;
+        height: 325px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.6);
+        margin-right: 10px;
+        margin-top: 350px; }
+        .scelet .R8 .container .kartochki_na_R8 .kartochka .txt_1 {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 31.2px */
+          letter-spacing: 0.24px;
+          margin-bottom: 103px;
+          padding-top: 30px;
+          padding-left: 15px; }
+        .scelet .R8 .container .kartochki_na_R8 .kartochka .txt2 {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 18.2px */
+          letter-spacing: 0.14px;
+          padding-left: 15px; }
+        .scelet .R8 .container .kartochki_na_R8 .kartochka .txt_3 {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 18.2px */
+          letter-spacing: 0.14px;
+          padding-left: 15px; }
+  .scelet footer {
+    border: solid 1px #D9D9D9;
+    margin-top: 167px; }
+    .scelet footer .container .foot_s_gridami {
+      display: grid;
+      grid-template-columns: 670px 450px 105px;
+      grid-template-rows: 178px 50px; }
+      .scelet footer .container .foot_s_gridami .foot_s_logo {
+        grid-column: 1;
+        grid-row: 1; }
+      .scelet footer .container .foot_s_gridami .foot_s_nomerom {
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column; }
+      .scelet footer .container .foot_s_gridami .foot_s_knopkoi {
+        grid-column: 3;
+        grid-row: 1;
+        border-radius: 6px; }
+      .scelet footer .container .foot_s_gridami .foot_s_silkami {
+        grid-column: 1;
+        grid-row: 2; }
+      .scelet footer .container .foot_s_gridami .foot_s_adresom {
+        grid-column: 2/span 3;
+        grid-row: 2; }
+  .scelet .footer_1 .container {
+    display: flex; }
+    .scelet .footer_1 .container .invoice {
+      margin-right: 8px; }
+    .scelet .footer_1 .container .USDT {
+      margin-right: 8px; }
+    .scelet .footer_1 .container .cash {
+      margin-right: 55px; }
+    .scelet .footer_1 .container .instagram {
+      margin-right: 8px; }
 
 /*# sourceMappingURL=style_header.css.map */
