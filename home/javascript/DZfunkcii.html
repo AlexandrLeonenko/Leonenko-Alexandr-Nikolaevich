@@ -38,18 +38,18 @@
         addCountry('Венгрия', 'Будапешт');
         addCountry('Франция', 'Париж');
 
-        console.log("список стран:" + listCountrys());
+        //console.log("список стран:" + listCountrys());
 
     </script>
 
     <input type='button' value='ввод информации о стране'
         onclick='countryName=prompt("Введите название страны"); capitalName=prompt("Введите название столицы"); addCountry(countryName,capitalName)'>
     <br>
-    <input type='button' value='получение информации о стране'>
+    <input type='button' value='получение информации о стране' onclick='countryName=prompt("Введите название страны"); getCountryInfo(countryName); console.log(getCountryInfo(countryName))'>
     <br>
-    <input type='button' value='перечень всех стран' onclick='alert("Добрый день!")'>
+    <input type='button' value='перечень всех стран' onclick='listCountrys(); console.log("список стран:" + listCountrys())'>
     <br>
-    <input type='button' value='удаление информации о стране' onclick='goodBye( )'>
+    <input type='button' value='удаление информации о стране' onclick='countryName=prompt("Введите название страны"); deleteCountry(countryName)'>
 
 </body>
 
