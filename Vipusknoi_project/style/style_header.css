@@ -122,6 +122,9 @@
           color: #FFF;
           list-style-type: none;
           margin-right: 40px; }
+          .scelet header .container1 .s_emblemoi ul li a {
+            text-decoration: none;
+            color: #FFF; }
     .scelet header .container hgroup {
       color: #FFF;
       margin-top: 177px;
