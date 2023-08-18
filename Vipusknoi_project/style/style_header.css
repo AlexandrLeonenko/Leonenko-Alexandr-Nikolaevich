@@ -435,7 +435,8 @@
         border-radius: 10px;
         background: rgba(255, 255, 255, 0.6);
         margin-right: 10px;
-        margin-top: 350px; }
+        margin-top: 350px;
+        margin-bottom: 25px; }
         .scelet .R8 .container .kartochki_na_R8 .kartochka .txt_1 {
           color: #000;
           font-family: Eurostile Extended;
@@ -477,12 +478,36 @@
       grid-template-rows: 178px 50px; }
       .scelet footer .container .foot_s_gridami .foot_s_logo {
         grid-column: 1;
-        grid-row: 1; }
+        grid-row: 1;
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px; }
       .scelet footer .container .foot_s_gridami .foot_s_nomerom {
         grid-column: 2;
         grid-row: 1;
         display: flex;
         flex-direction: column; }
+        .scelet footer .container .foot_s_gridami .foot_s_nomerom p {
+          color: #000;
+          font-family: Inter;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal; }
+        .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; }
+          .scelet footer .container .foot_s_gridami .foot_s_nomerom div img {
+            margin-left: 20px; }
       .scelet footer .container .foot_s_gridami .foot_s_knopkoi {
         grid-column: 3;
         grid-row: 1;
@@ -490,18 +515,159 @@
       .scelet footer .container .foot_s_gridami .foot_s_silkami {
         grid-column: 1;
         grid-row: 2; }
+        .scelet footer .container .foot_s_gridami .foot_s_silkami a {
+          text-decoration: none;
+          color: #000; }
       .scelet footer .container .foot_s_gridami .foot_s_adresom {
         grid-column: 2/span 3;
         grid-row: 2; }
+        .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv1 {
+          color: #000;
+          font-family: Inter;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal; }
+        .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; }
   .scelet .footer_1 .container {
-    display: flex; }
+    display: flex;
+    margin-top: 20px; }
     .scelet .footer_1 .container .invoice {
-      margin-right: 8px; }
+      margin-right: 8px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0;
+      margin-bottom: 141px; }
+      .scelet .footer_1 .container .invoice p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 19px;
+        right: -138px; }
+      .scelet .footer_1 .container .invoice .div_so_znachkami {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        margin-left: 14px;
+        margin-right: 14px; }
+        .scelet .footer_1 .container .invoice .div_so_znachkami .second_kartinka {
+          width: 14px;
+          height: 14px; }
     .scelet .footer_1 .container .USDT {
-      margin-right: 8px; }
+      margin-right: 8px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0; }
+      .scelet .footer_1 .container .USDT p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 61px;
+        right: -156px; }
+      .scelet .footer_1 .container .USDT img {
+        float: right;
+        margin-right: 14px;
+        margin-top: 14px; }
     .scelet .footer_1 .container .cash {
-      margin-right: 55px; }
+      margin-right: 55px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0; }
+      .scelet .footer_1 .container .cash p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 29px;
+        right: -156px; }
+      .scelet .footer_1 .container .cash .div_so_znachkami_1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        margin-left: 14px;
+        margin-right: 14px; }
+        .scelet .footer_1 .container .cash .div_so_znachkami_1 .second_kartinka {
+          width: 14px;
+          height: 14px; }
+    .scelet .footer_1 .container .facebook {
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0;
+      margin-right: 6px; }
+      .scelet .footer_1 .container .facebook p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 61px;
+        right: -121px; }
+      .scelet .footer_1 .container .facebook img {
+        float: right;
+        margin-top: 14px;
+        margin-right: 14px; }
     .scelet .footer_1 .container .instagram {
-      margin-right: 8px; }
+      margin-right: 8px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0; }
+      .scelet .footer_1 .container .instagram p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 61px;
+        right: -113px; }
+      .scelet .footer_1 .container .instagram img {
+        float: right;
+        margin-top: 14px;
+        margin-right: 14px; }
 
 /*# sourceMappingURL=style_header.css.map */
