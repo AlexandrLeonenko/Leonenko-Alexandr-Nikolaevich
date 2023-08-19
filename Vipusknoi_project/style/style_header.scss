@@ -74,6 +74,37 @@
     padding-left: 20px;
 }
 
+.knopka_so_spiskom_avto {
+    background-color: black;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 730%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    background: #F1F0EB;
+    margin-right: 13px;
+
+    width: 325px;
+    height: 325px;
+
+
+}
+
+.card-body1 {
+    border-radius: 8px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .scelet {
     background-color: #F1F0EB;
 
@@ -165,9 +196,11 @@
                         color: #FFF;
                         list-style-type: none;
                         margin-right: 40px;
-                        
-                        a{text-decoration: none;
-                        color: #FFF;}
+
+                        a {
+                            text-decoration: none;
+                            color: #FFF;
+                        }
                     }
                 }
 
@@ -429,8 +462,9 @@
         /* 18.2px */
         letter-spacing: 0.14px;
         margin-top: 68px;
-        margin-left: 600px;
+        margin-left: 40%;
     }
+
 
     .hot_deals {
         .container {
@@ -662,7 +696,7 @@
                         /* 18.2px */
                         letter-spacing: 0.14px;
                         margin-left: 15px;
-                        
+
                     }
 
                     .txt_3 {
@@ -968,4 +1002,40 @@
         }
     }
 
+}
+
+.for_sale_2_str {
+    background-color: #F1F0EB;
+    ;
+    display: flex;
+
+    .forma {
+        width: 315px;
+        background-color: #FFF;
+
+        .container111 {
+            width: 295px;
+            margin: 0 auto;
+        }
+    }
+
+    .kartochki_js {
+        .container222 {
+            width: 1075px;
+            margin: 0 auto;
+
+
+            .knopka_so_spiskom_avto {
+                width: 1000px;
+            }
+
+            #app {
+                display: flex;
+                width: 1020px;
+               
+                flex-flow: wrap;
+                justify-content: space-between;
+            }
+        }
+    }
 }
