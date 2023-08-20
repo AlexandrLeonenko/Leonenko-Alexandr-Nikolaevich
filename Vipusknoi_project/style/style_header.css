@@ -82,6 +82,7 @@
   border: 1px solid #D9D9D9;
   background: #F1F0EB;
   margin-right: 13px;
+  margin-bottom: 50px;
   width: 325px;
   height: 325px; }
 
@@ -92,10 +93,14 @@
   justify-content: center;
   align-items: center; }
 
+.card-img-top {
+  width: 223px;
+  height: 111px; }
+
 .scelet {
   background-color: #F1F0EB; }
   .scelet header {
-    background-image: url("../img/baground_header.png");
+    background-image: url("../img/Rectangle 1.png");
     background-size: 1508px; }
     .scelet header .container {
       display: flex;
@@ -171,7 +176,7 @@
       grid-template-columns: 658px 658px;
       grid-template-rows: 308px 308px; }
       .scelet .page2 .container .uslugi .gelic {
-        background-image: url("../img/Rectangle 4gelic.png");
+        background-image: url("../img/Rectangle 4.png");
         grid-column: 1;
         grid-row: 1/span 2;
         color: #FFF; }
@@ -182,7 +187,7 @@
           top: 493px;
           right: -476px; }
       .scelet .page2 .container .uslugi .koleso {
-        background-image: url("../img/Rectangle 5koleso.png");
+        background-image: url("../img/Rectangle 5.png");
         color: #FFF; }
         .scelet .page2 .container .uslugi .koleso p {
           margin-left: 30px; }
@@ -191,7 +196,7 @@
           top: 161px;
           right: -476px; }
       .scelet .page2 .container .uslugi .fara {
-        background-image: url("../img/Rectangle 6fara.png");
+        background-image: url("../img/Rectangle 6.png");
         color: #FFF; }
         .scelet .page2 .container .uslugi .fara p {
           margin-left: 30px; }
@@ -726,6 +731,8 @@
       display: flex;
       width: 1020px;
       flex-flow: wrap;
-      justify-content: space-between; }
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-top: 94px; }
 
 /*# sourceMappingURL=style_header.css.map */
