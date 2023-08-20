@@ -1,3 +1,94 @@
+
+
+.griddd_2 {
+    display: grid;
+    grid-template-columns: 142px 142px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-row-gap: 12px;
+    grid-column-gap: 8px;
+
+    .griddd_21 {
+        grid-column: 1;
+        grid-row: 1;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .griddd_22 {
+        grid-column: 2;
+        grid-row: 1;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .griddd_23 {
+        grid-column: 1;
+        grid-row: 2;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .griddd_24 {
+        grid-column: 2;
+        grid-row: 2;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .griddd_25 {
+        grid-column: 1;
+        grid-row: 3;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .griddd_26 {
+        grid-column: 2;
+        grid-row: 3;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .griddd_27 {
+        grid-column: 1;
+        grid-row: 4;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .griddd_28 {
+        grid-column: 2;
+        grid-row: 4;
+        border-radius: 3px;
+        border: 1px solid #D9D9D9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .container {
     width: 1340px;
     margin: 0 auto;
@@ -75,14 +166,17 @@
 }
 
 .knopka_so_spiskom_avto {
-    background-color: black;
-    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    //background-color: black;
+    color: #000;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 25px;
-    width: 730%;
+
     height: 40px;
-    overflow: hidden;
+    overflow: auto;
+    border: none;
 }
 
 .card {
@@ -112,7 +206,7 @@
     height: 111px;
 }
 
-.ssylka_na_lexus{
+.ssylka_na_lexus {
     text-decoration: none;
     color: #000;
 }
@@ -196,7 +290,7 @@
                 img {
                     float: left;
                     margin-right: 273px;
-                    
+
                     margin-top: 4px;
                     margin-bottom: 4px;
                 }
@@ -1041,7 +1135,7 @@
 
 
             .knopka_so_spiskom_avto {
-                width: 1000px;
+                width: 100%;
             }
 
             #app {
@@ -1066,7 +1160,7 @@
     grid-template-columns: 45px 45px 45px 45px 45px 45px 45px;
     grid-template-rows: 45px;
     margin-top: 58px;
-   
+
 
     .cl1 {
         grid-column: 1;

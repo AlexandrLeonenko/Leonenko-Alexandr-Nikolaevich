@@ -1,3 +1,74 @@
+.griddd_2 {
+  display: grid;
+  grid-template-columns: 142px 142px;
+  grid-template-rows: 50px 50px 50px 50px;
+  grid-row-gap: 12px;
+  grid-column-gap: 8px; }
+  .griddd_2 .griddd_21 {
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+  .griddd_2 .griddd_22 {
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+  .griddd_2 .griddd_23 {
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+  .griddd_2 .griddd_24 {
+    grid-column: 2;
+    grid-row: 2;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+  .griddd_2 .griddd_25 {
+    grid-column: 1;
+    grid-row: 3;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+  .griddd_2 .griddd_26 {
+    grid-column: 2;
+    grid-row: 3;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+  .griddd_2 .griddd_27 {
+    grid-column: 1;
+    grid-row: 4;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+  .griddd_2 .griddd_28 {
+    grid-column: 2;
+    grid-row: 4;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    display: grid;
+    justify-content: center;
+    align-items: center; }
+
 .container {
   width: 1340px;
   margin: 0 auto; }
@@ -68,14 +139,15 @@
   padding-left: 20px; }
 
 .knopka_so_spiskom_avto {
-  background-color: black;
-  color: #FFF;
+  display: flex;
+  justify-content: space-evenly;
+  color: #000;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 25px;
-  width: 730%;
   height: 40px;
-  overflow: hidden; }
+  overflow: auto;
+  border: none; }
 
 .card {
   border-radius: 10px;
@@ -730,7 +802,7 @@
     width: 1075px;
     margin: 0 auto; }
     .for_sale_2_str .kartochki_js .container222 .knopka_so_spiskom_avto {
-      width: 1000px; }
+      width: 100%; }
     .for_sale_2_str .kartochki_js .container222 #app {
       display: flex;
       width: 1020px;
