@@ -106,11 +106,17 @@
     align-items: center;
 }
 
-.card-img-top{
-    
+.card-img-top {
+
     width: 223px;
     height: 111px;
 }
+
+.ssylka_na_lexus{
+    text-decoration: none;
+    color: #000;
+}
+
 
 
 .scelet {
@@ -1019,6 +1025,7 @@
 
     .forma {
         width: 315px;
+        height: 1614px;
         background-color: #FFF;
 
         .container111 {
@@ -1040,8 +1047,8 @@
             #app {
                 display: flex;
                 width: 1020px;
-                
-               
+
+
                 flex-flow: wrap;
                 justify-content: space-between;
                 margin-left: 50px;
@@ -1049,4 +1056,65 @@
             }
         }
     }
+
+}
+
+.peremotka_str {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 45px 45px 45px 45px 45px 45px 45px;
+    grid-template-rows: 45px;
+    margin-top: 58px;
+   
+
+    .cl1 {
+        grid-column: 1;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center;
+    }
+
+    .cl2 {
+        grid-column: 2;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center;
+    }
+
+    .cl3 {
+        grid-column: 3;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center;
+    }
+
+    .cl4 {
+        grid-column: 4;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center;
+    }
+
+    .cl5 {
+        grid-column: 5;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center;
+    }
+
+    .cl6 {
+        grid-column: 6;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center;
+    }
+
+    .cl7 {
+        grid-column: 7;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center;
+    }
+
 }
