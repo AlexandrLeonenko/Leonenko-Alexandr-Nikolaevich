@@ -102,13 +102,25 @@
 
             .s_emblemoi {
                 width: 1340px;
-                img {
-                    float: left;
-                    margin-right: 273px;
-                    
-                    margin-top: 4px;
-                    margin-bottom: 4px;
+                .svg_3_poloski {
+                    display: none;
                 }
+
+                .uat_trade_wide_screen {
+                    display: block;
+                }
+
+                .uat_trade_mobile_screen {
+                    display: none;
+                    margin-top: 18px;
+                    margin-bottom: 17px;
+                }
+
+                .trubka_dlya_mobili {
+                    display: none;
+
+                }
+
 
 
                 ul {
@@ -150,6 +162,17 @@
                     margin-right: 32px;
                 }
             }
+        }
+    }
+    .marka_avto{
+        .container{
+            p{color: #000;
+                font-family: Eurostile Extended;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%; /* 41.6px */
+                letter-spacing: 2.88px;}
         }
     }
 
