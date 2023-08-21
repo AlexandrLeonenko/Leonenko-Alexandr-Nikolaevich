@@ -1,0 +1,470 @@
+@media screen and (min-width: 320px) and (max-width: 391px) {
+  .more {
+    width: 150px;
+    height: 65px;
+    color: #FFF;
+    font-family: Eurostile Extended;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #4F4F4F;
+    background: rgba(255, 255, 255, 0.01); }
+
+  .container {
+    width: 1340px;
+    margin: 0 auto; }
+
+  .scelet {
+    background-color: #F1F0EB; }
+    .scelet header .container {
+      display: flex;
+      justify-content: space-between; }
+      .scelet header .container .selects {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .scelet header .container .selects .change-lang {
+          background: none;
+          border: none;
+          color: #000; }
+          .scelet header .container .selects .change-lang option {
+            color: black; }
+        .scelet header .container .selects .change-currency {
+          background: none;
+          border: none;
+          color: #000; }
+          .scelet header .container .selects .change-currency option {
+            color: black; }
+      .scelet header .container .contacts {
+        display: flex;
+        color: #000;
+        justify-content: center;
+        align-items: center; }
+        .scelet header .container .contacts div {
+          margin-right: 21px; }
+        .scelet header .container .contacts .Request_a_callback {
+          background-color: #000;
+          height: 55px;
+          width: 250px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #FFF; }
+    .scelet header .container1 {
+      display: flex;
+      border-top: solid 1px #D9D9D9;
+      border-bottom: solid 1px #D9D9D9; }
+      .scelet header .container1 .s_emblemoi {
+        width: 1340px; }
+        .scelet header .container1 .s_emblemoi img {
+          float: left;
+          margin-right: 273px;
+          margin-top: 4px;
+          margin-bottom: 4px; }
+        .scelet header .container1 .s_emblemoi ul {
+          float: left; }
+          .scelet header .container1 .s_emblemoi ul li {
+            float: left;
+            color: #000;
+            list-style-type: none;
+            margin-right: 40px; }
+            .scelet header .container1 .s_emblemoi ul li a {
+              text-decoration: none;
+              color: #000; }
+    .scelet .navigation .container {
+      margin-top: 44px; }
+      .scelet .navigation .container .navigattt {
+        display: flex;
+        padding: 0; }
+        .scelet .navigation .container .navigattt .li1 {
+          margin-right: 32px;
+          list-style-type: none; }
+        .scelet .navigation .container .navigattt li {
+          margin-right: 32px; }
+    .scelet .telo_3_str .container {
+      display: flex;
+      flex-direction: column; }
+      .scelet .telo_3_str .container .lexus_wide_screen {
+        display: none; }
+      .scelet .telo_3_str .container .lexus_mobile_screen {
+        display: block;
+        width: 360px;
+        height: 270px; }
+      .scelet .telo_3_str .container .karta_LX500d {
+        width: 360px;
+        height: 496px;
+        flex-shrink: 0;
+        border-radius: 30px;
+        background-color: #FFF; }
+        .scelet .telo_3_str .container .karta_LX500d .telo_karti {
+          padding: 8px; }
+          .scelet .telo_3_str .container .karta_LX500d .telo_karti .raspis_character {
+            display: flex;
+            justify-content: space-between;
+            color: #000;
+            font-family: Eurostile Extended;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            /* 13px */
+            letter-spacing: 0.9px; }
+          .scelet .telo_3_str .container .karta_LX500d .telo_karti button {
+            display: flex;
+            width: 340px;
+            height: 50px;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0; }
+    .scelet .kartochka222 .container .telo_karti2 {
+      border-radius: 30px;
+      background: #F1F0EB;
+      width: 780px;
+      height: 660px;
+      position: relative;
+      top: 0px; }
+      .scelet .kartochka222 .container .telo_karti2 .Discription {
+        padding-top: 30px;
+        margin-left: 30px;
+        color: #000;
+        font-family: Eurostile Extended;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 31.2px */
+        letter-spacing: 2.16px; }
+      .scelet .kartochka222 .container .telo_karti2 .text_opisanie {
+        display: none; }
+      .scelet .kartochka222 .container .telo_karti2 .text_opisanie_mobile {
+        display: block;
+        width: 360px;
+        margin-left: 30px;
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%;
+        /* 20.8px */
+        letter-spacing: 1.44px; }
+      .scelet .kartochka222 .container .telo_karti2 .grid_s_characters {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: 179px 180px;
+        grid-template-rows: 160px 160px 160px; }
+        .scelet .kartochka222 .container .telo_karti2 .grid_s_characters .gridd_1 {
+          border: solid 1px #D9D9D9; }
+          .scelet .kartochka222 .container .telo_karti2 .grid_s_characters .gridd_1 img {
+            margin-top: 30px;
+            margin-left: 37px; }
+          .scelet .kartochka222 .container .telo_karti2 .grid_s_characters .gridd_1 .p1 {
+            margin-left: 37px;
+            margin-top: 57px; }
+          .scelet .kartochka222 .container .telo_karti2 .grid_s_characters .gridd_1 p {
+            margin-left: 37px;
+            margin-top: -15px; }
+    .scelet .hot_deals .container .hotDeals {
+      color: #000;
+      font-family: Eurostile Extended;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      /* 39px */
+      letter-spacing: 1.5px;
+      margin-top: -120px;
+      margin-bottom: 34px;
+      display: flex;
+      justify-content: center; }
+    .scelet .hot_deals .container .kartochki {
+      display: grid;
+      grid-template-columns: 325px 325px 325px 325px;
+      grid-template-rows: 325px 325px;
+      justify-content: center;
+      grid-column-gap: 13px;
+      grid-row-gap: 34px; }
+      .scelet .hot_deals .container .kartochki .kart {
+        border-radius: 10px;
+        border: 1px solid #D9D9D9;
+        background: #F1F0EB; }
+        .scelet .hot_deals .container .kartochki .kart .nameOfCar {
+          display: flex; }
+          .scelet .hot_deals .container .kartochki .kart .nameOfCar p {
+            margin-right: 80px;
+            margin-left: 20px;
+            margin-bottom: 0px; }
+        .scelet .hot_deals .container .kartochki .kart .yearOfvipusk {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 13px */
+          letter-spacing: 1.2px;
+          margin-left: 20px;
+          margin-top: -0px; }
+        .scelet .hot_deals .container .kartochki .kart .foto_avtom {
+          width: 223px;
+          height: 111px; }
+        .scelet .hot_deals .container .kartochki .kart .znachki img {
+          width: 49px;
+          height: 22px; }
+        .scelet .hot_deals .container .kartochki .kart .cost {
+          display: flex;
+          width: 285px;
+          height: 45px;
+          padding: 10px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px;
+          border: 1px solid #000; }
+    .scelet .page2 {
+      background-color: #F1F0EB;
+      margin-top: 95px; }
+      .scelet .page2 .container .uslugi {
+        display: grid;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+        grid-template-columns: 658px 658px;
+        grid-template-rows: 308px; }
+        .scelet .page2 .container .uslugi .koleso {
+          background-image: url("../img/Rectangle 5.png");
+          color: #FFF; }
+          .scelet .page2 .container .uslugi .koleso p {
+            margin-left: 30px; }
+          .scelet .page2 .container .uslugi .koleso .more {
+            position: relative;
+            top: 161px;
+            right: -476px; }
+        .scelet .page2 .container .uslugi .fara {
+          background-image: url("../img/Rectangle 6.png");
+          color: #FFF; }
+          .scelet .page2 .container .uslugi .fara p {
+            margin-left: 30px; }
+          .scelet .page2 .container .uslugi .fara .more {
+            position: relative;
+            top: 161px;
+            right: -476px; }
+    .scelet footer {
+      border: solid 1px #D9D9D9;
+      margin-top: 80px; }
+      .scelet footer .container .foot_s_gridami {
+        display: grid;
+        grid-template-columns: 670px 450px 105px;
+        grid-template-rows: 178px 50px; }
+        .scelet footer .container .foot_s_gridami .foot_s_logo {
+          grid-column: 1;
+          grid-row: 1;
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 18.2px */
+          letter-spacing: 0.14px;
+          margin-top: 47px; }
+        .scelet footer .container .foot_s_gridami .foot_s_nomerom {
+          grid-column: 2;
+          grid-row: 1;
+          display: flex;
+          flex-direction: column;
+          margin-top: 47px; }
+          .scelet footer .container .foot_s_gridami .foot_s_nomerom p {
+            color: #000;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal; }
+          .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
+            color: #000;
+            font-family: Eurostile Extended;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; }
+            .scelet footer .container .foot_s_gridami .foot_s_nomerom div img {
+              margin-left: 20px; }
+        .scelet footer .container .foot_s_gridami .foot_s_knopkoi {
+          grid-column: 3;
+          grid-row: 1;
+          border-radius: 6px;
+          margin-top: 47px; }
+          .scelet footer .container .foot_s_gridami .foot_s_knopkoi button {
+            width: 250px;
+            height: 55px;
+            border-radius: 6px;
+            background: #000;
+            color: #FFF; }
+        .scelet footer .container .foot_s_gridami .foot_s_silkami {
+          grid-column: 1;
+          grid-row: 2; }
+          .scelet footer .container .foot_s_gridami .foot_s_silkami a {
+            text-decoration: none;
+            color: #000; }
+        .scelet footer .container .foot_s_gridami .foot_s_adresom {
+          grid-column: 2/span 3;
+          grid-row: 2; }
+          .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv1 {
+            color: #000;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal; }
+          .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
+            color: #000;
+            font-family: Eurostile Extended;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; }
+    .scelet .footer_1 .container {
+      display: flex;
+      margin-top: 20px; }
+      .scelet .footer_1 .container .invoice {
+        margin-right: 8px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 200px;
+        height: 100px;
+        flex-shrink: 0;
+        margin-bottom: 141px; }
+        .scelet .footer_1 .container .invoice p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 19px;
+          right: -138px; }
+        .scelet .footer_1 .container .invoice .div_so_znachkami {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 14px;
+          margin-left: 14px;
+          margin-right: 14px; }
+          .scelet .footer_1 .container .invoice .div_so_znachkami .second_kartinka {
+            width: 14px;
+            height: 14px; }
+      .scelet .footer_1 .container .USDT {
+        margin-right: 8px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 200px;
+        height: 100px;
+        flex-shrink: 0; }
+        .scelet .footer_1 .container .USDT p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 61px;
+          right: -156px; }
+        .scelet .footer_1 .container .USDT img {
+          float: right;
+          margin-right: 14px;
+          margin-top: 14px; }
+      .scelet .footer_1 .container .cash {
+        margin-right: 55px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 200px;
+        height: 100px;
+        flex-shrink: 0; }
+        .scelet .footer_1 .container .cash p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 29px;
+          right: -156px; }
+        .scelet .footer_1 .container .cash .div_so_znachkami_1 {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 14px;
+          margin-left: 14px;
+          margin-right: 14px; }
+          .scelet .footer_1 .container .cash .div_so_znachkami_1 .second_kartinka {
+            width: 14px;
+            height: 14px; }
+      .scelet .footer_1 .container .facebook {
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 200px;
+        height: 100px;
+        flex-shrink: 0;
+        margin-right: 6px; }
+        .scelet .footer_1 .container .facebook p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 61px;
+          right: -121px; }
+        .scelet .footer_1 .container .facebook img {
+          float: right;
+          margin-top: 14px;
+          margin-right: 14px; }
+      .scelet .footer_1 .container .instagram {
+        margin-right: 8px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 200px;
+        height: 100px;
+        flex-shrink: 0; }
+        .scelet .footer_1 .container .instagram p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 61px;
+          right: -113px; }
+        .scelet .footer_1 .container .instagram img {
+          float: right;
+          margin-top: 14px;
+          margin-right: 14px; } }
+
+/*# sourceMappingURL=mediaForIndex2.css.map */

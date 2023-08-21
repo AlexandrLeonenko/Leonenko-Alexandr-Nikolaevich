@@ -90,10 +90,12 @@
         margin-right: 32px; }
   .scelet .telo_3_str .container {
     display: flex; }
-    .scelet .telo_3_str .container img {
+    .scelet .telo_3_str .container .lexus_wide_screen {
       width: 780px;
       height: 510px;
       margin-right: 10px; }
+    .scelet .telo_3_str .container .lexus_mobile_screen {
+      display: none; }
     .scelet .telo_3_str .container .karta_LX500d {
       width: 550px;
       height: 695px;
@@ -144,6 +146,8 @@
       line-height: 130%;
       /* 20.8px */
       letter-spacing: 1.44px; }
+    .scelet .kartochka222 .container .telo_karti2 .text_opisanie_mobile {
+      display: none; }
     .scelet .kartochka222 .container .telo_karti2 .grid_s_characters {
       margin-top: 25px;
       display: grid;

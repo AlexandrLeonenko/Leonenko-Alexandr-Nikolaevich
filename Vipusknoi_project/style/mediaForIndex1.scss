@@ -1,0 +1,93 @@
+@mixin mobile ($minw, $maxw) {
+    @media screen and (min-width: $minw) and (max-width: $maxw) {
+        @content;
+    }
+}
+
+@include mobile (320px, 391px) {
+    .scelet {
+        background-color: #F1F0EB;
+
+        header {
+            background-image: url('../img/Rectangle 17.png');
+            background-repeat: no-repeat;
+            background-size: 390px;
+
+            .container {
+                width: 350px;
+                margin: 0 auto;
+                display: flex;
+                align-items: stretch;
+
+                .selects {
+                    display: none;
+                }
+
+                .change-currency {
+                    display: none;
+                }
+
+                .contacts {
+                    div {
+                        display: none;
+                    }
+
+                    .Request_a_callback {
+                        display: none;
+                    }
+
+                    .whatsapp1 {
+                        display: none;
+                    }
+
+                    .telegram1 {
+                        display: none;
+                    }
+
+                }
+            }
+
+            .container1 {
+                border-top: solid 1px #989898;
+                ;
+                border-bottom: solid 1px #989898;
+                ;
+
+                .container {
+                    .s_emblemoi {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .svg_3_poloski {
+                            display: block;
+                            position: static;
+                        }
+
+                        .uat_trade_wide_screen {
+                            display: none;
+                        }
+
+                        .uat_trade_mobile_screen {
+                            display: block;
+                            margin-top: 18px;
+                            margin-bottom: 17px;
+                        }
+
+                        .trubka_dlya_mobili {
+                            display: block;
+                            width: 20px;
+                            height: 20px;
+
+                        }
+
+
+                        ul {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

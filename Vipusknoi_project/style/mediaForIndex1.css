@@ -1,0 +1,48 @@
+@media screen and (min-width: 320px) and (max-width: 391px) {
+  .scelet {
+    background-color: #F1F0EB; }
+    .scelet header {
+      background-image: url("../img/Rectangle 17.png");
+      background-repeat: no-repeat;
+      background-size: 390px; }
+      .scelet header .container {
+        width: 350px;
+        margin: 0 auto;
+        display: flex;
+        align-items: stretch; }
+        .scelet header .container .selects {
+          display: none; }
+        .scelet header .container .change-currency {
+          display: none; }
+        .scelet header .container .contacts div {
+          display: none; }
+        .scelet header .container .contacts .Request_a_callback {
+          display: none; }
+        .scelet header .container .contacts .whatsapp1 {
+          display: none; }
+        .scelet header .container .contacts .telegram1 {
+          display: none; }
+      .scelet header .container1 {
+        border-top: solid 1px #989898;
+        border-bottom: solid 1px #989898; }
+        .scelet header .container1 .container .s_emblemoi {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          .scelet header .container1 .container .s_emblemoi .svg_3_poloski {
+            display: block;
+            position: static; }
+          .scelet header .container1 .container .s_emblemoi .uat_trade_wide_screen {
+            display: none; }
+          .scelet header .container1 .container .s_emblemoi .uat_trade_mobile_screen {
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 17px; }
+          .scelet header .container1 .container .s_emblemoi .trubka_dlya_mobili {
+            display: block;
+            width: 20px;
+            height: 20px; }
+          .scelet header .container1 .container .s_emblemoi ul {
+            display: none; } }
+
+/*# sourceMappingURL=mediaForIndex1.css.map */

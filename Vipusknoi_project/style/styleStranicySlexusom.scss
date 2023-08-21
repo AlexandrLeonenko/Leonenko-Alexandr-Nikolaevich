@@ -159,11 +159,14 @@
 
 
 
-            img {
+            .lexus_wide_screen {
 
                 width: 780px;
                 height: 510px;
                 margin-right: 10px;
+            }
+            .lexus_mobile_screen{
+                display: none;
             }
 
             .karta_LX500d {
@@ -238,6 +241,9 @@
                     /* 20.8px */
                     letter-spacing: 1.44px;
 
+                }
+                .text_opisanie_mobile{
+                    display: none;
                 }
 
                 .grid_s_characters {

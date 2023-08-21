@@ -1,0 +1,717 @@
+@mixin mobile ($minw, $maxw) {
+    @media screen and (min-width: $minw) and (max-width: $maxw) {
+        @content;
+    }
+}
+
+@include mobile (320px, 391px) {
+    .more {
+        width: 150px;
+        height: 65px;
+        color: #FFF;
+        font-family: Eurostile Extended;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 1.68px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #4F4F4F;
+        background: rgba(255, 255, 255, 0.01);
+
+    }
+
+    .container {
+        width: 1340px;
+        margin: 0 auto;
+    }
+
+    .scelet {
+        background-color: #F1F0EB;
+
+        header {
+
+
+
+
+
+            .container {
+                display: flex;
+                justify-content: space-between;
+
+                .selects {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .change-lang {
+                        background: none;
+                        border: none;
+                        color: #000;
+                        ;
+
+                        option {
+                            color: black;
+                        }
+
+                    }
+
+                    .change-currency {
+                        background: none;
+                        border: none;
+                        color: #000;
+                        ;
+
+                        option {
+                            color: black;
+                        }
+                    }
+                }
+
+                .contacts {
+                    display: flex;
+                    color: #000;
+                    justify-content: center;
+                    align-items: center;
+
+                    div {
+                        margin-right: 21px;
+                    }
+
+                    .Request_a_callback {
+                        background-color: #000;
+                        height: 55px;
+                        width: 250px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #FFF;
+                    }
+                }
+
+
+            }
+
+            .container1 {
+                display: flex;
+                border-top: solid 1px #D9D9D9;
+                ;
+                border-bottom: solid 1px #D9D9D9;
+                ;
+
+
+
+
+                .s_emblemoi {
+                    width: 1340px;
+
+                    img {
+                        float: left;
+                        margin-right: 273px;
+
+                        margin-top: 4px;
+                        margin-bottom: 4px;
+                    }
+
+
+                    ul {
+                        float: left;
+
+                        li {
+                            float: left;
+                            color: #000;
+                            list-style-type: none;
+                            margin-right: 40px;
+
+                            a {
+                                text-decoration: none;
+                                color: #000;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+        .navigation {
+            .container {
+                margin-top: 44px;
+
+                .navigattt {
+                    display: flex;
+                    padding: 0;
+
+                    .li1 {
+                        margin-right: 32px;
+                        list-style-type: none;
+
+                    }
+
+                    li {
+                        margin-right: 32px;
+                    }
+                }
+            }
+        }
+
+        .telo_3_str {
+            .container {
+                display: flex;
+                flex-direction: column;
+
+
+
+                .lexus_wide_screen {
+
+                    display: none;
+                }
+
+                .lexus_mobile_screen {
+                    display: block;
+                    width: 360px;
+                    height: 270px;
+                }
+
+                .karta_LX500d {
+                    width: 360px;
+                    height: 496px;
+                    flex-shrink: 0;
+                    border-radius: 30px;
+                    background-color: #FFF;
+                    ;
+
+                    .telo_karti {
+                        padding: 8px;
+
+
+
+                        .raspis_character {
+                            display: flex;
+                            justify-content: space-between;
+                            color: #000;
+                            font-family: Eurostile Extended;
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 130%;
+                            /* 13px */
+                            letter-spacing: 0.9px;
+                        }
+
+                        button {
+                            display: flex;
+                            width: 340px;
+                            height: 50px;
+                            padding: 10px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            flex-shrink: 0;
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        .kartochka222 {
+            .container {
+                .telo_karti2 {
+                    border-radius: 30px;
+                    background: #F1F0EB;
+                    width: 780px;
+                    height: 660px;
+                    position: relative;
+                    top: 0px;
+
+                    .Discription {
+                        padding-top: 30px;
+                        margin-left: 30px;
+                        color: #000;
+                        font-family: Eurostile Extended;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 31.2px */
+                        letter-spacing: 2.16px;
+                    }
+
+                    .text_opisanie {
+                        display: none;
+
+                    }
+
+                    .text_opisanie_mobile {
+                        display: block;
+                        width: 360px;
+                        margin-left: 30px;
+
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 130%;
+                        /* 20.8px */
+                        letter-spacing: 1.44px
+                    }
+
+                    .grid_s_characters {
+                        margin-top: 25px;
+                        display: grid;
+                        grid-template-columns: 179px 180px;
+                        grid-template-rows: 160px 160px 160px;
+
+                        .gridd_1 {
+                            border: solid 1px #D9D9D9;
+
+                            img {
+                                margin-top: 30px;
+                                margin-left: 37px;
+                            }
+
+                            .p1 {
+                                margin-left: 37px;
+                                margin-top: 57px;
+                            }
+
+                            p {
+                                margin-left: 37px;
+                                margin-top: -15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .hot_deals {
+            .container {
+                .hotDeals {
+                    color: #000;
+                    font-family: Eurostile Extended;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 130%;
+                    /* 39px */
+                    letter-spacing: 1.5px;
+                    margin-top: -120px;
+                    margin-bottom: 34px;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .kartochki {
+                    display: grid;
+                    grid-template-columns: 325px 325px 325px 325px;
+                    grid-template-rows: 325px 325px;
+                    justify-content: center;
+                    grid-column-gap: 13px;
+                    grid-row-gap: 34px;
+
+                    .kart {
+
+                        border-radius: 10px;
+                        border: 1px solid #D9D9D9;
+                        background: #F1F0EB;
+
+                        .nameOfCar {
+                            display: flex;
+
+                            p {
+                                margin-right: 80px;
+                                margin-left: 20px;
+                                margin-bottom: 0px;
+                            }
+                        }
+
+                        .yearOfvipusk {
+                            color: #000;
+                            font-family: Eurostile Extended;
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 130%;
+                            /* 13px */
+                            letter-spacing: 1.2px;
+                            margin-left: 20px;
+                            margin-top: -0px;
+                        }
+
+                        .foto_avtom {
+                            width: 223px;
+                            height: 111px;
+
+                        }
+
+                        .znachki {
+
+
+                            img {
+                                width: 49px;
+                                height: 22px;
+
+                            }
+                        }
+
+                        .cost {
+                            display: flex;
+                            width: 285px;
+                            height: 45px;
+                            padding: 10px;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 8px;
+                            border: 1px solid #000;
+                        }
+                    }
+                }
+            }
+        }
+
+        .page2 {
+            background-color: #F1F0EB;
+            margin-top: 95px;
+
+            .container {
+                .uslugi {
+                    display: grid;
+                    grid-column-gap: 24px;
+                    grid-row-gap: 24px;
+                    grid-template-columns: 658px 658px;
+                    grid-template-rows: 308px;
+
+
+
+
+                    .koleso {
+                        background-image: url('../img/Rectangle 5.png');
+                        color: #FFF;
+
+                        p {
+                            margin-left: 30px;
+                        }
+
+                        .more {
+                            position: relative;
+                            top: 161px;
+                            right: -476px;
+                        }
+                    }
+
+                    .fara {
+                        background-image: url('../img/Rectangle 6.png');
+                        color: #FFF;
+
+                        p {
+                            margin-left: 30px;
+                        }
+
+                        .more {
+                            position: relative;
+                            top: 161px;
+                            right: -476px;
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            border: solid 1px #D9D9D9;
+            margin-top: 80px;
+
+            .container {
+
+
+
+                .foot_s_gridami {
+                    display: grid;
+                    grid-template-columns: 670px 450px 105px;
+                    grid-template-rows: 178px 50px;
+
+                    .foot_s_logo {
+                        grid-column: 1;
+                        grid-row: 1;
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                        margin-top: 47px;
+                    }
+
+                    .foot_s_nomerom {
+                        grid-column: 2;
+                        grid-row: 1;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 47px;
+
+                        p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+
+                        div {
+                            color: #000;
+                            font-family: Eurostile Extended;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+
+                            img {
+                                margin-left: 20px;
+                            }
+                        }
+
+                    }
+
+                    .foot_s_knopkoi {
+                        grid-column: 3;
+                        grid-row: 1;
+                        border-radius: 6px;
+                        margin-top: 47px;
+
+                        button {
+                            width: 250px;
+                            height: 55px;
+                            border-radius: 6px;
+                            background: #000;
+                            color: #FFF;
+                        }
+
+                    }
+
+                    .foot_s_silkami {
+                        grid-column: 1;
+                        grid-row: 2;
+
+                        a {
+                            text-decoration: none;
+                            color: #000;
+                        }
+                    }
+
+                    .foot_s_adresom {
+                        grid-column: 2/span 3;
+                        grid-row: 2;
+
+                        .divvv1 {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+
+                        .divvv2 {
+                            color: #000;
+                            font-family: Eurostile Extended;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer_1 {
+
+            .container {
+                display: flex;
+                margin-top: 20px;
+
+
+                .invoice {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 200px;
+                    height: 100px;
+                    flex-shrink: 0;
+                    margin-bottom: 141px;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 19px;
+                        right: -138px;
+                    }
+
+                    .div_so_znachkami {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 14px;
+                        margin-left: 14px;
+                        margin-right: 14px;
+
+                        .second_kartinka {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+
+                .USDT {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 200px;
+                    height: 100px;
+                    flex-shrink: 0;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 61px;
+                        right: -156px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-right: 14px;
+                        margin-top: 14px;
+                    }
+                }
+
+                .cash {
+                    margin-right: 55px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 200px;
+                    height: 100px;
+                    flex-shrink: 0;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 29px;
+                        right: -156px;
+
+                    }
+
+                    .div_so_znachkami_1 {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 14px;
+                        margin-left: 14px;
+                        margin-right: 14px;
+
+                        .second_kartinka {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+
+                .facebook {
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 200px;
+                    height: 100px;
+                    flex-shrink: 0;
+                    margin-right: 6px;
+
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 61px;
+                        right: -121px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-top: 14px;
+                        margin-right: 14px;
+                    }
+                }
+
+                .instagram {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 200px;
+                    height: 100px;
+                    flex-shrink: 0;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 61px;
+                        right: -113px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-top: 14px;
+                        margin-right: 14px;
+                    }
+
+                }
+            }
+        }
+    }
+}
