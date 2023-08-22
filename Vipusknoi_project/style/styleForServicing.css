@@ -1,3 +1,22 @@
+.more {
+  width: 150px;
+  height: 65px;
+  color: #FFF;
+  font-family: Eurostile Extended;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 18.2px */
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #4F4F4F;
+  background: rgba(255, 255, 255, 0.01); }
+
 .card-img-top {
   width: 500px;
   height: 297px; }
@@ -101,7 +120,9 @@
       border-radius: 15px;
       background-image: url("../img/1660863029_10-sportishka-com-p-priemka-avto-krasivo-foto-15.jpg");
       background-size: 300px 200px;
-      color: #FFF; }
+      color: #a3be08;
+      font-size: 25px;
+      font-weight: bold; }
     .scelet .servicing .container .rabota_po_servisu .Raboti {
       border: solid 1px gray;
       margin: 50px;
@@ -114,7 +135,9 @@
       border-radius: 15px;
       background-image: url("../img/mA28WROZGeg.jpg");
       background-size: 300px 200px;
-      color: #FFF; }
+      color: #ff3838;
+      font-size: 25px;
+      font-weight: bold; }
     .scelet .servicing .container .rabota_po_servisu .Vidacha {
       border: solid 1px gray;
       margin: 50px;
@@ -127,7 +150,9 @@
       border-radius: 15px;
       background-image: url("../img/e300-02.jpg");
       background-size: 300px 200px;
-      color: #FFF; }
+      color: #eafa0c;
+      font-size: 25px;
+      font-weight: bold; }
   .scelet .servicing .container h2 {
     font-weight: bold;
     text-align: center; }
@@ -166,8 +191,8 @@
         margin-left: 30px; }
       .scelet .container .uslugi .gelic .more {
         position: relative;
-        top: 191px;
-        right: -475px; }
+        top: 185px;
+        right: -380px; }
     .scelet .container .uslugi .koleso {
       background-image: url("../img/Rectangle 6.png");
       color: #FFF;
@@ -177,8 +202,8 @@
         margin-left: 30px; }
       .scelet .container .uslugi .koleso .more {
         position: relative;
-        top: 191px;
-        right: -475px; }
+        top: 185px;
+        right: -380px; }
     .scelet .container .uslugi .fara {
       display: none; }
   .scelet footer {
@@ -186,7 +211,7 @@
     margin-top: 167px; }
     .scelet footer .container .foot_s_gridami {
       display: grid;
-      grid-template-columns: 670px 450px 105px;
+      grid-template-columns: 407px 450px 105px;
       grid-template-rows: 178px 50px; }
       .scelet footer .container .foot_s_gridami .foot_s_logo {
         grid-column: 1;

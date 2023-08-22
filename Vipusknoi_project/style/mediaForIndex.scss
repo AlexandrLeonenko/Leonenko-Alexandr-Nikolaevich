@@ -287,7 +287,7 @@
                         text-transform: uppercase;
                     }
 
-                    .suv {
+                    .suv {display: block;
                         grid-column: 1;
                         grid-row: 2;
 
@@ -307,7 +307,7 @@
                         }
                     }
 
-                    .sedan {
+                    .sedan { display: block;
                         grid-column: 2;
                         grid-row: 2;
 
@@ -331,7 +331,7 @@
                         }
                     }
 
-                    .wagon {
+                    .wagon {display: block;
                         grid-column: 3;
                         grid-row: 2;
 
@@ -355,7 +355,7 @@
                         }
                     }
 
-                    .hatch {
+                    .hatch {display: block;
                         grid-column: 1;
                         grid-row: 3;
 
@@ -379,7 +379,7 @@
                         }
                     }
 
-                    .ute {
+                    .ute {display: block;
                         grid-column: 2;
                         grid-row: 3;
 
@@ -403,7 +403,7 @@
                         }
                     }
 
-                    .convert {
+                    .convert {display: block;
                         grid-column: 3;
                         grid-row: 3;
 
@@ -426,7 +426,9 @@
                             letter-spacing: 0.14px;
                         }
                     }
+                    
                 }
+                .block{display: none;}
             }
         }
 
@@ -447,6 +449,8 @@
                 border: 1px solid #4071CB;
                 margin-top: 40px;
                 color: #4071CB;
+                position: relative;
+                right: 0%;
             }
         }
 

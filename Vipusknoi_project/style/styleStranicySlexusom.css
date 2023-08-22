@@ -266,7 +266,7 @@
     margin-top: 80px; }
     .scelet footer .container .foot_s_gridami {
       display: grid;
-      grid-template-columns: 670px 450px 105px;
+      grid-template-columns: 407px 450px 105px;
       grid-template-rows: 178px 50px; }
       .scelet footer .container .foot_s_gridami .foot_s_logo {
         grid-column: 1;

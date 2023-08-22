@@ -186,6 +186,7 @@
         align-items: center;
         text-transform: uppercase; }
       .scelet .choose .container .body_type .suv {
+        display: block;
         grid-column: 1;
         grid-row: 2; }
         .scelet .choose .container .body_type .suv .suv_wide {
@@ -196,6 +197,7 @@
           display: flex;
           justify-content: center; }
       .scelet .choose .container .body_type .sedan {
+        display: block;
         grid-column: 2;
         grid-row: 2; }
         .scelet .choose .container .body_type .sedan .sedan_wide {
@@ -214,6 +216,7 @@
           /* 18.2px */
           letter-spacing: 0.14px; }
       .scelet .choose .container .body_type .wagon {
+        display: block;
         grid-column: 3;
         grid-row: 2; }
         .scelet .choose .container .body_type .wagon .wagon_wide {
@@ -232,6 +235,7 @@
           /* 18.2px */
           letter-spacing: 0.14px; }
       .scelet .choose .container .body_type .hatch {
+        display: block;
         grid-column: 1;
         grid-row: 3; }
         .scelet .choose .container .body_type .hatch .hatch_wide {
@@ -250,6 +254,7 @@
           /* 18.2px */
           letter-spacing: 0.14px; }
       .scelet .choose .container .body_type .ute {
+        display: block;
         grid-column: 2;
         grid-row: 3; }
         .scelet .choose .container .body_type .ute .ute_wide {
@@ -268,6 +273,7 @@
           /* 18.2px */
           letter-spacing: 0.14px; }
       .scelet .choose .container .body_type .convert {
+        display: block;
         grid-column: 3;
         grid-row: 3; }
         .scelet .choose .container .body_type .convert .convert_wide {
@@ -285,6 +291,8 @@
           line-height: 130%;
           /* 18.2px */
           letter-spacing: 0.14px; }
+    .scelet .choose .container .block {
+      display: none; }
     .scelet .container {
       display: flex;
       align-items: center; }
@@ -300,7 +308,9 @@
         border-radius: 8px;
         border: 1px solid #4071CB;
         margin-top: 40px;
-        color: #4071CB; }
+        color: #4071CB;
+        position: relative;
+        right: 0%; }
     .scelet .hot_deals .container .hotDeals {
       color: #000;
       font-family: Eurostile Extended;

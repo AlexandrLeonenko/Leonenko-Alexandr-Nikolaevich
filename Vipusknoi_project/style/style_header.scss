@@ -1,4 +1,3 @@
-
 #app {
     display: flex;
     justify-content: center;
@@ -318,7 +317,12 @@
                             text-decoration: none;
                             color: #FFF;
                         }
+
+                        a:hover {
+                            color: red
+                        }
                     }
+
                 }
 
             }
@@ -336,7 +340,9 @@
             }
 
             .letsgo {
-                margin-top: 0px;
+                position: relative;
+                top: 634px;
+                z-index: 1;
 
             }
 
@@ -384,6 +390,10 @@
                     }
                 }
 
+                .gelic:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
+                }
+
                 .koleso {
                     background-image: url('../img/Rectangle 5.png');
                     color: #FFF;
@@ -399,11 +409,29 @@
                     }
                 }
 
+                .koleso:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
+                }
+
                 .fara {
                     background-image: url('../img/Rectangle 6.png');
                     color: #FFF;
 
+                    p {
+                        margin-left: 30px;
+                    }
 
+                    .more {
+                        position: relative;
+                        top: 161px;
+                        right: -476px;
+                    }
+
+
+                }
+
+                .fara:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
                 }
             }
         }
@@ -432,10 +460,11 @@
                 display: grid;
                 justify-content: center;
                 grid-template-columns: 182px 182px 182px 182px 182px 182px;
-                grid-template-rows: 65px 72px;
+                grid-template-rows: 65px;
 
                 .bodyTypeButton {
                     grid-column: 1/span 3;
+                    grid-row: 1;
                     border: 1px solid #D9D9D9;
                     border-radius: 10px 0px 0px 10px;
                     background-color: #4071CB;
@@ -445,9 +474,11 @@
                     align-items: center;
                     text-transform: uppercase;
                 }
+                .bodyTypeButton:hover{box-shadow: 0 0 30px rgb(73, 73, 221);}
 
                 .brandbutton {
                     grid-column: 4/span 3;
+                    grid-row: 1;
                     border: 1px solid #D9D9D9;
                     border-radius: 10px 0px 0px 10px;
                     color: black;
@@ -457,21 +488,38 @@
                     text-transform: uppercase;
                 }
 
-                .suv {
+                .brandbutton:hover {
+                    box-shadow: 0 0 30px rgb(73, 73, 221);
+                }
+                .suv {display: none;
                     grid-column: 1;
                     grid-row: 2;
 
+                    .suv_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
+
                     div {
                         text-transform: uppercase;
                         display: flex;
                         justify-content: center;
+
+
+
+
                     }
                 }
 
-                .sedan {
+                .sedan {display: none;
                     grid-column: 2;
                     grid-row: 2;
 
+                    .sedan_wide {
+                        width: 106px;
+                        height: 40px;
+                    }
+
                     div {
                         text-transform: uppercase;
                         display: flex;
@@ -487,28 +535,14 @@
                     }
                 }
 
-                .wagon {
+                .wagon {display: none;
                     grid-column: 3;
                     grid-row: 2;
 
-                    div {
-                        text-transform: uppercase;
-                        display: flex;
-                        justify-content: center;
-                        color: #4071CB;
-                        font-family: Eurostile Extended;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 130%;
-                        /* 18.2px */
-                        letter-spacing: 0.14px;
+                    .wagon_wide {
+                        width: 107px;
+                        height: 40px;
                     }
-                }
-
-                .hatch {
-                    grid-column: 4;
-                    grid-row: 2;
 
                     div {
                         text-transform: uppercase;
@@ -525,9 +559,14 @@
                     }
                 }
 
-                .ute {
-                    grid-column: 5;
-                    grid-row: 2;
+                .hatch {display: none;
+                    grid-column: 1;
+                    grid-row: 3;
+
+                    .hatch_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
 
                     div {
                         text-transform: uppercase;
@@ -544,9 +583,14 @@
                     }
                 }
 
-                .convert {
-                    grid-column: 6;
-                    grid-row: 2;
+                .ute {display: none;
+                    grid-column: 2;
+                    grid-row: 3;
+
+                    .ute_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
 
                     div {
                         text-transform: uppercase;
@@ -560,10 +604,56 @@
                         line-height: 130%;
                         /* 18.2px */
                         letter-spacing: 0.14px;
+                    }
+                }
+
+                .convert {display: none;
+                    grid-column: 3;
+                    grid-row: 3;
+
+                    .convert_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+
+
+            }
+
+            .block {
+                .item {
+                    div {
+                        color: #4071CB;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                     }
                 }
             }
         }
+
     }
 
     .show_all {
@@ -579,7 +669,11 @@
         border: 1px solid #4071CB;
         margin-top: 40px;
         margin-bottom: 60px;
+        position: relative;
+        right: -40%;
+        color: #4071CB;
     }
+    .show_all:hover{box-shadow: 0 0 30px rgb(73, 73, 221);}
 
 
     .hot_deals {
@@ -663,6 +757,10 @@
                         border: 1px solid #000;
                     }
                 }
+
+                .kart:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
+                }
             }
         }
     }
@@ -712,6 +810,10 @@
                     border: 1px solid #4F4F4F;
                 }
 
+                .zayavka:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
+                }
+
                 .dogovor {
                     grid-column: 2;
                     grid-row: 1;
@@ -719,11 +821,19 @@
                     border: 1px solid #4F4F4F;
                 }
 
+                .dogovor:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
+                }
+
                 .oplata {
                     grid-column: 3;
                     grid-row: 1;
                     border-radius: 10px;
                     border: 1px solid #4F4F4F;
+                }
+
+                .oplata:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
                 }
 
             }
@@ -740,6 +850,10 @@
                     grid-row: 1;
                     border-radius: 10px;
                     border: 1px solid #4F4F4F;
+                }
+
+                .dostavka:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
                 }
 
                 .otpravit_zapros {
@@ -763,6 +877,10 @@
                             margin-right: 62px;
                         }
                     }
+                }
+
+                .otpravit_zapros:hover {
+                    box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);
                 }
             }
 
@@ -831,6 +949,10 @@
                         margin-left: 15px;
                     }
                 }
+
+                .kartochka:hover {
+                    opacity: 0.7;
+                }
             }
         }
     }
@@ -845,7 +967,7 @@
 
             .foot_s_gridami {
                 display: grid;
-                grid-template-columns: 670px 450px 105px;
+                grid-template-columns: 640px 450px 105px;
                 grid-template-rows: 178px 50px;
 
                 .foot_s_logo {
@@ -1224,4 +1346,3 @@
     }
 
 }
-

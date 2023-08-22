@@ -1,3 +1,8 @@
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .griddd_2 {
   display: grid;
   grid-template-columns: 142px 142px;
@@ -226,12 +231,16 @@
           .scelet header .container1 .s_emblemoi ul li a {
             text-decoration: none;
             color: #FFF; }
+          .scelet header .container1 .s_emblemoi ul li a:hover {
+            color: red; }
     .scelet header .container hgroup {
       color: #FFF;
       margin-top: 177px;
       margin-bottom: 366px; }
     .scelet header .container .letsgo {
-      margin-top: 0px; }
+      position: relative;
+      top: 634px;
+      z-index: 1; }
     .scelet header .container .dlia_wide_screen {
       position: relative;
       top: 621px;
@@ -258,6 +267,8 @@
           position: relative;
           top: 493px;
           right: -476px; }
+      .scelet .page2 .container .uslugi .gelic:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
       .scelet .page2 .container .uslugi .koleso {
         background-image: url("../img/Rectangle 5.png");
         color: #FFF; }
@@ -267,9 +278,19 @@
           position: relative;
           top: 161px;
           right: -476px; }
+      .scelet .page2 .container .uslugi .koleso:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
       .scelet .page2 .container .uslugi .fara {
         background-image: url("../img/Rectangle 6.png");
         color: #FFF; }
+        .scelet .page2 .container .uslugi .fara p {
+          margin-left: 30px; }
+        .scelet .page2 .container .uslugi .fara .more {
+          position: relative;
+          top: 161px;
+          right: -476px; }
+      .scelet .page2 .container .uslugi .fara:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
   .scelet .choose .container .choose_vehicle {
     display: flex;
     justify-content: center;
@@ -289,9 +310,10 @@
     display: grid;
     justify-content: center;
     grid-template-columns: 182px 182px 182px 182px 182px 182px;
-    grid-template-rows: 65px 72px; }
+    grid-template-rows: 65px; }
     .scelet .choose .container .body_type .bodyTypeButton {
       grid-column: 1/span 3;
+      grid-row: 1;
       border: 1px solid #D9D9D9;
       border-radius: 10px 0px 0px 10px;
       background-color: #4071CB;
@@ -300,8 +322,11 @@
       justify-content: center;
       align-items: center;
       text-transform: uppercase; }
+    .scelet .choose .container .body_type .bodyTypeButton:hover {
+      box-shadow: 0 0 30px #4949dd; }
     .scelet .choose .container .body_type .brandbutton {
       grid-column: 4/span 3;
+      grid-row: 1;
       border: 1px solid #D9D9D9;
       border-radius: 10px 0px 0px 10px;
       color: black;
@@ -309,16 +334,26 @@
       justify-content: center;
       align-items: center;
       text-transform: uppercase; }
+    .scelet .choose .container .body_type .brandbutton:hover {
+      box-shadow: 0 0 30px #4949dd; }
     .scelet .choose .container .body_type .suv {
+      display: none;
       grid-column: 1;
       grid-row: 2; }
+      .scelet .choose .container .body_type .suv .suv_wide {
+        width: 108px;
+        height: 40px; }
       .scelet .choose .container .body_type .suv div {
         text-transform: uppercase;
         display: flex;
         justify-content: center; }
     .scelet .choose .container .body_type .sedan {
+      display: none;
       grid-column: 2;
       grid-row: 2; }
+      .scelet .choose .container .body_type .sedan .sedan_wide {
+        width: 106px;
+        height: 40px; }
       .scelet .choose .container .body_type .sedan div {
         text-transform: uppercase;
         display: flex;
@@ -332,8 +367,12 @@
         /* 18.2px */
         letter-spacing: 0.14px; }
     .scelet .choose .container .body_type .wagon {
+      display: none;
       grid-column: 3;
       grid-row: 2; }
+      .scelet .choose .container .body_type .wagon .wagon_wide {
+        width: 107px;
+        height: 40px; }
       .scelet .choose .container .body_type .wagon div {
         text-transform: uppercase;
         display: flex;
@@ -347,8 +386,12 @@
         /* 18.2px */
         letter-spacing: 0.14px; }
     .scelet .choose .container .body_type .hatch {
-      grid-column: 4;
-      grid-row: 2; }
+      display: none;
+      grid-column: 1;
+      grid-row: 3; }
+      .scelet .choose .container .body_type .hatch .hatch_wide {
+        width: 108px;
+        height: 40px; }
       .scelet .choose .container .body_type .hatch div {
         text-transform: uppercase;
         display: flex;
@@ -362,8 +405,12 @@
         /* 18.2px */
         letter-spacing: 0.14px; }
     .scelet .choose .container .body_type .ute {
-      grid-column: 5;
-      grid-row: 2; }
+      display: none;
+      grid-column: 2;
+      grid-row: 3; }
+      .scelet .choose .container .body_type .ute .ute_wide {
+        width: 108px;
+        height: 40px; }
       .scelet .choose .container .body_type .ute div {
         text-transform: uppercase;
         display: flex;
@@ -377,8 +424,12 @@
         /* 18.2px */
         letter-spacing: 0.14px; }
     .scelet .choose .container .body_type .convert {
-      grid-column: 6;
-      grid-row: 2; }
+      display: none;
+      grid-column: 3;
+      grid-row: 3; }
+      .scelet .choose .container .body_type .convert .convert_wide {
+        width: 108px;
+        height: 40px; }
       .scelet .choose .container .body_type .convert div {
         text-transform: uppercase;
         display: flex;
@@ -391,6 +442,18 @@
         line-height: 130%;
         /* 18.2px */
         letter-spacing: 0.14px; }
+  .scelet .choose .container .block .item div {
+    color: #4071CB;
+    font-family: Eurostile Extended;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 0.14px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   .scelet .show_all {
     display: flex;
     width: 240px;
@@ -401,7 +464,12 @@
     border-radius: 8px;
     border: 1px solid #4071CB;
     margin-top: 40px;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    position: relative;
+    right: -40%;
+    color: #4071CB; }
+  .scelet .show_all:hover {
+    box-shadow: 0 0 30px #4949dd; }
   .scelet .hot_deals .container .hotDeals {
     color: #000;
     font-family: Eurostile Extended;
@@ -458,6 +526,8 @@
         align-items: center;
         border-radius: 8px;
         border: 1px solid #000; }
+    .scelet .hot_deals .container .kartochki .kart:hover {
+      box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
   .scelet .foto_maseratti .container {
     margin-top: 60px; }
     .scelet .foto_maseratti .container .maseratti_mobile {
@@ -489,16 +559,22 @@
         grid-row: 1;
         border-radius: 10px;
         border: 1px solid #4F4F4F; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .zayavka:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
       .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .dogovor {
         grid-column: 2;
         grid-row: 1;
         border-radius: 10px;
         border: 1px solid #4F4F4F; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .dogovor:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
       .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .oplata {
         grid-column: 3;
         grid-row: 1;
         border-radius: 10px;
         border: 1px solid #4F4F4F; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction .oplata:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
     .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 {
       display: grid;
       grid-template-columns: 545px 781px;
@@ -509,6 +585,8 @@
         grid-row: 1;
         border-radius: 10px;
         border: 1px solid #4F4F4F; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 .dostavka:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
       .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 .otpravit_zapros {
         grid-column: 2;
         grid-row: 1;
@@ -523,6 +601,8 @@
             border-radius: 8px;
             border: 1px solid #4F4F4F;
             margin-right: 62px; }
+      .scelet .kak_kupit_avto_s_dostavkoi .container .instruction_1 .otpravit_zapros:hover {
+        box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
   .scelet .R8 .container {
     background-image: url("../img/Rectangle 9.png");
     margin-top: 110px; }
@@ -571,12 +651,14 @@
           /* 18.2px */
           letter-spacing: 0.14px;
           margin-left: 15px; }
+      .scelet .R8 .container .kartochki_na_R8 .kartochka:hover {
+        opacity: 0.7; }
   .scelet footer {
     border: solid 1px #D9D9D9;
     margin-top: 167px; }
     .scelet footer .container .foot_s_gridami {
       display: grid;
-      grid-template-columns: 670px 450px 105px;
+      grid-template-columns: 640px 450px 105px;
       grid-template-rows: 178px 50px; }
       .scelet footer .container .foot_s_gridami .foot_s_logo {
         grid-column: 1;

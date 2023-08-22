@@ -1,3 +1,23 @@
+
+.more {
+    width: 150px;
+    height: 65px;
+    color: #FFF;
+    font-family: Eurostile Extended;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #4F4F4F;
+    background: rgba(255, 255, 255, 0.01);}
+
 .card-img-top {
     width: 500px;
     height: 297px;
@@ -178,7 +198,9 @@
                     border-radius: 15px;
                     background-image: url('../img/1660863029_10-sportishka-com-p-priemka-avto-krasivo-foto-15.jpg');
                     background-size: 300px 200px;
-                    color: #FFF;
+                    color: #a3be08;
+                    font-size: 25px;
+                    font-weight: bold;
                 }
 
                 .Raboti {
@@ -193,7 +215,9 @@
                     border-radius: 15px;
                     background-image: url('../img/mA28WROZGeg.jpg');
                     background-size: 300px 200px;
-                    color: #FFF;
+                    color: #ff3838;
+                    font-size: 25px;
+                    font-weight: bold;
                 }
 
                 .Vidacha {
@@ -208,7 +232,9 @@
                     border-radius: 15px;
                     background-image: url('../img/e300-02.jpg');
                     background-size: 300px 200px;
-                    color: #FFF;
+                    color: #eafa0c;
+                    font-size: 25px;
+                    font-weight: bold;
                 }
 
 
@@ -283,8 +309,8 @@
 
                 .more {
                     position: relative;
-                    top: 191px;
-                    right: -475px;
+                    top: 185px;
+                    right: -380px;
                 }
             }
 
@@ -300,8 +326,8 @@
 
                 .more {
                     position: relative;
-                    top: 191px;
-                    right: -475px;
+                    top: 185px;
+                    right: -380px;
                 }
             }
 
@@ -324,7 +350,7 @@
 
             .foot_s_gridami {
                 display: grid;
-                grid-template-columns: 670px 450px 105px;
+                grid-template-columns: 407px 450px 105px;
                 grid-template-rows: 178px 50px;
 
                 .foot_s_logo {
