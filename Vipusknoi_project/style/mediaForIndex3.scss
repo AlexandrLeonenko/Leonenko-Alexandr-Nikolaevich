@@ -1,0 +1,7 @@
+@mixin mobile ($minw, $maxw) {
+    @media screen and (min-width: $minw) and (max-width: $maxw) {
+        @content;
+    }
+}
+
+@include mobile (320px, 391px) {}
