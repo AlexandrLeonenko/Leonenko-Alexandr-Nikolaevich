@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/styleForAutoparts.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <div class="scelet">
+        <header>
+            <div class="container">
+                <div class="selects">
+                    <select class="change-lang">
+                        <option value="English">English</option>
+                        <option value="Russian">Russian</option>
+                    </select>
+                    <select class="change-currency">
+                        <option value="Currency:">AED</option>
+                        <option value="Currency:">$</option>
+                    </select>
+                </div>
+                <div class="contacts">
+                    <div>+ 971 4 608 68 08</div>
+                    <div class="Request_a_callback">Request a callback</div>
+                    <div><img src="../Vipusknoi_project/img/whatsapp 1.png"></div>
+                    <div><img src="../Vipusknoi_project/img/telegram 1.png" alt=""></div>
+                </div>
+
+
+            </div>
+            <div class="container1">
+                <div class="container">
+                    <div class="s_emblemoi">
+                        <svg class="svg_3_poloski" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none">
+                            <path d="M2 12H22" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M2 18H22" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M2 6H22" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <img class="uat_trade_wide_screen" src="../Vipusknoi_project/img/uat trade white 2 2.png">
+                        <img class="uat_trade_mobile_screen"
+                            src="../Vipusknoi_project/img/uat trade white 2 2umensh.png">
+                        <img class="trubka_dlya_mobili" src="img/Group 13.png" alt="">
+                        <ul>
+                            <li><a href="index1.html">FOR SALE</a></li>
+                            <li>AUTOPARTS</li>
+                            <li>SERVICING</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <hgroup>
+                    <h1>FIND YOUR NEXT CAR</h1>
+                    <h3>PREMIUM CARS FROM DUBAI</h3>
+                </hgroup>
+            </div>
+        </header>
+        <div class="str_3_autoparts">
+            <div class="container">
+                <h1>autoparts</h1>
+                <p>Every car is different, and so are the parts that keep them running. If you’re unfamiliar with auto
+                    parts, knowing what needs to be serviced can be challenging. Here’s a quick guide to help you
+                    understand the basics of auto parts and their maintenance. Before your next service, it’s essential
+                    to know about the different types of auto parts and how to choose the right ones for your car.
+
+                    The best brand of automotive service parts may vary depending on your car’s make and model, but
+                    researching ahead can help you make the best decision for your vehicle. In addition to choosing the
+                    right parts, knowing what needs to be serviced on your car and when is important. Regular
+                    maintenance can help extend the life of your vehicle and keep it running smoothly.</p>
+            </div>
+
+        </div>
+        <div class="kartochki_js_1">
+            <div class="container222">
+                <button class="knopka_so_spiskom_avto" onclick="render()">Click here for autoparts choose</button>
+
+                <div id="app"></div>
+                <script>
+
+                    var avto = [
+                        {
+                            brand_model: "Тормозная система",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Рулевое управление",
+
+                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Осветительные приборы",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Тормозная система",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Рулевое управление",
+
+                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Осветительные приборы",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Тормозная система",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Рулевое управление",
+
+                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Осветительные приборы",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Тормозная система",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Рулевое управление",
+
+                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                            price: "К списку"
+                        },
+                        {
+                            brand_model: "Осветительные приборы",
+
+                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                            price: "К списку"
+                        },
+
+
+                    ]
+                    var app = document.getElementById("app");
+                    function render() {
+                        var avtoHtml = "";
+                        for (i = 0; i < avto.length; i++) {
+                            avtoHtml += `
+            <div class="card" ">
+                
+                    <div class="card-body">
+                        <h3 class="card-title">${avto[i].brand_model}</h3>
+                        
+                    </div>
+                <img src="${avto[i].imgUrl}" class="card-img-top" alt="..." style="width: 250px; height: 223px">
+                
+                    <button  onclick="render()" class="card-body1">    
+                        ${avto[i].price}
+                    </button>
+                    
+            </div>
+            `
+                        }
+                        app.innerHTML = avtoHtml;
+                    }
+
+                </script>
+            </div>
+        </div>
+        <div class="page2">
+            <div class="container">
+                <div class="uslugi">
+                    <div class="gelic">
+                        <p>CARS FOR SALE</p>
+                        <div class="more">
+                            <a class="ssilki_na_str" style="text-decoration: none; color: #fff;"
+                                href="index1.html">more</a>
+                        </div>
+                    </div>
+                    <div class="koleso">
+                        <p>AUTOPARTS</p>
+                        <div class="more">
+                            more
+                        </div>
+                    </div>
+                    <div class="fara">
+                        <p>SERVICING</p>
+                        <div class="more">
+                            more
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="foot_s_gridami">
+                    <div class="foot_s_logo">
+                        <img src="img/uat trade 2 3.png" alt="">
+                        <p>Buy, autoparts or service <br> premium cars from Dubai</p>
+                    </div>
+                    <div class="foot_s_nomerom">
+                        <p>Call the office at:</p>
+                        <div>+ 971 4 608 68 08
+                            <img src="img/whatsapp 1.png" alt="">
+                            <img src="img/telegram 1.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="foot_s_knopkoi">
+                        <button>Request a callback</button>
+                    </div>
+                    <div class="foot_s_silkami">
+                        <a href="#">FOR SALE</a>
+                        <a href="#">FOR SALE</a>
+                        <a href="#">FOR SALE</a>
+                        <a href="#">FOR SALE</a>
+                    </div>
+                    <div class="foot_s_adresom">
+                        <div class="divvv1">Our adress</div>
+                        <div class="divvv2">Showroom 1, Al Roumi building, Al Ittihad Rd, Port Saeed, Dubai, UAE</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer_1">
+            <div class="container">
+                <div class="invoice">
+
+                    <div class="div_so_znachkami">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21"
+                            height="28" viewBox="0 0 21 28" fill="none">
+                            <path
+                                d="M0 1.85294C0 0.829592 0.82959 0 1.85294 0H19.1471C20.1704 0 21 0.82959 21 1.85294V19.8935C21 20.3796 20.809 20.8462 20.4682 21.1927L15.1279 26.6228C14.7795 26.977 14.3035 27.1765 13.8068 27.1765H1.85294C0.829589 27.1765 0 26.3469 0 25.3235V1.85294Z"
+                                fill="url(#pattern0)" fill-opacity="0.7" />
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_1_16045" transform="scale(0.00505051 0.00396825)" />
+                                </pattern>
+
+                            </defs>
+                        </svg>
+                        <img class="second_kartinka" src="img/image 10.png" alt="">
+                    </div>
+                    <p>invoice</p>
+                </div>
+                <div class="USDT">
+
+                    <img src="img/image 10.png" alt="">
+                    <p>USDT</p>
+                </div>
+                <div class="cash">
+                    <div class="div_so_znachkami_1">
+                        <img src="img/image 9.png" alt="">
+                        <img class="second_kartinka" src="img/image 10.png" alt="">
+                    </div>
+                    <p>cash</p>
+                </div>
+                <div class="facebook">
+                    <img src="img/Tilda_Icons_26sn_facebook.png" alt="">
+                    <p>facebook</p>
+
+                </div>
+                <div class="instagram">
+                    <img src="img/Tilda_Icons_26snw_instagram.png" alt="">
+                    <p>instagram</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>

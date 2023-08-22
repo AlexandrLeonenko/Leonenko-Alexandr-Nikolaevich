@@ -1,0 +1,331 @@
+.container {
+  width: 1340px;
+  margin: 0 auto; }
+
+.scelet {
+  background-color: #F1F0EB; }
+  .scelet header {
+    background-image: url("../img/Rectangle 1.png");
+    background-size: 1508px; }
+    .scelet header .container {
+      display: flex;
+      justify-content: space-between; }
+      .scelet header .container .selects {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .scelet header .container .selects .change-lang {
+          background: none;
+          border: none;
+          color: #FFF; }
+          .scelet header .container .selects .change-lang option {
+            color: black; }
+        .scelet header .container .selects .change-currency {
+          background: none;
+          border: none;
+          color: #FFF; }
+          .scelet header .container .selects .change-currency option {
+            color: black; }
+      .scelet header .container .contacts {
+        display: flex;
+        color: #FFF;
+        justify-content: center;
+        align-items: center; }
+        .scelet header .container .contacts div {
+          margin-right: 21px; }
+        .scelet header .container .contacts .Request_a_callback {
+          background-color: #000;
+          height: 55px;
+          width: 250px;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+    .scelet header .container1 {
+      display: flex;
+      border-top: solid 1px #FFF;
+      border-bottom: solid 1px #FFF; }
+      .scelet header .container1 .s_emblemoi .svg_3_poloski {
+        display: none; }
+      .scelet header .container1 .s_emblemoi .uat_trade_mobile_screen {
+        display: none; }
+      .scelet header .container1 .s_emblemoi .uat_trade_wide_screen {
+        float: left;
+        margin-right: 273px;
+        margin-top: 4px;
+        margin-bottom: 4px; }
+      .scelet header .container1 .s_emblemoi .trubka_dlya_mobili {
+        display: none; }
+      .scelet header .container1 .s_emblemoi ul {
+        float: left; }
+        .scelet header .container1 .s_emblemoi ul li {
+          float: left;
+          color: #FFF;
+          list-style-type: none;
+          margin-right: 40px; }
+          .scelet header .container1 .s_emblemoi ul li a {
+            text-decoration: none;
+            color: #FFF; }
+    .scelet header .container hgroup {
+      color: #FFF;
+      margin-top: 177px;
+      margin-bottom: 366px; }
+    .scelet header .container .letsgo {
+      margin-top: 0px; }
+    .scelet header .container .dlia_wide_screen {
+      position: relative;
+      top: 621px;
+      right: 495px; }
+    .scelet header .container .dlia_mobile_screen {
+      display: none; }
+  .scelet .str_3_autoparts .container h1 {
+    text-transform: uppercase;
+    text-align: center; }
+  .scelet .kartochki_js_1 .container222 {
+    width: 1075px;
+    margin: 0 auto; }
+    .scelet .kartochki_js_1 .container222 .knopka_so_spiskom_avto {
+      width: 100%; }
+    .scelet .kartochki_js_1 .container222 #app {
+      display: flex;
+      width: 1020px;
+      flex-flow: wrap;
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-top: 94px; }
+  .scelet .container .uslugi {
+    display: grid;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-template-columns: 658px 658px;
+    grid-template-rows: 308px; }
+    .scelet .container .uslugi .gelic {
+      background-image: url("../img/Rectangle 4.png");
+      background-size: 658px 308px;
+      background-repeat: no-repeat;
+      grid-column: 1;
+      grid-row: 1;
+      color: #FFF; }
+      .scelet .container .uslugi .gelic p {
+        margin-left: 30px; }
+      .scelet .container .uslugi .gelic .more {
+        position: relative;
+        top: 191px;
+        right: -576px; }
+    .scelet .container .uslugi .koleso {
+      display: none; }
+    .scelet .container .uslugi .fara {
+      background-image: url("../img/Rectangle 6.png");
+      color: #FFF;
+      grid-column: 2;
+      grid-row: 1; }
+  .scelet footer {
+    border: solid 1px #D9D9D9;
+    margin-top: 167px; }
+    .scelet footer .container .foot_s_gridami {
+      display: grid;
+      grid-template-columns: 670px 450px 105px;
+      grid-template-rows: 178px 50px; }
+      .scelet footer .container .foot_s_gridami .foot_s_logo {
+        grid-column: 1;
+        grid-row: 1;
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px;
+        margin-top: 47px; }
+      .scelet footer .container .foot_s_gridami .foot_s_nomerom {
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        margin-top: 47px; }
+        .scelet footer .container .foot_s_gridami .foot_s_nomerom p {
+          color: #000;
+          font-family: Inter;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal; }
+        .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; }
+          .scelet footer .container .foot_s_gridami .foot_s_nomerom div img {
+            margin-left: 20px; }
+      .scelet footer .container .foot_s_gridami .foot_s_knopkoi {
+        grid-column: 3;
+        grid-row: 1;
+        border-radius: 6px;
+        margin-top: 47px; }
+        .scelet footer .container .foot_s_gridami .foot_s_knopkoi button {
+          width: 250px;
+          height: 55px;
+          border-radius: 6px;
+          background: #000;
+          color: #FFF; }
+      .scelet footer .container .foot_s_gridami .foot_s_silkami {
+        grid-column: 1;
+        grid-row: 2; }
+        .scelet footer .container .foot_s_gridami .foot_s_silkami a {
+          text-decoration: none;
+          color: #000; }
+      .scelet footer .container .foot_s_gridami .foot_s_adresom {
+        grid-column: 2/span 3;
+        grid-row: 2; }
+        .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv1 {
+          color: #000;
+          font-family: Inter;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal; }
+        .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
+          color: #000;
+          font-family: Eurostile Extended;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal; }
+  .scelet .footer_1 .container {
+    display: flex;
+    margin-top: 20px; }
+    .scelet .footer_1 .container .invoice {
+      margin-right: 8px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0;
+      margin-bottom: 141px; }
+      .scelet .footer_1 .container .invoice p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 19px;
+        right: -138px; }
+      .scelet .footer_1 .container .invoice .div_so_znachkami {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        margin-left: 14px;
+        margin-right: 14px; }
+        .scelet .footer_1 .container .invoice .div_so_znachkami .second_kartinka {
+          width: 14px;
+          height: 14px; }
+    .scelet .footer_1 .container .USDT {
+      margin-right: 8px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0; }
+      .scelet .footer_1 .container .USDT p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 61px;
+        right: -156px; }
+      .scelet .footer_1 .container .USDT img {
+        float: right;
+        margin-right: 14px;
+        margin-top: 14px; }
+    .scelet .footer_1 .container .cash {
+      margin-right: 55px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0; }
+      .scelet .footer_1 .container .cash p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 29px;
+        right: -156px; }
+      .scelet .footer_1 .container .cash .div_so_znachkami_1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        margin-left: 14px;
+        margin-right: 14px; }
+        .scelet .footer_1 .container .cash .div_so_znachkami_1 .second_kartinka {
+          width: 14px;
+          height: 14px; }
+    .scelet .footer_1 .container .facebook {
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0;
+      margin-right: 6px; }
+      .scelet .footer_1 .container .facebook p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 61px;
+        right: -121px; }
+      .scelet .footer_1 .container .facebook img {
+        float: right;
+        margin-top: 14px;
+        margin-right: 14px; }
+    .scelet .footer_1 .container .instagram {
+      margin-right: 8px;
+      border-radius: 7px;
+      border: 1px solid #D9D9D9;
+      width: 200px;
+      height: 100px;
+      flex-shrink: 0; }
+      .scelet .footer_1 .container .instagram p {
+        color: #4F4F4F;
+        font-family: Eurostile Extended;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 14.3px */
+        letter-spacing: 0.66px;
+        text-transform: uppercase;
+        position: relative;
+        top: 61px;
+        right: -113px; }
+      .scelet .footer_1 .container .instagram img {
+        float: right;
+        margin-top: 14px;
+        margin-right: 14px; }
+
+/*# sourceMappingURL=styleForAutoparts.css.map */
