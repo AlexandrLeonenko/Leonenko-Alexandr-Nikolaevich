@@ -9,11 +9,13 @@
         width: 350px;
         margin: 0 auto;
         display: flex;
-        align-items: stretch; }
+        flex-direction: column; }
         .scelet header .container .selects {
           display: none; }
-        .scelet header .container .change-currency {
-          display: none; }
+          .scelet header .container .selects .change-lang {
+            display: none; }
+          .scelet header .container .selects .change-currency {
+            display: none; }
         .scelet header .container .contacts div {
           display: none; }
         .scelet header .container .contacts .Request_a_callback {
@@ -43,6 +45,291 @@
             width: 20px;
             height: 20px; }
           .scelet header .container1 .container .s_emblemoi ul {
-            display: none; } }
+            display: none; }
+      .scelet header .container hgroup h1 {
+        display: block; }
+      .scelet header .container hgroup h3 {
+        display: block; }
+    .scelet .for_sale_2_str {
+      background-color: #F1F0EB;
+      display: flex;
+      flex-direction: column; }
+      .scelet .for_sale_2_str .forma {
+        width: 390px;
+        height: 1614px;
+        background-color: #FFF; }
+        .scelet .for_sale_2_str .forma .container111 {
+          width: 295px;
+          margin: 0 auto; }
+      .scelet .for_sale_2_str .kartochki_js .container222 {
+        width: 1075px;
+        margin: 0 auto; }
+        .scelet .for_sale_2_str .kartochki_js .container222 .knopka_so_spiskom_avto {
+          width: 34%;
+          height: 80px; }
+        .scelet .for_sale_2_str .kartochki_js .container222 #app {
+          display: flex;
+          width: 524px;
+          flex-flow: wrap;
+          justify-content: space-between;
+          margin-left: 30px;
+          margin-top: 10px; }
+    .scelet .peremotka_str {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: 45px 45px 45px 45px 45px 45px 45px;
+      grid-template-rows: 45px;
+      margin-top: 58px; }
+      .scelet .peremotka_str .cl1 {
+        grid-column: 1;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center; }
+      .scelet .peremotka_str .cl2 {
+        grid-column: 2;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center; }
+      .scelet .peremotka_str .cl3 {
+        grid-column: 3;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center; }
+      .scelet .peremotka_str .cl4 {
+        grid-column: 4;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center; }
+      .scelet .peremotka_str .cl5 {
+        grid-column: 5;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center; }
+      .scelet .peremotka_str .cl6 {
+        grid-column: 6;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center; }
+      .scelet .peremotka_str .cl7 {
+        grid-column: 7;
+        grid-row: 1;
+        border: 1px solid #989898;
+        text-align: center; }
+    .scelet footer {
+      border: solid 1px #D9D9D9;
+      margin-top: 66px; }
+      .scelet footer .container .foot_s_gridami {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 40px 32px 15px 25px 55px;
+        grid-row-gap: 60px; }
+        .scelet footer .container .foot_s_gridami .foot_s_logo {
+          grid-column: 1;
+          grid-row: 1;
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 18.2px */
+          letter-spacing: 0.14px;
+          margin-top: 47px; }
+        .scelet footer .container .foot_s_gridami .foot_s_nomerom {
+          grid-column: 1;
+          grid-row: 2;
+          display: flex;
+          flex-direction: column;
+          margin-top: 47px; }
+          .scelet footer .container .foot_s_gridami .foot_s_nomerom p {
+            color: #000;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal; }
+          .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
+            color: #000;
+            font-family: Eurostile Extended;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; }
+            .scelet footer .container .foot_s_gridami .foot_s_nomerom div img {
+              margin-left: 20px; }
+        .scelet footer .container .foot_s_gridami .foot_s_knopkoi {
+          grid-column: 1;
+          grid-row: 4;
+          border-radius: 6px;
+          margin-top: 47px; }
+          .scelet footer .container .foot_s_gridami .foot_s_knopkoi button {
+            width: 250px;
+            height: 55px;
+            border-radius: 6px;
+            background: #000;
+            color: #FFF; }
+        .scelet footer .container .foot_s_gridami .foot_s_silkami {
+          display: none; }
+        .scelet footer .container .foot_s_gridami .foot_s_adresom {
+          grid-column: 1;
+          grid-row: 4; }
+          .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv1 {
+            color: #000;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal; }
+          .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
+            color: #000;
+            font-family: Eurostile Extended;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; }
+    .scelet .footer_1 .container {
+      display: grid;
+      grid-template-columns: 117px 117px 117px;
+      grid-template-rows: 59px 47px 47px;
+      grid-row-gap: 30px; }
+      .scelet .footer_1 .container .invoice {
+        margin-right: 8px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 117px;
+        height: 59px;
+        flex-shrink: 0;
+        margin-bottom: 0px; }
+        .scelet .footer_1 .container .invoice p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: -15px;
+          right: -60px; }
+        .scelet .footer_1 .container .invoice .div_so_znachkami {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 14px;
+          margin-left: 14px;
+          margin-right: 14px; }
+          .scelet .footer_1 .container .invoice .div_so_znachkami .second_kartinka {
+            width: 14px;
+            height: 14px; }
+      .scelet .footer_1 .container .USDT {
+        margin-right: 8px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 117px;
+        height: 59px;
+        flex-shrink: 0; }
+        .scelet .footer_1 .container .USDT p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 24px;
+          right: -76px; }
+        .scelet .footer_1 .container .USDT img {
+          float: right;
+          margin-right: 14px;
+          margin-top: 14px; }
+      .scelet .footer_1 .container .cash {
+        margin-right: 55px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 117px;
+        height: 59px;
+        flex-shrink: 0; }
+        .scelet .footer_1 .container .cash p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: -7px;
+          right: -77px; }
+        .scelet .footer_1 .container .cash .div_so_znachkami_1 {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 14px;
+          margin-left: 14px;
+          margin-right: 14px; }
+          .scelet .footer_1 .container .cash .div_so_znachkami_1 .second_kartinka {
+            width: 14px;
+            height: 14px; }
+      .scelet .footer_1 .container .facebook {
+        float: left;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 177px;
+        height: 47px;
+        flex-shrink: 0;
+        margin-right: 6px;
+        grid-column: 1/span 3;
+        grid-row: 2;
+        justify-content: center;
+        align-items: center; }
+        .scelet .footer_1 .container .facebook p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 6px;
+          right: -44px; }
+        .scelet .footer_1 .container .facebook img {
+          float: right;
+          margin-top: 14px;
+          margin-right: 14px; }
+      .scelet .footer_1 .container .instagram {
+        margin-right: 8px;
+        border-radius: 7px;
+        border: 1px solid #D9D9D9;
+        width: 177px;
+        height: 47px;
+        flex-shrink: 0;
+        grid-column: 1/span 3;
+        grid-row: 3; }
+        .scelet .footer_1 .container .instagram p {
+          color: #4F4F4F;
+          font-family: Eurostile Extended;
+          font-size: 11px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 130%;
+          /* 14.3px */
+          letter-spacing: 0.66px;
+          text-transform: uppercase;
+          position: relative;
+          top: 5px;
+          right: -32px; }
+        .scelet .footer_1 .container .instagram img {
+          float: right;
+          margin-top: 14px;
+          margin-right: 14px; } }
 
 /*# sourceMappingURL=mediaForIndex1.css.map */

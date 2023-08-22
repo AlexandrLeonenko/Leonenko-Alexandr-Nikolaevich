@@ -17,14 +17,18 @@
                 width: 350px;
                 margin: 0 auto;
                 display: flex;
-                align-items: stretch;
+                flex-direction: column;
 
                 .selects {
                     display: none;
-                }
 
-                .change-currency {
-                    display: none;
+                    .change-lang {
+                        display: none;
+                    }
+
+                    .change-currency {
+                        display: none;
+                    }
                 }
 
                 .contacts {
@@ -54,6 +58,7 @@
                 ;
 
                 .container {
+                    
                     .s_emblemoi {
                         display: flex;
                         justify-content: space-between;
@@ -88,6 +93,408 @@
                     }
                 }
             }
+            .container{
+                hgroup{
+                    h1{display: block;}
+                    h3{display: block;}
+                }
+            }
+        }
+
+        .for_sale_2_str {
+            background-color: #F1F0EB;
+            ;
+            display: flex;
+            flex-direction: column;
+
+
+            .forma {
+                width: 390px;
+                height: 1614px;
+                background-color: #FFF;
+
+                .container111 {
+                    width: 295px;
+                    margin: 0 auto;
+                }
+            }
+
+            .kartochki_js {
+                .container222 {
+                    width: 1075px;
+                    margin: 0 auto;
+
+
+                    .knopka_so_spiskom_avto {
+                        width: 34%;
+                        height: 80px;
+                    }
+
+                    #app {
+                        display: flex;
+                        width: 524px;
+
+
+                        flex-flow: wrap;
+                        justify-content: space-between;
+                        margin-left: 30px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+        }
+
+        .peremotka_str {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 45px 45px 45px 45px 45px 45px 45px;
+            grid-template-rows: 45px;
+            margin-top: 58px;
+
+
+            .cl1 {
+                grid-column: 1;
+                grid-row: 1;
+                border: 1px solid #989898;
+                text-align: center;
+            }
+
+            .cl2 {
+                grid-column: 2;
+                grid-row: 1;
+                border: 1px solid #989898;
+                text-align: center;
+            }
+
+            .cl3 {
+                grid-column: 3;
+                grid-row: 1;
+                border: 1px solid #989898;
+                text-align: center;
+            }
+
+            .cl4 {
+                grid-column: 4;
+                grid-row: 1;
+                border: 1px solid #989898;
+                text-align: center;
+            }
+
+            .cl5 {
+                grid-column: 5;
+                grid-row: 1;
+                border: 1px solid #989898;
+                text-align: center;
+            }
+
+            .cl6 {
+                grid-column: 6;
+                grid-row: 1;
+                border: 1px solid #989898;
+                text-align: center;
+            }
+
+            .cl7 {
+                grid-column: 7;
+                grid-row: 1;
+                border: 1px solid #989898;
+                text-align: center;
+            }
+
+        }
+        footer {
+            border: solid 1px #D9D9D9;
+            margin-top: 66px;
+
+            .container {
+
+
+
+                .foot_s_gridami {
+                    display: grid;
+                    grid-template-columns: 350px;
+                    grid-template-rows: 40px 32px 15px 25px 55px;
+                    grid-row-gap: 60px;
+
+                    .foot_s_logo {
+                        grid-column: 1;
+                        grid-row: 1;
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                        margin-top: 47px;
+                    }
+
+                    .foot_s_nomerom {
+                        grid-column: 1;
+                        grid-row: 2;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 47px;
+
+                        p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+
+                        div {
+                            color: #000;
+                            font-family: Eurostile Extended;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+
+                            img {
+                                margin-left: 20px;
+                            }
+                        }
+
+                    }
+
+                    .foot_s_knopkoi {
+                        grid-column: 1;
+                        grid-row: 4;
+                        border-radius: 6px;
+                        margin-top: 47px;
+
+                        button {
+                            width: 250px;
+                            height: 55px;
+                            border-radius: 6px;
+                            background: #000;
+                            color: #FFF;
+                        }
+
+                    }
+
+                    .foot_s_silkami {
+                        display: none;
+                    }
+
+                    .foot_s_adresom {
+                        grid-column: 1;
+                        grid-row: 4;
+
+                        .divvv1 {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+
+                        .divvv2 {
+                            color: #000;
+                            font-family: Eurostile Extended;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer_1 {
+
+            .container {
+                display: grid;
+                grid-template-columns: 117px 117px 117px;
+                grid-template-rows: 59px 47px 47px;
+                grid-row-gap: 30px;
+
+
+                .invoice {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 117px;
+                    height: 59px;
+                    flex-shrink: 0;
+                    margin-bottom: 0px;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: -15px;
+                        right: -60px;
+                    }
+
+                    .div_so_znachkami {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 14px;
+                        margin-left: 14px;
+                        margin-right: 14px;
+
+                        .second_kartinka {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+
+                .USDT {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 117px;
+                    height: 59px;
+                    flex-shrink: 0;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 24px;
+                        right: -76px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-right: 14px;
+                        margin-top: 14px;
+                    }
+                }
+
+                .cash {
+                    margin-right: 55px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 117px;
+                    height: 59px;
+                    flex-shrink: 0;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: -7px;
+                        right: -77px;
+
+                    }
+
+                    .div_so_znachkami_1 {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 14px;
+                        margin-left: 14px;
+                        margin-right: 14px;
+
+                        .second_kartinka {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+
+                .facebook {
+                    float: left;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 177px;
+                    height: 47px;
+                    flex-shrink: 0;
+                    margin-right: 6px;
+                    grid-column: 1/span 3;
+                    grid-row: 2;
+                   justify-content: center;
+                   align-items: center;
+
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 6px;
+                        right: -44px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-top: 14px;
+                        margin-right: 14px;
+                    }
+                }
+
+                .instagram {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 177px;
+                    height: 47px;
+                    flex-shrink: 0;
+                    grid-column: 1/span 3;
+                    grid-row: 3;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: Eurostile Extended;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 5px;
+                        right: -32px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-top: 14px;
+                        margin-right: 14px;
+                    }
+
+                }
+            }
         }
     }
 }
+
+   
