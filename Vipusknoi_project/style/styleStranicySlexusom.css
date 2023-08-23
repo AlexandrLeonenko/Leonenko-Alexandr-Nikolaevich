@@ -2,7 +2,7 @@
   width: 150px;
   height: 65px;
   color: #FFF;
-  font-family: Eurostile Extended;
+  font-family: 'Eurostile Extended', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -95,7 +95,7 @@
         margin-right: 32px; }
   .scelet .marka_avto .container p {
     color: #000;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -142,7 +142,7 @@
       padding-top: 30px;
       margin-left: 30px;
       color: #000;
-      font-family: Eurostile Extended;
+      font-family: 'Eurostile Extended', sans-serif;
       font-size: 24px;
       font-style: normal;
       font-weight: 400;
@@ -180,7 +180,7 @@
           margin-top: -15px; }
   .scelet .hot_deals .container .hotDeals {
     color: #000;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -210,7 +210,7 @@
           margin-bottom: 0px; }
       .scelet .hot_deals .container .kartochki .kart .yearOfvipusk {
         color: #000;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
@@ -272,7 +272,7 @@
         grid-column: 1;
         grid-row: 1;
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -295,7 +295,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -331,7 +331,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 12px;
           font-style: normal;
           font-weight: 400;
@@ -349,7 +349,7 @@
       margin-bottom: 141px; }
       .scelet .footer_1 .container .invoice p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -378,7 +378,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .USDT p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -402,7 +402,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .cash p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -431,7 +431,7 @@
       margin-right: 6px; }
       .scelet .footer_1 .container .facebook p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -455,7 +455,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .instagram p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;

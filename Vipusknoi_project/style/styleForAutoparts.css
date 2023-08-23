@@ -5,8 +5,7 @@
 .scelet {
   background-color: #F1F0EB; }
   .scelet header {
-    background-image: url("../img/Rectangle 1.png");
-    background-size: 1508px; }
+    background-image: url("../img/Rectangle 1.png"); }
     .scelet header .container {
       display: flex;
       justify-content: space-between; }
@@ -129,7 +128,7 @@
         grid-column: 1;
         grid-row: 1;
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -152,7 +151,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -188,7 +187,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 12px;
           font-style: normal;
           font-weight: 400;
@@ -206,7 +205,7 @@
       margin-bottom: 141px; }
       .scelet .footer_1 .container .invoice p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -235,7 +234,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .USDT p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -259,7 +258,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .cash p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -288,7 +287,7 @@
       margin-right: 6px; }
       .scelet .footer_1 .container .facebook p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -312,7 +311,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .instagram p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;

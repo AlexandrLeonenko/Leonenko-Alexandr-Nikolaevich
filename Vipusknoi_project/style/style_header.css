@@ -82,7 +82,7 @@
   width: 150px;
   height: 65px;
   color: #FFF;
-  font-family: Eurostile Extended;
+  font-family: 'Eurostile Extended', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -99,7 +99,7 @@
 
 .cifra {
   color: #000;
-  font-family: Eurostile Extended;
+  font-family: 'Eurostile Extended', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,7 @@
 
 .jirn_text {
   color: #000;
-  font-family: Eurostile Extended;
+  font-family: 'Eurostile Extended', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -171,8 +171,7 @@
 .scelet {
   background-color: #F1F0EB; }
   .scelet header {
-    background-image: url("../img/Rectangle 1.png");
-    background-size: 1508px; }
+    background-image: url("../img/Rectangle 1.png"); }
     .scelet header .container {
       display: flex;
       justify-content: space-between; }
@@ -183,29 +182,36 @@
         .scelet header .container .selects .change-lang {
           background: none;
           border: none;
-          color: #FFF; }
+          color: #FFF;
+          font-family: 'Eurostile Extended', sans-serif; }
           .scelet header .container .selects .change-lang option {
-            color: black; }
+            color: black;
+            font-family: 'Eurostile Extended', sans-serif; }
         .scelet header .container .selects .change-currency {
           background: none;
           border: none;
-          color: #FFF; }
+          color: #FFF;
+          font-family: 'Eurostile Extended', sans-serif; }
           .scelet header .container .selects .change-currency option {
-            color: black; }
+            color: black;
+            font-family: 'Eurostile Extended', sans-serif; }
       .scelet header .container .contacts {
         display: flex;
         color: #FFF;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        font-family: 'Eurostile Extended', sans-serif; }
         .scelet header .container .contacts div {
-          margin-right: 21px; }
+          margin-right: 21px;
+          font-family: 'Eurostile Extended', sans-serif; }
         .scelet header .container .contacts .Request_a_callback {
           background-color: #000;
           height: 55px;
           width: 250px;
           display: flex;
           align-items: center;
-          justify-content: center; }
+          justify-content: center;
+          font-family: 'Eurostile Extended', sans-serif; }
     .scelet header .container1 {
       display: flex;
       border-top: solid 1px #FFF;
@@ -230,7 +236,8 @@
           margin-right: 40px; }
           .scelet header .container1 .s_emblemoi ul li a {
             text-decoration: none;
-            color: #FFF; }
+            color: #FFF;
+            font-family: 'Eurostile Extended', sans-serif; }
           .scelet header .container1 .s_emblemoi ul li a:hover {
             color: red; }
     .scelet header .container hgroup {
@@ -262,7 +269,8 @@
         grid-row: 1/span 2;
         color: #FFF; }
         .scelet .page2 .container .uslugi .gelic p {
-          margin-left: 30px; }
+          margin-left: 30px;
+          font-family: 'Eurostile Extended', sans-serif; }
         .scelet .page2 .container .uslugi .gelic .more {
           position: relative;
           top: 493px;
@@ -273,7 +281,8 @@
         background-image: url("../img/Rectangle 5.png");
         color: #FFF; }
         .scelet .page2 .container .uslugi .koleso p {
-          margin-left: 30px; }
+          margin-left: 30px;
+          font-family: 'Eurostile Extended', sans-serif; }
         .scelet .page2 .container .uslugi .koleso .more {
           position: relative;
           top: 161px;
@@ -284,7 +293,8 @@
         background-image: url("../img/Rectangle 6.png");
         color: #FFF; }
         .scelet .page2 .container .uslugi .fara p {
-          margin-left: 30px; }
+          margin-left: 30px;
+          font-family: 'Eurostile Extended', sans-serif; }
         .scelet .page2 .container .uslugi .fara .more {
           position: relative;
           top: 161px;
@@ -297,7 +307,7 @@
     align-items: center;
     margin-top: 140px;
     color: #000;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -359,7 +369,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -378,7 +388,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -397,7 +407,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -416,7 +426,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -435,7 +445,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -444,7 +454,7 @@
         letter-spacing: 0.14px; }
   .scelet .choose .container .block .item div {
     color: #4071CB;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -472,7 +482,7 @@
     box-shadow: 0 0 30px #4949dd; }
   .scelet .hot_deals .container .hotDeals {
     color: #000;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -502,7 +512,7 @@
           margin-bottom: 0px; }
       .scelet .hot_deals .container .kartochki .kart .yearOfvipusk {
         color: #000;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
@@ -541,7 +551,7 @@
       text-align: center;
       color: #000;
       text-align: center;
-      font-family: Eurostile Extended;
+      font-family: 'Eurostile Extended', sans-serif;
       font-size: 30px;
       font-style: normal;
       font-weight: 400;
@@ -620,7 +630,7 @@
         margin-bottom: 25px; }
         .scelet .R8 .container .kartochki_na_R8 .kartochka .txt_1 {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -633,7 +643,7 @@
         .scelet .R8 .container .kartochki_na_R8 .kartochka .txt2 {
           margin-left: 15px;
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
@@ -643,7 +653,7 @@
           margin-left: 15px; }
         .scelet .R8 .container .kartochki_na_R8 .kartochka .txt_3 {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
@@ -664,7 +674,7 @@
         grid-column: 1;
         grid-row: 1;
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -687,7 +697,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -723,7 +733,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
           color: #000;
-          font-family: Eurostile Extended;
+          font-family: 'Eurostile Extended', sans-serif;
           font-size: 12px;
           font-style: normal;
           font-weight: 400;
@@ -741,7 +751,7 @@
       margin-bottom: 141px; }
       .scelet .footer_1 .container .invoice p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -770,7 +780,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .USDT p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -794,7 +804,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .cash p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -823,7 +833,7 @@
       margin-right: 6px; }
       .scelet .footer_1 .container .facebook p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -847,7 +857,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .instagram p {
         color: #4F4F4F;
-        font-family: Eurostile Extended;
+        font-family: 'Eurostile Extended', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;

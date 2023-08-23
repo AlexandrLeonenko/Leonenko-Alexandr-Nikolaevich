@@ -103,7 +103,7 @@
     width: 150px;
     height: 65px;
     color: #FFF;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -124,7 +124,7 @@
 
 .cifra {
     color: #000;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -138,7 +138,7 @@
 
 .jirn_text {
     color: #000;
-    font-family: Eurostile Extended;
+    font-family: 'Eurostile Extended', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -214,7 +214,7 @@
 
     header {
         background-image: url('../img/Rectangle 1.png');
-        background-size: 1508px;
+        //background-size: 1508px;
 
 
 
@@ -231,10 +231,12 @@
                     background: none;
                     border: none;
                     color: #FFF;
+                    font-family: 'Eurostile Extended', sans-serif;
                     ;
 
                     option {
                         color: black;
+                        font-family: 'Eurostile Extended', sans-serif;
                     }
 
                 }
@@ -243,10 +245,12 @@
                     background: none;
                     border: none;
                     color: #FFF;
+                    font-family: 'Eurostile Extended', sans-serif;
                     ;
 
                     option {
                         color: black;
+                        font-family: 'Eurostile Extended', sans-serif;
                     }
                 }
             }
@@ -256,9 +260,11 @@
                 color: #FFF;
                 justify-content: center;
                 align-items: center;
+                font-family: 'Eurostile Extended', sans-serif;
 
                 div {
                     margin-right: 21px;
+                    font-family: 'Eurostile Extended', sans-serif;
                 }
 
                 .Request_a_callback {
@@ -268,6 +274,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    font-family: 'Eurostile Extended', sans-serif;
                 }
             }
 
@@ -316,6 +323,7 @@
                         a {
                             text-decoration: none;
                             color: #FFF;
+                            font-family: 'Eurostile Extended', sans-serif;
                         }
 
                         a:hover {
@@ -381,6 +389,7 @@
 
                     p {
                         margin-left: 30px;
+                        font-family: 'Eurostile Extended', sans-serif;
                     }
 
                     .more {
@@ -400,6 +409,7 @@
 
                     p {
                         margin-left: 30px;
+                        font-family: 'Eurostile Extended', sans-serif;
                     }
 
                     .more {
@@ -419,6 +429,7 @@
 
                     p {
                         margin-left: 30px;
+                        font-family: 'Eurostile Extended', sans-serif;
                     }
 
                     .more {
@@ -445,7 +456,7 @@
                 align-items: center;
                 margin-top: 140px;
                 color: #000;
-                font-family: Eurostile Extended;
+                font-family: 'Eurostile Extended', sans-serif;
                 font-size: 24px;
                 font-style: normal;
                 font-weight: 400;
@@ -525,7 +536,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -549,7 +560,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -573,7 +584,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -597,7 +608,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -621,7 +632,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -639,7 +650,7 @@
                 .item {
                     div {
                         color: #4071CB;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -680,7 +691,7 @@
         .container {
             .hotDeals {
                 color: #000;
-                font-family: Eurostile Extended;
+                font-family: 'Eurostile Extended', sans-serif;
                 font-size: 30px;
                 font-style: normal;
                 font-weight: 400;
@@ -719,7 +730,7 @@
 
                     .yearOfvipusk {
                         color: #000;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 10px;
                         font-style: normal;
                         font-weight: 400;
@@ -786,7 +797,7 @@
                 text-align: center;
                 color: #000;
                 text-align: center;
-                font-family: Eurostile Extended;
+                font-family: 'Eurostile Extended', sans-serif;
                 font-size: 30px;
                 font-style: normal;
                 font-weight: 400;
@@ -911,7 +922,7 @@
 
                     .txt_1 {
                         color: #000;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 400;
@@ -926,7 +937,7 @@
                     .txt2 {
                         margin-left: 15px;
                         color: #000;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -939,7 +950,7 @@
 
                     .txt_3 {
                         color: #000;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -974,7 +985,7 @@
                     grid-column: 1;
                     grid-row: 1;
                     color: #4F4F4F;
-                    font-family: Eurostile Extended;
+                    font-family: 'Eurostile Extended', sans-serif;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
@@ -1002,7 +1013,7 @@
 
                     div {
                         color: #000;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 400;
@@ -1056,7 +1067,7 @@
 
                     .divvv2 {
                         color: #000;
-                        font-family: Eurostile Extended;
+                        font-family: 'Eurostile Extended', sans-serif;
                         font-size: 12px;
                         font-style: normal;
                         font-weight: 400;
@@ -1085,7 +1096,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: Eurostile Extended;
+                    font-family: 'Eurostile Extended', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1122,7 +1133,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: Eurostile Extended;
+                    font-family: 'Eurostile Extended', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1152,7 +1163,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: Eurostile Extended;
+                    font-family: 'Eurostile Extended', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1191,7 +1202,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: Eurostile Extended;
+                    font-family: 'Eurostile Extended', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1221,7 +1232,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: Eurostile Extended;
+                    font-family: 'Eurostile Extended', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
