@@ -4,4 +4,588 @@
     }
 }
 
-@include mobile (320px, 391px) {}
+@include mobile (320px, 391px) {
+    
+    
+    .more {
+        width: 150px;
+        height: 65px;
+        color: #FFF;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 1.68px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px solid #4F4F4F;
+        background: rgba(255, 255, 255, 0.01);
+    }
+
+    .card-img-top {
+        width: 380px;
+        height: 297px;
+    }
+
+    .card {
+        border-radius: 15px;
+        margin-left: -53px;
+       
+    }
+
+    .container {
+        width: 390px;
+        margin: 0 auto;
+    }
+
+    .scelet {
+        background-color: #F1F0EB;
+
+        header {
+            background-image: url('../img/Rectangle 17.png');
+            background-repeat: no-repeat;
+
+
+
+            .container {
+                width: 350px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+
+                .selects {
+                    display: none;
+
+                    .change-lang {
+                        display: none;
+                    }
+
+                    .change-currency {
+                        display: none;
+                    }
+                }
+
+                .contacts {
+                    div {
+                        display: none;
+                    }
+
+                    .Request_a_callback {
+                        display: none;
+                    }
+
+                    .whatsapp1 {
+                        display: none;
+                    }
+
+                    .telegram1 {
+                        display: none;
+                    }
+
+                }
+            }
+
+            .container1 {
+                border-top: solid 1px #989898;
+                ;
+                border-bottom: solid 1px #989898;
+                ;
+
+                .container {
+
+                    .s_emblemoi {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 0px;
+
+                        .svg_3_poloski {
+                            display: block;
+                            position: static;
+                        }
+
+                        .uat_trade_wide_screen {
+                            display: none;
+                        }
+
+                        .uat_trade_mobile_screen {
+                            display: block;
+                            margin-top: 18px;
+                            margin-bottom: 17px;
+                        }
+
+                        .trubka_dlya_mobili {
+                            display: block;
+                            width: 20px;
+                            height: 20px;
+
+                        }
+
+
+                        ul {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .container {
+                hgroup {
+                    color: #FFF;
+                    margin-top: 177px;
+                    margin-bottom: 366px;
+
+
+
+                }
+
+                .letsgo {
+                    margin-top: 0px;
+
+                }
+
+                .dlia_wide_screen {
+                    position: relative;
+                    top: 621px;
+                    right: 495px;
+                }
+
+                .dlia_mobile_screen {
+                    display: none;
+                }
+
+
+            }
+        }
+
+        .choose {
+            .container {
+                .choose_vehicle {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 60px;
+                    color: #000;
+                    font-family: 'Noto Sans', sans-serif;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 130%;
+                    /* 31.2px */
+                    letter-spacing: 1.2px;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+
+                .body_type {
+                    display: grid;
+                    justify-content: center;
+                    grid-template-columns: 108px 108px 108px;
+                    grid-template-rows: 65px;
+
+                    .bodyTypeButton {
+                        grid-column: 1;
+                        border: 1px solid #D9D9D9;
+                        border-radius: 10px 0px 0px 10px;
+                        background-color: #4071CB;
+                        color: #FFF;
+                        display: grid;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                    }
+
+                    .brandbutton {
+                        grid-column: 2/span 3;
+                        border: 1px solid #D9D9D9;
+                        border-radius: 10px 0px 0px 10px;
+                        color: black;
+                        display: grid;
+                        justify-content: center;
+                        align-items: center;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+
+        .kartochki_js_1 {
+            .container222 {
+                width: 1075px;
+                margin: 0 auto;
+
+
+                .knopka_so_spiskom_avto {
+                    width: 34%;
+                    height: 80px;
+                }
+
+                #app {
+                    display: flex;
+                    width: 500px;
+
+
+                    flex-flow: wrap;
+                    justify-content: space-between;
+                    margin-left: 80px;
+                    margin-top: 10px;
+                    
+                }
+            }
+        }
+
+        .page2 {
+            .container {
+                .uslugi {
+                    grid-template-columns: 360px;
+                    grid-template-rows: 250px 250px ;
+
+                    .gelic {
+                        background-image: url('../img/Rectangle 21.png');
+                        grid-column: 1;
+                        grid-row: 1;
+
+                        p {
+                            margin-left: 30px;
+                        }
+
+                        .more {
+                            position: relative;
+                            top: 119px;
+                            right: -190px;
+                        }
+                    }
+
+                    .koleso {display: none;
+                        background-image: url('../img/Rectangle 21 (1).png');
+                        grid-column: 1;
+                        grid-row: 2;
+
+                        p {
+                            margin-left: 30px;
+                        }
+
+                        .more {
+                            position: relative;
+                            top: 119px;
+                            right: -189px;
+                        }
+
+                    }
+
+                    .fara {
+                        background-image: url('../img/Rectangle 21 (2).png');
+                        grid-column: 1;
+                        grid-row: 2;
+
+                        p {
+                            margin-left: 30px;
+                        }
+
+                        .more {
+                            position: relative;
+                            top: 119px;
+                            right: -189px;
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            border: solid 1px #D9D9D9;
+            margin-top: 66px;
+
+            .container {
+
+
+
+                .foot_s_gridami {
+                    display: grid;
+                    grid-template-columns: 350px;
+                    grid-template-rows: 40px 32px 15px 25px 55px;
+                    grid-row-gap: 60px;
+
+                    .foot_s_logo {
+                        grid-column: 1;
+                        grid-row: 1;
+                        color: #4F4F4F;
+                        font-family: 'Noto Sans', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                        margin-top: 47px;
+                    }
+
+                    .foot_s_nomerom {
+                        grid-column: 1;
+                        grid-row: 2;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 47px;
+
+                        p {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+
+                        div {
+                            color: #000;
+                            font-family: 'Noto Sans', sans-serif;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+
+                            img {
+                                margin-left: 20px;
+                            }
+                        }
+
+                    }
+
+                    .foot_s_knopkoi {
+                        grid-column: 1;
+                        grid-row: 4;
+                        border-radius: 6px;
+                        margin-top: 47px;
+
+                        button {
+                            width: 250px;
+                            height: 55px;
+                            border-radius: 6px;
+                            background: #000;
+                            color: #FFF;
+                        }
+
+                    }
+
+                    .foot_s_silkami {
+                        display: none;
+                    }
+
+                    .foot_s_adresom {
+                        grid-column: 1;
+                        grid-row: 4;
+
+                        .divvv1 {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+
+                        .divvv2 {
+                            color: #000;
+                            font-family: 'Noto Sans', sans-serif;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer_1 {
+
+            .container {
+                display: grid;
+                grid-template-columns: 117px 117px 117px;
+                grid-template-rows: 59px 47px 47px;
+                grid-row-gap: 30px;
+
+
+                .invoice {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 117px;
+                    height: 59px;
+                    flex-shrink: 0;
+                    margin-bottom: 0px;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: 'Noto Sans', sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: -15px;
+                        right: -60px;
+                    }
+
+                    .div_so_znachkami {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 14px;
+                        margin-left: 14px;
+                        margin-right: 14px;
+
+                        .second_kartinka {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+
+                .USDT {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 117px;
+                    height: 59px;
+                    flex-shrink: 0;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: 'Noto Sans', sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 24px;
+                        right: -76px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-right: 14px;
+                        margin-top: 14px;
+                    }
+                }
+
+                .cash {
+                    margin-right: 55px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 117px;
+                    height: 59px;
+                    flex-shrink: 0;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: 'Noto Sans', sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: -7px;
+                        right: -77px;
+
+                    }
+
+                    .div_so_znachkami_1 {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 14px;
+                        margin-left: 14px;
+                        margin-right: 14px;
+
+                        .second_kartinka {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+
+                .facebook {
+                    float: left;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 177px;
+                    height: 47px;
+                    flex-shrink: 0;
+                    margin-right: 6px;
+                    grid-column: 1/span 3;
+                    grid-row: 2;
+                   justify-content: center;
+                   align-items: center;
+
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: 'Noto Sans', sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 6px;
+                        right: -44px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-top: 14px;
+                        margin-right: 14px;
+                    }
+                }
+
+                .instagram {
+                    margin-right: 8px;
+                    border-radius: 7px;
+                    border: 1px solid #D9D9D9;
+                    width: 177px;
+                    height: 47px;
+                    flex-shrink: 0;
+                    grid-column: 1/span 3;
+                    grid-row: 3;
+
+                    p {
+                        color: #4F4F4F;
+                        font-family: 'Noto Sans', sans-serif;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 14.3px */
+                        letter-spacing: 0.66px;
+                        text-transform: uppercase;
+                        position: relative;
+                        top: 5px;
+                        right: -32px;
+                    }
+
+                    img {
+                        float: right;
+                        margin-top: 14px;
+                        margin-right: 14px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+    

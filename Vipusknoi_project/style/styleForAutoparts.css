@@ -1,3 +1,6 @@
+.card:hover {
+  box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
+
 .more {
   width: 150px;
   height: 65px;
@@ -91,7 +94,8 @@
       .scelet header .container1 .s_emblemoi .trubka_dlya_mobili {
         display: none; }
       .scelet header .container1 .s_emblemoi ul {
-        float: left; }
+        float: left;
+        margin-top: 21px; }
         .scelet header .container1 .s_emblemoi ul li {
           float: left;
           color: #FFF;

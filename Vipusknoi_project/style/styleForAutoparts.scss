@@ -1,4 +1,7 @@
 
+
+.card:hover{box-shadow: 0 0 30px rgba(245, 39, 39, 0.5);}
+
 .more {
     width: 150px;
     height: 65px;
@@ -142,6 +145,7 @@
 
                 ul {
                     float: left;
+                    margin-top: 21px;
 
                     li {
                         float: left;
