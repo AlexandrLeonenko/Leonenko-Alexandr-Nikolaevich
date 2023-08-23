@@ -102,12 +102,14 @@
 
             .s_emblemoi {
                 width: 1340px;
+                display: flex;
                 .svg_3_poloski {
                     display: none;
                 }
 
                 .uat_trade_wide_screen {
                     display: block;
+                    margin-right: 360px;
                 }
 
                 .uat_trade_mobile_screen {
