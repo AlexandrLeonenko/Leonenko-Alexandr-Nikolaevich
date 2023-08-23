@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Fira+Sans+Condensed:ital,wght@1,100&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style/styleForAutoparts.css">
     <link rel="stylesheet" href="style/mediaForIndex3.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 </head>
 
 <body>
@@ -82,107 +88,217 @@
                     maintenance can help extend the life of your vehicle and keep it running smoothly.</p>
             </div>
 
+
         </div>
-        <div class="kartochki_js_1">
-            <div class="container222">
-                <button class="knopka_so_spiskom_avto" onclick="render()">Click here for autoparts choose</button>
+        <div class="choose">
+            <div class="container">
+                <div class="choose_vehicle">choose your vehicle</div>
+                <div class="body_type">
+                    <div class="bodyTypeButton">Body type</div>
+                    <div class="brandbutton">Brand</div>
+                    <div class="suv">
+                        <img class="suv_wide" src="../Vipusknoi_project/img/image 5.png" alt="">
 
-                <div id="app"></div>
-                <script>
-
-                    var avto = [
-                        {
-                            brand_model: "Тормозная система",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Рулевое управление",
-
-                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Осветительные приборы",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Тормозная система",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Рулевое управление",
-
-                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Осветительные приборы",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Тормозная система",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Рулевое управление",
-
-                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Осветительные приборы",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Тормозная система",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Рулевое управление",
-
-                            imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
-
-                            price: "К списку"
-                        },
-                        {
-                            brand_model: "Осветительные приборы",
-
-                            imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
-
-                            price: "К списку"
-                        },
+                        <div>suv</div>
+                    </div>
+                    <div class="sedan">
+                        <img class="sedan_wide" src="../Vipusknoi_project/img/image 4.png" alt="">
+                        <div>sedan</div>
+                    </div>
+                    <div class="wagon">
+                        <img class="wagon_wide" src="../Vipusknoi_project/img/image 4 (1).png" alt="">
+                        <div>wagon</div>
+                    </div>
+                    <div class="hatch">
+                        <img class="hatch_wide" src="../Vipusknoi_project/img/image 4 (2).png" alt="">
+                        <div>hatch</div>
+                    </div>
+                    <div class="ute">
+                        <img class="ute_wide" src="../Vipusknoi_project/img/image 4 (3).png" alt="">
+                        <div>ute</div>
+                    </div>
+                    <div class="convert">
+                        <img class="convert_wide" src="../Vipusknoi_project/img/image 4 (4).png" alt="">
+                        <div>convert</div>
+                    </div>
 
 
-                    ]
-                    var app = document.getElementById("app");
-                    function render() {
-                        var avtoHtml = "";
-                        for (i = 0; i < avto.length; i++) {
-                            avtoHtml += `
+                </div>
+                <div id="two" class="block">
+                    <div class="owl-carousel owl-carousel2 owl-theme">
+                        <div class="item">
+                            <h4><img class="suv_wide" src="../Vipusknoi_project/img/image 5.png" alt="">
+
+                                <div>suv</div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4><img class="sedan_wide" src="../Vipusknoi_project/img/image 4.png" alt="">
+                                <div>sedan</div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4><img class="wagon_wide" src="../Vipusknoi_project/img/image 4 (1).png" alt="">
+                                <div>wagon</div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4><img class="hatch_wide" src="../Vipusknoi_project/img/image 4 (2).png" alt="">
+                                <div>hatch</div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4><img class="ute_wide" src="../Vipusknoi_project/img/image 4 (3).png" alt="">
+                                <div>ute</div>
+                            </h4>
+                        </div>
+                        <div class="item">
+                            <h4><img class="convert_wide" src="../Vipusknoi_project/img/image 4 (4).png" alt="">
+                                <div>convert</div>
+                            </h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="choose_vehicle">
+
+                    <div class="container">
+                        <p>Выберите марку автомобиля</p>
+                        <div id="two" class="block">
+                            <div class="owl-carousel owl-carousel3 owl-theme">
+                                <div class="item">
+                                    <h4>
+                                        <img class="marki" src="../Vipusknoi_project/img//Group 18bmw.png" alt="">
+
+                                        <div class="bmw">bmw</div>
+                                    </h4>
+                                </div>
+                                <div class="item">
+                                    <h4><img class="marki" src="../Vipusknoi_project/img/Group 19audi.png" alt="">
+                                        <div>audi</div>
+                                    </h4>
+                                </div>
+                                <div class="item">
+                                    <h4><img class="marki" src="../Vipusknoi_project/img/Group 19mers.png" alt="">
+                                        <div>mercedes-benz</div>
+                                    </h4>
+                                </div>
+                                <div class="item">
+                                    <h4><img class="marki" src="../Vipusknoi_project/img/Group 20bentl.png" alt="">
+                                        <div>bentley</div>
+                                    </h4>
+                                </div>
+                                <div class="item">
+                                    <h4><img class="marki" src="../Vipusknoi_project/img/Group 20chevro.png" alt="">
+                                        <div>chevrolet</div>
+                                    </h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="kartochki_js_1">
+                    <div class="container222">
+                        <button class="knopka_so_spiskom_avto" onclick="render()">Click here for autoparts
+                            choose</button>
+
+                        <div id="app"></div>
+                        <script>
+
+                            var avto = [
+                                {
+                                    brand_model: "Тормозная система",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Рулевое управление",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Осветительные приборы",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Тормозная система",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Рулевое управление",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Осветительные приборы",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Тормозная система",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Рулевое управление",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Осветительные приборы",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Тормозная система",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-car-auto-configuration-brake-discs-cartoon-auto-part.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Рулевое управление",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-transparent-bmw-steering-wheel-bmw-steering-wheel-car-steering-wheel.png",
+
+                                    price: "К списку"
+                                },
+                                {
+                                    brand_model: "Осветительные приборы",
+
+                                    imgUrl: "../Vipusknoi_project/img/png-clipart-2016-bmw-x1-car-bmw-3-series-2018-bmw-x1-headlight-headlamp-vehicle.png",
+
+                                    price: "К списку"
+                                },
+
+
+                            ]
+                            var app = document.getElementById("app");
+                            function render() {
+                                var avtoHtml = "";
+                                for (i = 0; i < avto.length; i++) {
+                                    avtoHtml += `
             <div class="card" ">
                 
                     <div class="card-body">
@@ -197,116 +313,158 @@
                     
             </div>
             `
+                                }
+                                app.innerHTML = avtoHtml;
+                            }
+
+                        </script>
+                    </div>
+                </div>
+                <div class="page2">
+                    <div class="container">
+                        <div class="uslugi">
+                            <div class="gelic">
+                                <p>CARS FOR SALE</p>
+                                <div class="more">
+                                    <a class="ssilki_na_str" style="text-decoration: none; color: #fff;"
+                                        href="index1.html">more</a>
+                                </div>
+                            </div>
+                            <div class="koleso">
+                                <p>AUTOPARTS</p>
+                                <div class="more">
+                                    more
+                                </div>
+                            </div>
+                            <div class="fara">
+                                <p>SERVICING</p>
+                                <div class="more">
+                                    more
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="container">
+                        <div class="foot_s_gridami">
+                            <div class="foot_s_logo">
+                                <img src="img/uat trade 2 3.png" alt="">
+                                <p>Buy, autoparts or service <br> premium cars from Dubai</p>
+                            </div>
+                            <div class="foot_s_nomerom">
+                                <p>Call the office at:</p>
+                                <div>+ 971 4 608 68 08
+                                    <img src="img/whatsapp 1.png" alt="">
+                                    <img src="img/telegram 1.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="foot_s_knopkoi">
+                                <button>Request a callback</button>
+                            </div>
+                            <div class="foot_s_silkami">
+                                <a href="#">FOR SALE</a>
+                                <a href="#">FOR SALE</a>
+                                <a href="#">FOR SALE</a>
+                                <a href="#">FOR SALE</a>
+                            </div>
+                            <div class="foot_s_adresom">
+                                <div class="divvv1">Our adress</div>
+                                <div class="divvv2">Showroom 1, Al Roumi building, Al Ittihad Rd, Port Saeed, Dubai, UAE
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <div class="footer_1">
+                    <div class="container">
+                        <div class="invoice">
+
+                            <div class="div_so_znachkami">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="21" height="28" viewBox="0 0 21 28" fill="none">
+                                    <path
+                                        d="M0 1.85294C0 0.829592 0.82959 0 1.85294 0H19.1471C20.1704 0 21 0.82959 21 1.85294V19.8935C21 20.3796 20.809 20.8462 20.4682 21.1927L15.1279 26.6228C14.7795 26.977 14.3035 27.1765 13.8068 27.1765H1.85294C0.829589 27.1765 0 26.3469 0 25.3235V1.85294Z"
+                                        fill="url(#pattern0)" fill-opacity="0.7" />
+                                    <defs>
+                                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_1_16045"
+                                                transform="scale(0.00505051 0.00396825)" />
+                                        </pattern>
+
+                                    </defs>
+                                </svg>
+                                <img class="second_kartinka" src="img/image 10.png" alt="">
+                            </div>
+                            <p>invoice</p>
+                        </div>
+                        <div class="USDT">
+
+                            <img src="img/image 10.png" alt="">
+                            <p>USDT</p>
+                        </div>
+                        <div class="cash">
+                            <div class="div_so_znachkami_1">
+                                <img src="img/image 9.png" alt="">
+                                <img class="second_kartinka" src="img/image 10.png" alt="">
+                            </div>
+                            <p>cash</p>
+                        </div>
+                        <div class="facebook">
+                            <img src="img/Tilda_Icons_26sn_facebook.png" alt="">
+                            <p>facebook</p>
+
+                        </div>
+                        <div class="instagram">
+                            <img src="img/Tilda_Icons_26snw_instagram.png" alt="">
+                            <p>instagram</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+                integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+            <script src="js/owl.carousel.min.js"></script>
+            <script>$('.owl-carousel2').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    autoplayHoverPause: true,
+                    autoplay: true,
+                    responsive: {
+                        0: {
+                            items: 2
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 5
                         }
-                        app.innerHTML = avtoHtml;
                     }
-
-                </script>
-            </div>
+                })</script>
+            <script>$('.owl-carousel3').owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    nav: true,
+                    autoplayHoverPause: true,
+                    autoplay: true,
+                    responsive: {
+                        0: {
+                            items: 2
+                        },
+                        600: {
+                            items: 3
+                        },
+                        1000: {
+                            items: 5
+                        }
+                    }
+                })</script>
         </div>
-        <div class="page2">
-            <div class="container">
-                <div class="uslugi">
-                    <div class="gelic">
-                        <p>CARS FOR SALE</p>
-                        <div class="more">
-                            <a class="ssilki_na_str" style="text-decoration: none; color: #fff;"
-                                href="index1.html">more</a>
-                        </div>
-                    </div>
-                    <div class="koleso">
-                        <p>AUTOPARTS</p>
-                        <div class="more">
-                            more
-                        </div>
-                    </div>
-                    <div class="fara">
-                        <p>SERVICING</p>
-                        <div class="more">
-                            more
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div class="container">
-                <div class="foot_s_gridami">
-                    <div class="foot_s_logo">
-                        <img src="img/uat trade 2 3.png" alt="">
-                        <p>Buy, autoparts or service <br> premium cars from Dubai</p>
-                    </div>
-                    <div class="foot_s_nomerom">
-                        <p>Call the office at:</p>
-                        <div>+ 971 4 608 68 08
-                            <img src="img/whatsapp 1.png" alt="">
-                            <img src="img/telegram 1.png" alt="">
-                        </div>
-
-                    </div>
-                    <div class="foot_s_knopkoi">
-                        <button>Request a callback</button>
-                    </div>
-                    <div class="foot_s_silkami">
-                        <a href="#">FOR SALE</a>
-                        <a href="#">FOR SALE</a>
-                        <a href="#">FOR SALE</a>
-                        <a href="#">FOR SALE</a>
-                    </div>
-                    <div class="foot_s_adresom">
-                        <div class="divvv1">Our adress</div>
-                        <div class="divvv2">Showroom 1, Al Roumi building, Al Ittihad Rd, Port Saeed, Dubai, UAE</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <div class="footer_1">
-            <div class="container">
-                <div class="invoice">
-
-                    <div class="div_so_znachkami">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21"
-                            height="28" viewBox="0 0 21 28" fill="none">
-                            <path
-                                d="M0 1.85294C0 0.829592 0.82959 0 1.85294 0H19.1471C20.1704 0 21 0.82959 21 1.85294V19.8935C21 20.3796 20.809 20.8462 20.4682 21.1927L15.1279 26.6228C14.7795 26.977 14.3035 27.1765 13.8068 27.1765H1.85294C0.829589 27.1765 0 26.3469 0 25.3235V1.85294Z"
-                                fill="url(#pattern0)" fill-opacity="0.7" />
-                            <defs>
-                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_1_16045" transform="scale(0.00505051 0.00396825)" />
-                                </pattern>
-
-                            </defs>
-                        </svg>
-                        <img class="second_kartinka" src="img/image 10.png" alt="">
-                    </div>
-                    <p>invoice</p>
-                </div>
-                <div class="USDT">
-
-                    <img src="img/image 10.png" alt="">
-                    <p>USDT</p>
-                </div>
-                <div class="cash">
-                    <div class="div_so_znachkami_1">
-                        <img src="img/image 9.png" alt="">
-                        <img class="second_kartinka" src="img/image 10.png" alt="">
-                    </div>
-                    <p>cash</p>
-                </div>
-                <div class="facebook">
-                    <img src="img/Tilda_Icons_26sn_facebook.png" alt="">
-                    <p>facebook</p>
-
-                </div>
-                <div class="instagram">
-                    <img src="img/Tilda_Icons_26snw_instagram.png" alt="">
-                    <p>instagram</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    </div>
 </body>
 
 </html>

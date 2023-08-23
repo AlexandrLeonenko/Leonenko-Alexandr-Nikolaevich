@@ -2,6 +2,10 @@
   width: 1340px;
   margin: 0 auto; }
 
+.marki {
+  width: 50px;
+  height: 90px; }
+
 .scelet {
   background-color: #F1F0EB; }
   .scelet header {
@@ -12,33 +16,41 @@
       .scelet header .container .selects {
         display: flex;
         align-items: center;
-        justify-content: center; }
+        justify-content: center;
+        font-family: 'Noto Sans', sans-serif; }
         .scelet header .container .selects .change-lang {
           background: none;
           border: none;
-          color: #FFF; }
+          color: #FFF;
+          font-family: 'Noto Sans', sans-serif; }
           .scelet header .container .selects .change-lang option {
-            color: black; }
+            color: black;
+            font-family: 'Noto Sans', sans-serif; }
         .scelet header .container .selects .change-currency {
           background: none;
           border: none;
-          color: #FFF; }
+          color: #FFF;
+          font-family: 'Noto Sans', sans-serif; }
           .scelet header .container .selects .change-currency option {
-            color: black; }
+            color: black;
+            font-family: 'Noto Sans', sans-serif; }
       .scelet header .container .contacts {
         display: flex;
         color: #FFF;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        font-family: 'Noto Sans', sans-serif; }
         .scelet header .container .contacts div {
-          margin-right: 21px; }
+          margin-right: 21px;
+          font-family: 'Noto Sans', sans-serif; }
         .scelet header .container .contacts .Request_a_callback {
           background-color: #000;
           height: 55px;
           width: 250px;
           display: flex;
           align-items: center;
-          justify-content: center; }
+          justify-content: center;
+          font-family: 'Noto Sans', sans-serif; }
     .scelet header .container1 {
       display: flex;
       border-top: solid 1px #FFF;
@@ -63,11 +75,13 @@
           margin-right: 40px; }
           .scelet header .container1 .s_emblemoi ul li a {
             text-decoration: none;
-            color: #FFF; }
+            color: #FFF;
+            font-family: 'Noto Sans', sans-serif; }
     .scelet header .container hgroup {
       color: #FFF;
       margin-top: 177px;
-      margin-bottom: 366px; }
+      margin-bottom: 366px;
+      font-family: 'Noto Sans', sans-serif; }
     .scelet header .container .letsgo {
       margin-top: 0px; }
     .scelet header .container .dlia_wide_screen {
@@ -78,7 +92,162 @@
       display: none; }
   .scelet .str_3_autoparts .container h1 {
     text-transform: uppercase;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+  .scelet .str_3_autoparts .container P {
+    font-family: 'Noto Sans', sans-serif;
     text-align: center; }
+  .scelet .choose .container .choose_vehicle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #000;
+    font-family: 'Eurostile Extended', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 31.2px */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .scelet .choose .container .body_type {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 182px 182px 182px 182px 182px 182px;
+    grid-template-rows: 65px; }
+    .scelet .choose .container .body_type .bodyTypeButton {
+      grid-column: 1/span 3;
+      grid-row: 1;
+      border: 1px solid #D9D9D9;
+      border-radius: 10px 0px 0px 10px;
+      background-color: #4071CB;
+      color: #FFF;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase; }
+    .scelet .choose .container .body_type .bodyTypeButton:hover {
+      box-shadow: 0 0 30px #4949dd; }
+    .scelet .choose .container .body_type .brandbutton {
+      grid-column: 4/span 3;
+      grid-row: 1;
+      border: 1px solid #D9D9D9;
+      border-radius: 10px 0px 0px 10px;
+      color: black;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase; }
+    .scelet .choose .container .body_type .brandbutton:hover {
+      box-shadow: 0 0 30px #4949dd; }
+    .scelet .choose .container .body_type .suv {
+      display: none;
+      grid-column: 1;
+      grid-row: 2; }
+      .scelet .choose .container .body_type .suv .suv_wide {
+        width: 108px;
+        height: 40px; }
+      .scelet .choose .container .body_type .suv div {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center; }
+    .scelet .choose .container .body_type .sedan {
+      display: none;
+      grid-column: 2;
+      grid-row: 2; }
+      .scelet .choose .container .body_type .sedan .sedan_wide {
+        width: 106px;
+        height: 40px; }
+      .scelet .choose .container .body_type .sedan div {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        color: #4071CB;
+        font-family: 'Eurostile Extended', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px; }
+    .scelet .choose .container .body_type .wagon {
+      display: none;
+      grid-column: 3;
+      grid-row: 2; }
+      .scelet .choose .container .body_type .wagon .wagon_wide {
+        width: 107px;
+        height: 40px; }
+      .scelet .choose .container .body_type .wagon div {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        color: #4071CB;
+        font-family: 'Eurostile Extended', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px; }
+    .scelet .choose .container .body_type .hatch {
+      display: none;
+      grid-column: 1;
+      grid-row: 3; }
+      .scelet .choose .container .body_type .hatch .hatch_wide {
+        width: 108px;
+        height: 40px; }
+      .scelet .choose .container .body_type .hatch div {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        color: #4071CB;
+        font-family: 'Eurostile Extended', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px; }
+    .scelet .choose .container .body_type .ute {
+      display: none;
+      grid-column: 2;
+      grid-row: 3; }
+      .scelet .choose .container .body_type .ute .ute_wide {
+        width: 108px;
+        height: 40px; }
+      .scelet .choose .container .body_type .ute div {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        color: #4071CB;
+        font-family: 'Eurostile Extended', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px; }
+    .scelet .choose .container .body_type .convert {
+      display: none;
+      grid-column: 3;
+      grid-row: 3; }
+      .scelet .choose .container .body_type .convert .convert_wide {
+        width: 108px;
+        height: 40px; }
+      .scelet .choose .container .body_type .convert div {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        color: #4071CB;
+        font-family: 'Eurostile Extended', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 18.2px */
+        letter-spacing: 0.14px; }
   .scelet .kartochki_js_1 .container222 {
     width: 1075px;
     margin: 0 auto; }
@@ -128,7 +297,7 @@
         grid-column: 1;
         grid-row: 1;
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -151,7 +320,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -180,14 +349,14 @@
         grid-row: 2; }
         .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv1 {
           color: #000;
-          font-family: Inter;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 12px;
           font-style: normal;
           font-weight: 300;
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 12px;
           font-style: normal;
           font-weight: 400;
@@ -205,7 +374,7 @@
       margin-bottom: 141px; }
       .scelet .footer_1 .container .invoice p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -234,7 +403,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .USDT p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -258,7 +427,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .cash p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -287,7 +456,7 @@
       margin-right: 6px; }
       .scelet .footer_1 .container .facebook p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -311,7 +480,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .instagram p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;

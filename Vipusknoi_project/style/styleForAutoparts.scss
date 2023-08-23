@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+.marki {
+    width: 50px;
+    height: 90px;
+}
+
 .scelet {
     background-color: #F1F0EB;
 
@@ -20,15 +25,18 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                font-family: 'Noto Sans', sans-serif;
 
                 .change-lang {
                     background: none;
                     border: none;
                     color: #FFF;
+                    font-family: 'Noto Sans', sans-serif;
                     ;
 
                     option {
                         color: black;
+                        font-family: 'Noto Sans', sans-serif;
                     }
 
                 }
@@ -37,10 +45,12 @@
                     background: none;
                     border: none;
                     color: #FFF;
+                    font-family: 'Noto Sans', sans-serif;
                     ;
 
                     option {
                         color: black;
+                        font-family: 'Noto Sans', sans-serif;
                     }
                 }
             }
@@ -50,9 +60,11 @@
                 color: #FFF;
                 justify-content: center;
                 align-items: center;
+                font-family: 'Noto Sans', sans-serif;
 
                 div {
                     margin-right: 21px;
+                    font-family: 'Noto Sans', sans-serif;
                 }
 
                 .Request_a_callback {
@@ -62,6 +74,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    font-family: 'Noto Sans', sans-serif;
                 }
             }
 
@@ -110,6 +123,7 @@
                         a {
                             text-decoration: none;
                             color: #FFF;
+                            font-family: 'Noto Sans', sans-serif;
                         }
                     }
                 }
@@ -123,6 +137,7 @@
                 color: #FFF;
                 margin-top: 177px;
                 margin-bottom: 366px;
+                font-family: 'Noto Sans', sans-serif;
 
 
 
@@ -152,8 +167,227 @@
             h1 {
                 text-transform: uppercase;
                 text-align: center;
+                font-family: 'Noto Sans', sans-serif;
             }
 
+            P {
+                font-family: 'Noto Sans', sans-serif;
+                text-align: center;
+            }
+
+        }
+    }
+
+    .choose {
+        .container {
+            .choose_vehicle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+                color: #000;
+                font-family: 'Eurostile Extended', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 130%;
+                /* 31.2px */
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            .body_type {
+                display: grid;
+                justify-content: center;
+                grid-template-columns: 182px 182px 182px 182px 182px 182px;
+                grid-template-rows: 65px;
+
+                .bodyTypeButton {
+                    grid-column: 1/span 3;
+                    grid-row: 1;
+                    border: 1px solid #D9D9D9;
+                    border-radius: 10px 0px 0px 10px;
+                    background-color: #4071CB;
+                    color: #FFF;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-transform: uppercase;
+                }
+
+                .bodyTypeButton:hover {
+                    box-shadow: 0 0 30px rgb(73, 73, 221);
+                }
+
+                .brandbutton {
+                    grid-column: 4/span 3;
+                    grid-row: 1;
+                    border: 1px solid #D9D9D9;
+                    border-radius: 10px 0px 0px 10px;
+                    color: black;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    text-transform: uppercase;
+                }
+
+                .brandbutton:hover {
+                    box-shadow: 0 0 30px rgb(73, 73, 221);
+                }
+
+                .suv {
+                    display: none;
+                    grid-column: 1;
+                    grid-row: 2;
+
+                    .suv_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+
+
+
+
+                    }
+                }
+
+                .sedan {
+                    display: none;
+                    grid-column: 2;
+                    grid-row: 2;
+
+                    .sedan_wide {
+                        width: 106px;
+                        height: 40px;
+                    }
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: 'Eurostile Extended', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .wagon {
+                    display: none;
+                    grid-column: 3;
+                    grid-row: 2;
+
+                    .wagon_wide {
+                        width: 107px;
+                        height: 40px;
+                    }
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: 'Eurostile Extended', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .hatch {
+                    display: none;
+                    grid-column: 1;
+                    grid-row: 3;
+
+                    .hatch_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: 'Eurostile Extended', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .ute {
+                    display: none;
+                    grid-column: 2;
+                    grid-row: 3;
+
+                    .ute_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: 'Eurostile Extended', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+                .convert {
+                    display: none;
+                    grid-column: 3;
+                    grid-row: 3;
+
+                    .convert_wide {
+                        width: 108px;
+                        height: 40px;
+                    }
+
+                    div {
+                        text-transform: uppercase;
+                        display: flex;
+                        justify-content: center;
+                        color: #4071CB;
+                        font-family: 'Eurostile Extended', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 130%;
+                        /* 18.2px */
+                        letter-spacing: 0.14px;
+                    }
+                }
+
+
+
+
+            }
+
+            
         }
     }
 
@@ -186,7 +420,7 @@
             grid-column-gap: 24px;
             grid-row-gap: 24px;
             grid-template-columns: 658px 658px;
-            grid-template-rows: 308px ;
+            grid-template-rows: 308px;
 
 
             .gelic {
@@ -207,9 +441,12 @@
                     right: -576px;
                 }
             }
-            .koleso{display: none;}
 
-            
+            .koleso {
+                display: none;
+            }
+
+
 
             .fara {
                 background-image: url('../img/Rectangle 6.png');
@@ -221,6 +458,7 @@
             }
         }
     }
+
     footer {
         border: solid 1px #D9D9D9;
         margin-top: 167px;
@@ -238,7 +476,7 @@
                     grid-column: 1;
                     grid-row: 1;
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
@@ -266,7 +504,7 @@
 
                     div {
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 400;
@@ -311,7 +549,7 @@
 
                     .divvv1 {
                         color: #000;
-                        font-family: Inter;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 12px;
                         font-style: normal;
                         font-weight: 300;
@@ -320,7 +558,7 @@
 
                     .divvv2 {
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 12px;
                         font-style: normal;
                         font-weight: 400;
@@ -349,7 +587,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -386,7 +624,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -416,7 +654,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -455,7 +693,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -485,7 +723,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
