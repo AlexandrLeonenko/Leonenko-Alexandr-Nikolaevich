@@ -1,3 +1,27 @@
+.more {
+  width: 150px;
+  height: 65px;
+  color: #FFF;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 18.2px */
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #4F4F4F;
+  background: rgba(255, 255, 255, 0.01); }
+
+.text_na_slidere {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  display: flex; }
+
 .container {
   width: 1340px;
   margin: 0 auto; }
@@ -248,23 +272,42 @@
         line-height: 130%;
         /* 18.2px */
         letter-spacing: 0.14px; }
-  .scelet .kartochki_js_1 .container222 {
-    width: 1075px;
-    margin: 0 auto; }
-    .scelet .kartochki_js_1 .container222 .knopka_so_spiskom_avto {
-      width: 100%; }
-    .scelet .kartochki_js_1 .container222 #app {
-      display: flex;
-      width: 1020px;
-      flex-flow: wrap;
-      justify-content: space-between;
-      margin-left: 50px;
-      margin-top: 94px; }
+  .scelet .sviaz_so_specialistom .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 700px; }
+    .scelet .sviaz_so_specialistom .container div {
+      font-family: 'Noto Sans', sans-serif; }
+    .scelet .sviaz_so_specialistom .container .foot_s_knopkoi button {
+      width: 250px;
+      height: 55px;
+      border-radius: 6px;
+      background: #000;
+      color: #FFF; }
+  .scelet .kartochki_js_1 {
+    margin-bottom: 35px; }
+    .scelet .kartochki_js_1 .container222 {
+      width: 1075px;
+      margin: 0 auto; }
+      .scelet .kartochki_js_1 .container222 .knopka_so_spiskom_avto {
+        width: 100%;
+        margin-top: 40px;
+        background-color: #000;
+        color: #FFF;
+        height: 40px; }
+      .scelet .kartochki_js_1 .container222 #app {
+        display: flex;
+        width: 1020px;
+        flex-flow: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-top: 94px; }
   .scelet .container .uslugi {
     display: grid;
     grid-column-gap: 24px;
     grid-row-gap: 24px;
-    grid-template-columns: 658px 658px;
+    grid-template-columns: 550px 550px;
     grid-template-rows: 308px; }
     .scelet .container .uslugi .gelic {
       background-image: url("../img/Rectangle 4.png");
@@ -277,8 +320,10 @@
         margin-left: 30px; }
       .scelet .container .uslugi .gelic .more {
         position: relative;
-        top: 191px;
-        right: -576px; }
+        top: 180px;
+        right: -380px; }
+    .scelet .container .uslugi .gelic:hover {
+      opacity: 0.7; }
     .scelet .container .uslugi .koleso {
       display: none; }
     .scelet .container .uslugi .fara {
@@ -286,12 +331,23 @@
       color: #FFF;
       grid-column: 2;
       grid-row: 1; }
+      .scelet .container .uslugi .fara p {
+        margin-left: 30px; }
+      .scelet .container .uslugi .fara .more {
+        position: relative;
+        top: 180px;
+        right: -380px; }
+        .scelet .container .uslugi .fara .more a {
+          color: #FFF;
+          text-decoration: none; }
+    .scelet .container .uslugi .fara:hover {
+      opacity: 0.7; }
   .scelet footer {
     border: solid 1px #D9D9D9;
     margin-top: 167px; }
     .scelet footer .container .foot_s_gridami {
       display: grid;
-      grid-template-columns: 670px 450px 105px;
+      grid-template-columns: 407px 450px 105px;
       grid-template-rows: 178px 50px; }
       .scelet footer .container .foot_s_gridami .foot_s_logo {
         grid-column: 1;

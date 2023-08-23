@@ -1,3 +1,32 @@
+
+.more {
+    width: 150px;
+    height: 65px;
+    color: #FFF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 1.68px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #4F4F4F;
+    background: rgba(255, 255, 255, 0.01);
+
+}
+
+.text_na_slidere{
+    font-family: 'Noto Sans', sans-serif;;
+    font-size: 25px;
+    display: flex;
+    
+}
+
 .container {
     width: 1340px;
     margin: 0 auto;
@@ -390,8 +419,24 @@
             
         }
     }
+    .sviaz_so_specialistom{
+        .container{display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            width: 700px;
+            div{font-family: 'Noto Sans', sans-serif;}
+            .foot_s_knopkoi{
+                button{width: 250px;
+                    height: 55px;
+                    border-radius: 6px;
+                    background: #000;
+                    color: #FFF;}
+            }
+        }
+    }
 
     .kartochki_js_1 {
+        margin-bottom: 35px;
         .container222 {
             width: 1075px;
             margin: 0 auto;
@@ -399,6 +444,10 @@
 
             .knopka_so_spiskom_avto {
                 width: 100%;
+                margin-top: 40px;
+                background-color: #000;
+                color: #FFF;
+                height: 40px;
             }
 
             #app {
@@ -419,7 +468,7 @@
             display: grid;
             grid-column-gap: 24px;
             grid-row-gap: 24px;
-            grid-template-columns: 658px 658px;
+            grid-template-columns: 550px 550px;
             grid-template-rows: 308px;
 
 
@@ -437,10 +486,11 @@
 
                 .more {
                     position: relative;
-                    top: 191px;
-                    right: -576px;
+                    top: 180px;
+                    right: -380px;
                 }
             }
+            .gelic:hover{opacity: 0.7;}
 
             .koleso {
                 display: none;
@@ -453,9 +503,21 @@
                 color: #FFF;
                 grid-column: 2;
                 grid-row: 1;
+                p {
+                    margin-left: 30px;
+                }
+
+                .more {
+                    position: relative;
+                    top: 180px;
+                    right: -380px;
+                    a{color: #FFF;
+                    text-decoration: none;}
+                }
 
 
             }
+            .fara:hover{opacity: 0.7;}
         }
     }
 
@@ -469,7 +531,7 @@
 
             .foot_s_gridami {
                 display: grid;
-                grid-template-columns: 670px 450px 105px;
+                grid-template-columns: 407px 450px 105px;
                 grid-template-rows: 178px 50px;
 
                 .foot_s_logo {
