@@ -103,7 +103,7 @@
     width: 150px;
     height: 65px;
     color: #FFF;
-    font-family: 'Eurostile Extended', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -124,7 +124,7 @@
 
 .cifra {
     color: #000;
-    font-family: 'Eurostile Extended', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -138,7 +138,7 @@
 
 .jirn_text {
     color: #000;
-    font-family: 'Eurostile Extended', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -231,12 +231,12 @@
                     background: none;
                     border: none;
                     color: #FFF;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     ;
 
                     option {
                         color: black;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                     }
 
                 }
@@ -245,12 +245,12 @@
                     background: none;
                     border: none;
                     color: #FFF;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     ;
 
                     option {
                         color: black;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                     }
                 }
             }
@@ -260,11 +260,11 @@
                 color: #FFF;
                 justify-content: center;
                 align-items: center;
-                font-family: 'Eurostile Extended', sans-serif;
+                font-family: 'Noto Sans', sans-serif;
 
                 div {
                     margin-right: 21px;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                 }
 
                 .Request_a_callback {
@@ -274,7 +274,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                 }
             }
 
@@ -313,6 +313,7 @@
 
                 ul {
                     float: left;
+                    margin-top: 21px;
 
                     li {
                         float: left;
@@ -323,7 +324,7 @@
                         a {
                             text-decoration: none;
                             color: #FFF;
-                            font-family: 'Eurostile Extended', sans-serif;
+                            font-family: 'Noto Sans', sans-serif;
                         }
 
                         a:hover {
@@ -389,7 +390,7 @@
 
                     p {
                         margin-left: 30px;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                     }
 
                     .more {
@@ -409,7 +410,7 @@
 
                     p {
                         margin-left: 30px;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                     }
 
                     .more {
@@ -429,7 +430,7 @@
 
                     p {
                         margin-left: 30px;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                     }
 
                     .more {
@@ -456,7 +457,7 @@
                 align-items: center;
                 margin-top: 140px;
                 color: #000;
-                font-family: 'Eurostile Extended', sans-serif;
+                font-family: 'Noto Sans', sans-serif;
                 font-size: 24px;
                 font-style: normal;
                 font-weight: 400;
@@ -485,7 +486,10 @@
                     align-items: center;
                     text-transform: uppercase;
                 }
-                .bodyTypeButton:hover{box-shadow: 0 0 30px rgb(73, 73, 221);}
+
+                .bodyTypeButton:hover {
+                    box-shadow: 0 0 30px rgb(73, 73, 221);
+                }
 
                 .brandbutton {
                     grid-column: 4/span 3;
@@ -502,7 +506,9 @@
                 .brandbutton:hover {
                     box-shadow: 0 0 30px rgb(73, 73, 221);
                 }
-                .suv {display: none;
+
+                .suv {
+                    display: none;
                     grid-column: 1;
                     grid-row: 2;
 
@@ -522,7 +528,8 @@
                     }
                 }
 
-                .sedan {display: none;
+                .sedan {
+                    display: none;
                     grid-column: 2;
                     grid-row: 2;
 
@@ -536,7 +543,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -546,7 +553,8 @@
                     }
                 }
 
-                .wagon {display: none;
+                .wagon {
+                    display: none;
                     grid-column: 3;
                     grid-row: 2;
 
@@ -560,7 +568,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -570,7 +578,8 @@
                     }
                 }
 
-                .hatch {display: none;
+                .hatch {
+                    display: none;
                     grid-column: 1;
                     grid-row: 3;
 
@@ -584,7 +593,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -594,7 +603,8 @@
                     }
                 }
 
-                .ute {display: none;
+                .ute {
+                    display: none;
                     grid-column: 2;
                     grid-row: 3;
 
@@ -608,7 +618,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -618,7 +628,8 @@
                     }
                 }
 
-                .convert {display: none;
+                .convert {
+                    display: none;
                     grid-column: 3;
                     grid-row: 3;
 
@@ -632,7 +643,7 @@
                         display: flex;
                         justify-content: center;
                         color: #4071CB;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -650,7 +661,7 @@
                 .item {
                     div {
                         color: #4071CB;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -684,14 +695,17 @@
         right: -40%;
         color: #4071CB;
     }
-    .show_all:hover{box-shadow: 0 0 30px rgb(73, 73, 221);}
+
+    .show_all:hover {
+        box-shadow: 0 0 30px rgb(73, 73, 221);
+    }
 
 
     .hot_deals {
         .container {
             .hotDeals {
                 color: #000;
-                font-family: 'Eurostile Extended', sans-serif;
+                font-family: 'Noto Sans', sans-serif;
                 font-size: 30px;
                 font-style: normal;
                 font-weight: 400;
@@ -730,7 +744,7 @@
 
                     .yearOfvipusk {
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 10px;
                         font-style: normal;
                         font-weight: 400;
@@ -797,7 +811,7 @@
                 text-align: center;
                 color: #000;
                 text-align: center;
-                font-family: 'Eurostile Extended', sans-serif;
+                font-family: 'Noto Sans', sans-serif;
                 font-size: 30px;
                 font-style: normal;
                 font-weight: 400;
@@ -922,7 +936,7 @@
 
                     .txt_1 {
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 400;
@@ -937,7 +951,7 @@
                     .txt2 {
                         margin-left: 15px;
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -950,7 +964,7 @@
 
                     .txt_3 {
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 14px;
                         font-style: normal;
                         font-weight: 400;
@@ -985,7 +999,7 @@
                     grid-column: 1;
                     grid-row: 1;
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 14px;
                     font-style: normal;
                     font-weight: 400;
@@ -1013,7 +1027,7 @@
 
                     div {
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 24px;
                         font-style: normal;
                         font-weight: 400;
@@ -1067,7 +1081,7 @@
 
                     .divvv2 {
                         color: #000;
-                        font-family: 'Eurostile Extended', sans-serif;
+                        font-family: 'Noto Sans', sans-serif;
                         font-size: 12px;
                         font-style: normal;
                         font-weight: 400;
@@ -1096,7 +1110,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1133,7 +1147,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1163,7 +1177,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1202,7 +1216,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1232,7 +1246,7 @@
 
                 p {
                     color: #4F4F4F;
-                    font-family: 'Eurostile Extended', sans-serif;
+                    font-family: 'Noto Sans', sans-serif;
                     font-size: 11px;
                     font-style: normal;
                     font-weight: 400;
@@ -1266,10 +1280,12 @@
         width: 315px;
         height: 1614px;
         background-color: #FFF;
+        font-family: 'Noto Sans', sans-serif;
 
         .container111 {
             width: 295px;
             margin: 0 auto;
+
         }
     }
 
@@ -1281,6 +1297,7 @@
 
             .knopka_so_spiskom_avto {
                 width: 100%;
+                font-family: 'Noto Sans', sans-serif;
             }
 
             #app {
@@ -1292,6 +1309,7 @@
                 justify-content: space-between;
                 margin-left: 50px;
                 margin-top: 94px;
+                font-family: 'Noto Sans', sans-serif;
             }
         }
     }

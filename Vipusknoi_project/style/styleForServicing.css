@@ -1,8 +1,11 @@
+.card:hover {
+  box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
+
 .more {
   width: 150px;
   height: 65px;
   color: #FFF;
-  font-family: 'Eurostile Extended', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -81,7 +84,8 @@
       .scelet header .container1 .s_emblemoi .trubka_dlya_mobili {
         display: none; }
       .scelet header .container1 .s_emblemoi ul {
-        float: left; }
+        float: left;
+        margin-top: 21px; }
         .scelet header .container1 .s_emblemoi ul li {
           float: left;
           color: #FFF;
@@ -90,6 +94,8 @@
           .scelet header .container1 .s_emblemoi ul li a {
             text-decoration: none;
             color: #FFF; }
+          .scelet header .container1 .s_emblemoi ul li a:hover {
+            color: red; }
     .scelet header .container hgroup {
       color: #FFF;
       margin-top: 177px;
@@ -122,7 +128,9 @@
       color: #a3be08;
       font-size: 25px;
       font-weight: bold;
-      font-family: 'Eurostile Extended', sans-serif; }
+      font-family: 'Noto Sans', sans-serif; }
+    .scelet .servicing .container .rabota_po_servisu .priemka:hover {
+      box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
     .scelet .servicing .container .rabota_po_servisu .Raboti {
       border: solid 1px gray;
       margin: 50px;
@@ -138,7 +146,9 @@
       color: #ff3838;
       font-size: 25px;
       font-weight: bold;
-      font-family: 'Eurostile Extended', sans-serif; }
+      font-family: 'Noto Sans', sans-serif; }
+    .scelet .servicing .container .rabota_po_servisu .Raboti:hover {
+      box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
     .scelet .servicing .container .rabota_po_servisu .Vidacha {
       border: solid 1px gray;
       margin: 50px;
@@ -154,16 +164,18 @@
       color: #eafa0c;
       font-size: 25px;
       font-weight: bold;
-      font-family: 'Eurostile Extended', sans-serif; }
+      font-family: 'Noto Sans', sans-serif; }
+    .scelet .servicing .container .rabota_po_servisu .Vidacha:hover {
+      box-shadow: 0 0 30px rgba(245, 39, 39, 0.5); }
   .scelet .servicing .container h2 {
     font-weight: bold;
     text-align: center;
-    font-family: 'Eurostile Extended', sans-serif; }
+    font-family: 'Noto Sans', sans-serif; }
   .scelet .servicing .container ul {
     text-transform: uppercase;
-    font-family: 'Eurostile Extended', sans-serif; }
+    font-family: 'Noto Sans', sans-serif; }
   .scelet .arenda .container {
-    font-family: 'Eurostile Extended', sans-serif; }
+    font-family: 'Noto Sans', sans-serif; }
     .scelet .arenda .container h2 {
       text-align: center; }
   .scelet .kartochki_js .container222 {
@@ -199,6 +211,8 @@
         position: relative;
         top: 185px;
         right: -380px; }
+    .scelet .container .uslugi .gelic:hover {
+      opacity: 0.7; }
     .scelet .container .uslugi .koleso {
       background-image: url("../img/Rectangle 6.png");
       color: #FFF;
@@ -210,6 +224,8 @@
         position: relative;
         top: 185px;
         right: -380px; }
+    .scelet .container .uslugi .koleso:hover {
+      opacity: 0.7; }
     .scelet .container .uslugi .fara {
       display: none; }
   .scelet footer {
@@ -223,7 +239,7 @@
         grid-column: 1;
         grid-row: 1;
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -246,7 +262,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -282,7 +298,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 12px;
           font-style: normal;
           font-weight: 400;
@@ -300,7 +316,7 @@
       margin-bottom: 141px; }
       .scelet .footer_1 .container .invoice p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -329,7 +345,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .USDT p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -353,7 +369,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .cash p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -382,7 +398,7 @@
       margin-right: 6px; }
       .scelet .footer_1 .container .facebook p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -406,7 +422,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .instagram p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;

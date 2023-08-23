@@ -82,7 +82,7 @@
   width: 150px;
   height: 65px;
   color: #FFF;
-  font-family: 'Eurostile Extended', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -99,7 +99,7 @@
 
 .cifra {
   color: #000;
-  font-family: 'Eurostile Extended', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,7 @@
 
 .jirn_text {
   color: #000;
-  font-family: 'Eurostile Extended', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -183,27 +183,27 @@
           background: none;
           border: none;
           color: #FFF;
-          font-family: 'Eurostile Extended', sans-serif; }
+          font-family: 'Noto Sans', sans-serif; }
           .scelet header .container .selects .change-lang option {
             color: black;
-            font-family: 'Eurostile Extended', sans-serif; }
+            font-family: 'Noto Sans', sans-serif; }
         .scelet header .container .selects .change-currency {
           background: none;
           border: none;
           color: #FFF;
-          font-family: 'Eurostile Extended', sans-serif; }
+          font-family: 'Noto Sans', sans-serif; }
           .scelet header .container .selects .change-currency option {
             color: black;
-            font-family: 'Eurostile Extended', sans-serif; }
+            font-family: 'Noto Sans', sans-serif; }
       .scelet header .container .contacts {
         display: flex;
         color: #FFF;
         justify-content: center;
         align-items: center;
-        font-family: 'Eurostile Extended', sans-serif; }
+        font-family: 'Noto Sans', sans-serif; }
         .scelet header .container .contacts div {
           margin-right: 21px;
-          font-family: 'Eurostile Extended', sans-serif; }
+          font-family: 'Noto Sans', sans-serif; }
         .scelet header .container .contacts .Request_a_callback {
           background-color: #000;
           height: 55px;
@@ -211,7 +211,7 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          font-family: 'Eurostile Extended', sans-serif; }
+          font-family: 'Noto Sans', sans-serif; }
     .scelet header .container1 {
       display: flex;
       border-top: solid 1px #FFF;
@@ -228,7 +228,8 @@
       .scelet header .container1 .s_emblemoi .trubka_dlya_mobili {
         display: none; }
       .scelet header .container1 .s_emblemoi ul {
-        float: left; }
+        float: left;
+        margin-top: 21px; }
         .scelet header .container1 .s_emblemoi ul li {
           float: left;
           color: #FFF;
@@ -237,7 +238,7 @@
           .scelet header .container1 .s_emblemoi ul li a {
             text-decoration: none;
             color: #FFF;
-            font-family: 'Eurostile Extended', sans-serif; }
+            font-family: 'Noto Sans', sans-serif; }
           .scelet header .container1 .s_emblemoi ul li a:hover {
             color: red; }
     .scelet header .container hgroup {
@@ -270,7 +271,7 @@
         color: #FFF; }
         .scelet .page2 .container .uslugi .gelic p {
           margin-left: 30px;
-          font-family: 'Eurostile Extended', sans-serif; }
+          font-family: 'Noto Sans', sans-serif; }
         .scelet .page2 .container .uslugi .gelic .more {
           position: relative;
           top: 493px;
@@ -282,7 +283,7 @@
         color: #FFF; }
         .scelet .page2 .container .uslugi .koleso p {
           margin-left: 30px;
-          font-family: 'Eurostile Extended', sans-serif; }
+          font-family: 'Noto Sans', sans-serif; }
         .scelet .page2 .container .uslugi .koleso .more {
           position: relative;
           top: 161px;
@@ -294,7 +295,7 @@
         color: #FFF; }
         .scelet .page2 .container .uslugi .fara p {
           margin-left: 30px;
-          font-family: 'Eurostile Extended', sans-serif; }
+          font-family: 'Noto Sans', sans-serif; }
         .scelet .page2 .container .uslugi .fara .more {
           position: relative;
           top: 161px;
@@ -307,7 +308,7 @@
     align-items: center;
     margin-top: 140px;
     color: #000;
-    font-family: 'Eurostile Extended', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -369,7 +370,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -388,7 +389,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -407,7 +408,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -426,7 +427,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -445,7 +446,7 @@
         display: flex;
         justify-content: center;
         color: #4071CB;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -454,7 +455,7 @@
         letter-spacing: 0.14px; }
   .scelet .choose .container .block .item div {
     color: #4071CB;
-    font-family: 'Eurostile Extended', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -482,7 +483,7 @@
     box-shadow: 0 0 30px #4949dd; }
   .scelet .hot_deals .container .hotDeals {
     color: #000;
-    font-family: 'Eurostile Extended', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -512,7 +513,7 @@
           margin-bottom: 0px; }
       .scelet .hot_deals .container .kartochki .kart .yearOfvipusk {
         color: #000;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 10px;
         font-style: normal;
         font-weight: 400;
@@ -551,7 +552,7 @@
       text-align: center;
       color: #000;
       text-align: center;
-      font-family: 'Eurostile Extended', sans-serif;
+      font-family: 'Noto Sans', sans-serif;
       font-size: 30px;
       font-style: normal;
       font-weight: 400;
@@ -630,7 +631,7 @@
         margin-bottom: 25px; }
         .scelet .R8 .container .kartochki_na_R8 .kartochka .txt_1 {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -643,7 +644,7 @@
         .scelet .R8 .container .kartochki_na_R8 .kartochka .txt2 {
           margin-left: 15px;
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
@@ -653,7 +654,7 @@
           margin-left: 15px; }
         .scelet .R8 .container .kartochki_na_R8 .kartochka .txt_3 {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
@@ -674,7 +675,7 @@
         grid-column: 1;
         grid-row: 1;
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -697,7 +698,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_nomerom div {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 24px;
           font-style: normal;
           font-weight: 400;
@@ -733,7 +734,7 @@
           line-height: normal; }
         .scelet footer .container .foot_s_gridami .foot_s_adresom .divvv2 {
           color: #000;
-          font-family: 'Eurostile Extended', sans-serif;
+          font-family: 'Noto Sans', sans-serif;
           font-size: 12px;
           font-style: normal;
           font-weight: 400;
@@ -751,7 +752,7 @@
       margin-bottom: 141px; }
       .scelet .footer_1 .container .invoice p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -780,7 +781,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .USDT p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -804,7 +805,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .cash p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -833,7 +834,7 @@
       margin-right: 6px; }
       .scelet .footer_1 .container .facebook p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -857,7 +858,7 @@
       flex-shrink: 0; }
       .scelet .footer_1 .container .instagram p {
         color: #4F4F4F;
-        font-family: 'Eurostile Extended', sans-serif;
+        font-family: 'Noto Sans', sans-serif;
         font-size: 11px;
         font-style: normal;
         font-weight: 400;
@@ -879,7 +880,8 @@
   .for_sale_2_str .forma {
     width: 315px;
     height: 1614px;
-    background-color: #FFF; }
+    background-color: #FFF;
+    font-family: 'Noto Sans', sans-serif; }
     .for_sale_2_str .forma .container111 {
       width: 295px;
       margin: 0 auto; }
@@ -887,14 +889,16 @@
     width: 1075px;
     margin: 0 auto; }
     .for_sale_2_str .kartochki_js .container222 .knopka_so_spiskom_avto {
-      width: 100%; }
+      width: 100%;
+      font-family: 'Noto Sans', sans-serif; }
     .for_sale_2_str .kartochki_js .container222 #app {
       display: flex;
       width: 1020px;
       flex-flow: wrap;
       justify-content: space-between;
       margin-left: 50px;
-      margin-top: 94px; }
+      margin-top: 94px;
+      font-family: 'Noto Sans', sans-serif; }
 
 .peremotka_str {
   display: grid;
