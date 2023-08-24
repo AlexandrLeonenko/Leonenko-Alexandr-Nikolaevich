@@ -25,6 +25,13 @@
   font-size: 25px;
   display: flex; }
 
+.textSlider {
+  text-align: center;
+  color: #4071CB; }
+
+.item:hover {
+  box-shadow: 0 0 30px rgba(50, 79, 241, 0.5); }
+
 .container {
   width: 1340px;
   margin: 0 auto; }
