@@ -1,3 +1,65 @@
+.carousel-inner {
+  position: relative; }
+  .carousel-inner .blok_na_kartinke {
+    position: absolute;
+    top: 200px;
+    right: 800px; }
+    .carousel-inner .blok_na_kartinke .text_avtopom {
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 30px; }
+    .carousel-inner .blok_na_kartinke .text_pod_avtopom {
+      color: white; }
+    .carousel-inner .blok_na_kartinke .knopki {
+      display: flex; }
+      .carousel-inner .blok_na_kartinke .knopki .yellow_button {
+        background-color: yellow;
+        margin-right: 25px;
+        width: 80px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .carousel-inner .blok_na_kartinke .knopki .white_button {
+        background-color: #FFF;
+        width: 80px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+.carousel-inner {
+  position: relative; }
+  .carousel-inner .blok_na_kartinke1 {
+    position: absolute;
+    top: 200px;
+    right: 220px; }
+    .carousel-inner .blok_na_kartinke1 .text_avtopom1 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 30px; }
+    .carousel-inner .blok_na_kartinke1 .text_pod_avtopom1 {
+      color: white; }
+    .carousel-inner .blok_na_kartinke1 .knopki1 {
+      display: flex; }
+      .carousel-inner .blok_na_kartinke1 .knopki1 .yellow_button1 {
+        background-color: yellow;
+        margin-right: 25px;
+        width: 80px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .carousel-inner .blok_na_kartinke1 .knopki1 .white_button1 {
+        background-color: #FFF;
+        width: 80px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
 .container {
   width: 1236px;
   margin: 0 auto; }
@@ -23,6 +85,7 @@
   display: flex;
   justify-content: space-between; }
   .header1 .container .spisok_header {
+    position: relative;
     display: flex;
     width: 620px;
     justify-content: space-between; }

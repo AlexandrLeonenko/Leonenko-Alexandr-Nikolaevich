@@ -1,3 +1,89 @@
+.carousel-inner {
+    position: relative;
+
+    .blok_na_kartinke {
+        position: absolute;
+            top: 200px;
+            right: 800px;
+        .text_avtopom {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .text_pod_avtopom {
+           color: white;
+        }
+
+        .knopki {
+            display: flex;
+
+            .yellow_button {
+                background-color: yellow;
+                margin-right: 25px;
+                width: 80px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .white_button {
+                background-color: #FFF;
+                width: 80px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.carousel-inner {
+    position: relative;
+
+    .blok_na_kartinke1 {
+        position: absolute;
+            top: 200px;
+            right: 220px;
+        .text_avtopom1 {
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .text_pod_avtopom1 {
+           color: white;
+        }
+
+        .knopki1 {
+            display: flex;
+
+            .yellow_button1 {
+                background-color: yellow;
+                margin-right: 25px;
+                width: 80px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .white_button1 {
+                background-color: #FFF;
+                width: 80px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
 .container {
     width: 1236px;
     margin: 0 auto;
@@ -30,13 +116,18 @@
 }
 
 .header1 {
+
     .container {
+
         display: flex;
         justify-content: space-between;
 
 
 
+
+
         .spisok_header {
+            position: relative;
             display: flex;
             width: 620px;
             justify-content: space-between;
@@ -62,6 +153,7 @@
 .kart {
     .container {
         display: flex;
+        position: relative;
 
 
         .kartochki {
