@@ -1,0 +1,18 @@
+.container {
+  width: 1236px;
+  margin: 0 auto; }
+
+.header_1 .container {
+  display: flex;
+  justify-content: space-between; }
+  .header_1 .container .pravi_heder {
+    display: flex; }
+
+.header1 .container .spisok_header {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; }
+  .header1 .container .spisok_header li {
+    margin-right: 25px; }
+
+/*# sourceMappingURL=index2.css.map */

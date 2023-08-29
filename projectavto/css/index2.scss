@@ -1,0 +1,25 @@
+
+
+.container{
+    width: 1236px;
+    margin: 0 auto;
+}
+
+.header_1{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .pravi_heder{display: flex;}
+    }
+}
+.header1{
+    .container{
+        
+        .spisok_header{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            li{margin-right: 25px;}
+        }
+    }
+}
