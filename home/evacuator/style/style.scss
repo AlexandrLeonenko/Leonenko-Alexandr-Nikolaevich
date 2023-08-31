@@ -1,10 +1,78 @@
+
+
 .carousel-inner {
     position: relative;
+    display: flex;
 
     .blok_na_kartinke {
         position: absolute;
-            top: 200px;
-            right: 800px;
+        top: 200px;
+        right: 800px;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: showup 6.5s infinite;
+
+        @keyframes showup {
+            0% {
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 0;
+            }
+
+            80% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes slidein {
+            0% {
+                margin-left: -800px;
+            }
+
+            20% {
+                margin-left: -800px;
+            }
+
+            35% {
+                margin-left: 0px;
+            }
+
+            100% {
+                margin-left: 0px;
+            }
+        }
+
+        @keyframes reveal {
+            0% {
+                opacity: 0;
+                width: 0px;
+            }
+
+            20% {
+                opacity: 1;
+                width: 0px;
+            }
+
+            30% {
+                width: 355px;
+            }
+
+            80% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                width: 355px;
+            }
+        }
+
         .text_avtopom {
             color: white;
             text-transform: uppercase;
@@ -13,7 +81,7 @@
         }
 
         .text_pod_avtopom {
-           color: white;
+            color: white;
         }
 
         .knopki {
@@ -46,8 +114,73 @@
 
     .blok_na_kartinke1 {
         position: absolute;
-            top: 200px;
-            right: 220px;
+        top: 200px;
+        right: 220px;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: showup 6.5s infinite;
+
+        @keyframes showup {
+            0% {
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 0;
+            }
+
+            80% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes slidein {
+            0% {
+                margin-left: -800px;
+            }
+
+            20% {
+                margin-left: -800px;
+            }
+
+            35% {
+                margin-left: 0px;
+            }
+
+            100% {
+                margin-left: 0px;
+            }
+        }
+
+        @keyframes reveal {
+            0% {
+                opacity: 0;
+                width: 0px;
+            }
+
+            20% {
+                opacity: 1;
+                width: 0px;
+            }
+
+            30% {
+                width: 355px;
+            }
+
+            80% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                width: 355px;
+            }
+        }
+
         .text_avtopom1 {
             color: white;
             text-transform: uppercase;
@@ -56,7 +189,7 @@
         }
 
         .text_pod_avtopom1 {
-           color: white;
+            color: white;
         }
 
         .knopki1 {
@@ -202,45 +335,59 @@
 
 }
 
-.prikurit_avto {
-    margin-top: 70px;
+.slider_s_sto {
+   
+   
+    .carousel-inner2 {
+        position: relative;
 
-    .container {
-        display: flex;
-        justify-content: center;
+        .blok_na_kartinke2 {
+            position: absolute;
+            width: 40%;
+            height: 100%;
 
+            color: white;
+            background-color: #646464;
 
-        .foto_prikur {
-            color: black;
-        }
+            .text_prikur {
+                color: white;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 30px;
+                margin-top: 150px;
+                margin-left: 60px;
+            }
 
-        .text_prikur {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            right: 905px;
+            .text_pod_prikur {
+                color: white;
+                margin-left: 60px;
+            }
 
-        }
-    }
-}
+            .knopki1 {
+                display: flex;
+                margin-left: 60px;
 
-.recomend_sto {
-    .container {
-        display: flex;
+                .yellow_button {
+                    background-color: yellow;
+                    margin-right: 25px;
+                    width: 80px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: black;
+                }
 
-        justify-content: center;
-
-        .foto_sto {
-            color: #646464;
-        }
-
-        .text_sto {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            right: 905px;
+                .white_button {
+                    background-color: #FFF;
+                    width: 80px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: black;
+                }
+            }
         }
     }
 }
@@ -249,6 +396,7 @@ hgroup {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 800px;
 
     h1 {
         display: flex;
