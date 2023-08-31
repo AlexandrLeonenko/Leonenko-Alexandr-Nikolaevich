@@ -249,11 +249,26 @@
 }
 
 .header1 {
+    display: flex;
+    justify-content: center;
 
-    .container {
+    background-image: url('../img/backgroung_header.PNG');
+    background-size: cover;
+    background-attachment: fixed;
+
+    .container1 {
+        width: 100%;
 
         display: flex;
         justify-content: space-between;
+        position: fixed;
+        z-index: 1;
+        background-color: #FFF;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
 
 
 
@@ -264,6 +279,7 @@
             display: flex;
             width: 620px;
             justify-content: space-between;
+            align-items: center;
 
             li {
                 list-style-type: none;
@@ -283,13 +299,25 @@
     }
 }
 
+.avtopom_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
 .kart {
     .container {
         display: flex;
         position: relative;
+        top: -50px;
 
 
         .kartochki {
+            background-color: #FFF;
             margin-right: 30px;
             margin-top: 30px;
 
@@ -336,8 +364,8 @@
 }
 
 .slider_s_sto {
-   
-   
+
+
     .carousel-inner2 {
         position: relative;
 
@@ -423,6 +451,7 @@ hgroup {
             p {
                 text-transform: uppercase;
                 font-weight: bold;
+                
             }
 
             .foto_i_spisok {
@@ -474,11 +503,26 @@ hgroup {
     background-image: url('../img/notebook-12.jpg');
     height: 839px;
 
+
     .container {
+
         display: flex;
         flex-direction: column;
 
+        .chto_govoryat_clienti_zagolovok {
+            margin-top: 250px;
+            color: #FFF;
+            font-size: 35px
+        }
+
+        .mi_priedem {
+            color: #FFF;
+            font-style: italic;
+            margin-bottom: 60px;
+        }
+
         .otziv {
+
             margin-bottom: 110px;
 
             p {

@@ -152,30 +152,54 @@
     .header .container .nomer_telefona {
       color: yellow; }
 
-.header1 .container {
+.header1 {
   display: flex;
-  justify-content: space-between; }
-  .header1 .container .spisok_header {
-    position: relative;
+  justify-content: center;
+  background-image: url("../img/backgroung_header.PNG");
+  background-size: cover;
+  background-attachment: fixed; }
+  .header1 .container1 {
+    width: 100%;
     display: flex;
-    width: 620px;
-    justify-content: space-between; }
-    .header1 .container .spisok_header li {
-      list-style-type: none;
-      color: #8f8f8f;
-      text-transform: uppercase; }
-  .header1 .container .knopka_vizova {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: yellow;
-    padding-left: 38px;
-    padding-right: 38px; }
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-color: #FFF; }
+    .header1 .container1 .container {
+      display: flex;
+      justify-content: space-between; }
+    .header1 .container1 .spisok_header {
+      position: relative;
+      display: flex;
+      width: 620px;
+      justify-content: space-between;
+      align-items: center; }
+      .header1 .container1 .spisok_header li {
+        list-style-type: none;
+        color: #8f8f8f;
+        text-transform: uppercase; }
+    .header1 .container1 .knopka_vizova {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: yellow;
+      padding-left: 38px;
+      padding-right: 38px; }
+
+.avtopom_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center; }
 
 .kart .container {
   display: flex;
-  position: relative; }
+  position: relative;
+  top: -50px; }
   .kart .container .kartochki {
+    background-color: #FFF;
     margin-right: 30px;
     margin-top: 30px; }
     .kart .container .kartochki img {
@@ -294,6 +318,14 @@ hgroup {
   .chto_govoryat_clienti .container {
     display: flex;
     flex-direction: column; }
+    .chto_govoryat_clienti .container .chto_govoryat_clienti_zagolovok {
+      margin-top: 250px;
+      color: #FFF;
+      font-size: 35px; }
+    .chto_govoryat_clienti .container .mi_priedem {
+      color: #FFF;
+      font-style: italic;
+      margin-bottom: 60px; }
     .chto_govoryat_clienti .container .otziv {
       margin-bottom: 110px; }
       .chto_govoryat_clienti .container .otziv p {
