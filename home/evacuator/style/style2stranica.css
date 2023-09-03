@@ -1,0 +1,50 @@
+p {
+  font-family: 'Open Sans', sans-serif; }
+
+.content {
+  color: #54595f;
+  margin-top: 80px; }
+  .content .container h1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color: #4a6672;
+    font-family: 'Open Sans', sans-serif; }
+  .content .container h3 {
+    color: #4a6672;
+    font-family: 'Open Sans', sans-serif; }
+  .content .container .abz1 {
+    font-family: 'Open Sans', sans-serif; }
+  .content .container img {
+    margin-left: 11%; }
+  .content .container ul {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+    .content .container ul li {
+      margin-left: 4%;
+      font-family: 'Open Sans', sans-serif; }
+  .content .container .abz2 {
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif; }
+  .content .container .blochok {
+    color: #31708f;
+    background-color: #A8BDB89C;
+    border-left: solid 3px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; }
+  .content .container button {
+    background-color: red;
+    margin-left: 50%;
+    margin-top: 15px;
+    color: white;
+    border-radius: 20px;
+    border: white;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif; }
+  .content .container .abz3 {
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif; }
+
+/*# sourceMappingURL=style2stranica.css.map */

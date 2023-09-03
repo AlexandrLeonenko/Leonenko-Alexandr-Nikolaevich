@@ -11,6 +11,7 @@
         overflow: hidden;
         white-space: nowrap;
         animation: showup 6.5s infinite;
+        font-family: 'Open Sans', sans-serif;
 
         @keyframes showup {
             0% {
@@ -78,14 +79,17 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
         }
 
         .text_pod_avtopom {
             color: white;
+            font-family: 'Open Sans', sans-serif;
         }
 
         .knopki {
             display: flex;
+            font-family: 'Open Sans', sans-serif;
 
             .yellow_button {
                 background-color: yellow;
@@ -119,6 +123,7 @@
         overflow: hidden;
         white-space: nowrap;
         animation: showup 6.5s infinite;
+        font-family: 'Open Sans', sans-serif;
 
         @keyframes showup {
             0% {
@@ -186,10 +191,12 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
         }
 
         .text_pod_avtopom1 {
             color: white;
+            font-family: 'Open Sans', sans-serif;
         }
 
         .knopki1 {
@@ -203,6 +210,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-family: 'Open Sans', sans-serif;
             }
 
             .white_button1 {
@@ -212,6 +220,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-family: 'Open Sans', sans-serif;
             }
         }
     }
@@ -220,6 +229,7 @@
 .container {
     width: 1236px;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .knopka_vizova {
@@ -264,6 +274,7 @@
         position: fixed;
         z-index: 1;
         background-color: #FFF;
+        border: solid 1px gray;
 
         .container {
             display: flex;
@@ -280,6 +291,7 @@
             width: 620px;
             justify-content: space-between;
             align-items: center;
+            font-family: 'Open Sans', sans-serif;
 
             li {
                 list-style-type: none;
@@ -306,6 +318,7 @@
     margin-bottom: 30px;
     font-size: 20px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -364,7 +377,7 @@
 }
 
 .slider_s_sto {
-
+    font-family: 'Open Sans', sans-serif;
 
     .carousel-inner2 {
         position: relative;
@@ -425,6 +438,7 @@ hgroup {
     justify-content: center;
     flex-direction: column;
     margin-top: 800px;
+    font-family: 'Open Sans', sans-serif;
 
     h1 {
         display: flex;
@@ -446,6 +460,7 @@ hgroup {
     .container {
         display: flex;
         justify-content: center;
+        font-family: 'Open Sans', sans-serif;
 
         .kart_1 {
             p {
@@ -488,6 +503,7 @@ hgroup {
 
 .text_o_kompanii {
     .container {
+        margin-top: 70px;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -543,6 +559,7 @@ hgroup {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
 
     .yel_block {
         h3 {
@@ -576,11 +593,13 @@ hgroup {
     background-color: red;
     text-transform: uppercase;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 footer {
     background-color: #646464;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 
     .container {
         display: flex;
@@ -624,5 +643,6 @@ footer {
         padding-bottom: 50px;
         background-color: black;
         color: white;
+        font-family: 'Open Sans', sans-serif;
     }
 }

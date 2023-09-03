@@ -7,7 +7,8 @@
     right: 800px;
     overflow: hidden;
     white-space: nowrap;
-    animation: showup 6.5s infinite; }
+    animation: showup 6.5s infinite;
+    font-family: 'Open Sans', sans-serif; }
 @keyframes showup {
   0% {
     opacity: 0; }
@@ -44,11 +45,14 @@
       color: white;
       text-transform: uppercase;
       font-weight: bold;
-      font-size: 30px; }
+      font-size: 30px;
+      font-family: 'Open Sans', sans-serif; }
     .carousel-inner .blok_na_kartinke .text_pod_avtopom {
-      color: white; }
+      color: white;
+      font-family: 'Open Sans', sans-serif; }
     .carousel-inner .blok_na_kartinke .knopki {
-      display: flex; }
+      display: flex;
+      font-family: 'Open Sans', sans-serif; }
       .carousel-inner .blok_na_kartinke .knopki .yellow_button {
         background-color: yellow;
         margin-right: 25px;
@@ -73,7 +77,8 @@
     right: 220px;
     overflow: hidden;
     white-space: nowrap;
-    animation: showup 6.5s infinite; }
+    animation: showup 6.5s infinite;
+    font-family: 'Open Sans', sans-serif; }
 @keyframes showup {
   0% {
     opacity: 0; }
@@ -110,9 +115,11 @@
       color: white;
       text-transform: uppercase;
       font-weight: bold;
-      font-size: 30px; }
+      font-size: 30px;
+      font-family: 'Open Sans', sans-serif; }
     .carousel-inner .blok_na_kartinke1 .text_pod_avtopom1 {
-      color: white; }
+      color: white;
+      font-family: 'Open Sans', sans-serif; }
     .carousel-inner .blok_na_kartinke1 .knopki1 {
       display: flex; }
       .carousel-inner .blok_na_kartinke1 .knopki1 .yellow_button1 {
@@ -122,18 +129,21 @@
         height: 40px;
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        font-family: 'Open Sans', sans-serif; }
       .carousel-inner .blok_na_kartinke1 .knopki1 .white_button1 {
         background-color: #FFF;
         width: 80px;
         height: 40px;
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        font-family: 'Open Sans', sans-serif; }
 
 .container {
   width: 1236px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif; }
 
 .knopka_vizova {
   display: flex;
@@ -164,7 +174,8 @@
     justify-content: space-between;
     position: fixed;
     z-index: 1;
-    background-color: #FFF; }
+    background-color: #FFF;
+    border: solid 1px gray; }
     .header1 .container1 .container {
       display: flex;
       justify-content: space-between; }
@@ -173,7 +184,8 @@
       display: flex;
       width: 620px;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      font-family: 'Open Sans', sans-serif; }
       .header1 .container1 .spisok_header li {
         list-style-type: none;
         color: #8f8f8f;
@@ -192,7 +204,8 @@
   align-items: center;
   margin-bottom: 30px;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
 
 .kart .container {
   display: flex;
@@ -228,50 +241,53 @@
       padding-top: 10px;
       padding-bottom: 10px; }
 
-.slider_s_sto .carousel-inner2 {
-  position: relative; }
-  .slider_s_sto .carousel-inner2 .blok_na_kartinke2 {
-    position: absolute;
-    width: 40%;
-    height: 100%;
-    color: white;
-    background-color: #646464; }
-    .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .text_prikur {
+.slider_s_sto {
+  font-family: 'Open Sans', sans-serif; }
+  .slider_s_sto .carousel-inner2 {
+    position: relative; }
+    .slider_s_sto .carousel-inner2 .blok_na_kartinke2 {
+      position: absolute;
+      width: 40%;
+      height: 100%;
       color: white;
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 30px;
-      margin-top: 150px;
-      margin-left: 60px; }
-    .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .text_pod_prikur {
-      color: white;
-      margin-left: 60px; }
-    .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .knopki1 {
-      display: flex;
-      margin-left: 60px; }
-      .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .knopki1 .yellow_button {
-        background-color: yellow;
-        margin-right: 25px;
-        width: 80px;
-        height: 40px;
+      background-color: #646464; }
+      .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .text_prikur {
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 150px;
+        margin-left: 60px; }
+      .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .text_pod_prikur {
+        color: white;
+        margin-left: 60px; }
+      .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .knopki1 {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        color: black; }
-      .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .knopki1 .white_button {
-        background-color: #FFF;
-        width: 80px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: black; }
+        margin-left: 60px; }
+        .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .knopki1 .yellow_button {
+          background-color: yellow;
+          margin-right: 25px;
+          width: 80px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black; }
+        .slider_s_sto .carousel-inner2 .blok_na_kartinke2 .knopki1 .white_button {
+          background-color: #FFF;
+          width: 80px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black; }
 
 hgroup {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 800px; }
+  margin-top: 800px;
+  font-family: 'Open Sans', sans-serif; }
   hgroup h1 {
     display: flex;
     justify-content: center; }
@@ -284,7 +300,8 @@ hgroup {
 
 .pochemu_nas .container {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif; }
   .pochemu_nas .container .kart_1 p {
     text-transform: uppercase;
     font-weight: bold; }
@@ -305,6 +322,7 @@ hgroup {
       color: yellow; }
 
 .text_o_kompanii .container {
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   text-align: center; }
@@ -339,7 +357,8 @@ hgroup {
 .evacuatori {
   margin-top: 50px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif; }
   .evacuatori .yel_block h3 {
     text-transform: uppercase;
     font-weight: bold;
@@ -364,11 +383,13 @@ hgroup {
   padding: 10px;
   background-color: red;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
 
 footer {
   background-color: #646464;
-  color: white; }
+  color: white;
+  font-family: 'Open Sans', sans-serif; }
   footer .container {
     display: flex; }
     footer .container .columnn_1 {
@@ -398,6 +419,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: black;
-    color: white; }
+    color: white;
+    font-family: 'Open Sans', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
