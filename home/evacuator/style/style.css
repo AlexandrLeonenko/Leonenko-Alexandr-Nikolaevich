@@ -357,7 +357,8 @@ hgroup {
 .evacuatori {
   margin-top: 50px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  margin-left: 12.5%;
   font-family: 'Open Sans', sans-serif; }
   .evacuatori .yel_block h3 {
     text-transform: uppercase;
