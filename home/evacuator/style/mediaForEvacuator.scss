@@ -116,222 +116,222 @@
         }
     
     }
-}
-.slider_s_sto {
-    font-family: 'Open Sans', sans-serif;
-
-    .carousel-inner2 {
-        position: relative;
-
-        .blok_na_kartinke2 {
-            position: absolute;
-            width: 40%;
-            height: 100%;
-
-            color: white;
-            background-color: #646464;
-
-            .text_prikur {
-                color: white;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-size: 30px;
-                margin-top: 10px;
-                margin-left: 20px;
-            }
-
-            .text_pod_prikur {
-                color: white;
-                font-size: 14px;
-                margin-left: 20px;
-            }
-
-            .knopki1 {
-                display: flex;
-                margin-left: 20px;
-
-                .yellow_button {
-                    background-color: yellow;
-                    margin-right: 25px;
-                    width: 80px;
-                    height: 40px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    color: black;
-                }
-
-                .white_button {
-                    background-color: #FFF;
-                    width: 80px;
-                    height: 40px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    color: black;
-                }
-            }
-        }
-    }
-}
-hgroup {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 300px;
-    font-family: 'Open Sans', sans-serif;
-
-    h1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    h2 {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-
-    h6 {
-        display: flex;
-        justify-content: center
-    }
-}
-.pochemu_nas {
-    .container {
-        display: flex;
-        
-        flex-direction: column;
+    .slider_s_sto {
         font-family: 'Open Sans', sans-serif;
-
-        .kart_1 {
-            p {
-                text-transform: uppercase;
-                font-weight: bold;
-                
-            }
-
-            .foto_i_spisok {
-                display: flex;
-            }
-        }
-
-        .kart_2 {
-            margin-top: 25px;
-            p {
-                text-transform: uppercase;
-                font-weight: bold;
-            }
-
-            .napolnenie {
-                display: flex;
-                flex-direction: column;
-
-                .net_nevip_zadach {
-                    .knopka_vizova {
-                        margin-top: 104px;
+    
+        .carousel-inner2 {
+            position: relative;
+    
+            .blok_na_kartinke2 {
+                position: absolute;
+                width: 40%;
+                height: 100%;
+    
+                color: white;
+                background-color: #646464;
+    
+                .text_prikur {
+                    color: white;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 30px;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                }
+    
+                .text_pod_prikur {
+                    color: white;
+                    font-size: 14px;
+                    margin-left: 20px;
+                }
+    
+                .knopki1 {
+                    display: flex;
+                    margin-left: 20px;
+    
+                    .yellow_button {
+                        background-color: yellow;
+                        margin-right: 25px;
+                        width: 80px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
+                    }
+    
+                    .white_button {
+                        background-color: #FFF;
+                        width: 80px;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
                     }
                 }
-
-                .call_us {
-                    background-color: #646464;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    color: yellow;
-                }
             }
         }
     }
-}
-.chto_govoryat_clienti {
-    background-image: url('../img/notebook-12.jpg');
-    height: 839px;
-
-
-    .container {
-        
-        display: flex;
-        flex-direction: column;
-
-        .chto_govoryat_clienti_zagolovok {
-            margin-top: 200px;
-            color: #FFF;
-            font-size: 35px
-        }
-
-        .mi_priedem {
-            color: #FFF;
-            font-style: italic;
-            margin-bottom: 60px;
-        }
-
-        .otziv {
-
-            margin-bottom: 110px;
-
-            p {
-                text-transform: uppercase;
-                font-weight: bold;
-                color: white;
-            }
-
-            div {
-                color: white;
-                text-transform: lowercase;
-            }
-        }
-    }
-}
-footer {
-    background-color: #646464;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-
-    .container {
-        display: flex;
-        flex-direction: column;
-
-        .columnn_1 {
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            margin-right: 50px;
-            margin-top: 25px;
-            margin-bottom: 25px;
-
-            h5 {
-                span {
-                    color: yellow;
-                }
-            }
-        }
-
-        .columnn_2 {
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            margin-right: 250px;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-
-        .columnn_3 {
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-    }
-
-    .enddd {
+    hgroup {
         display: flex;
         justify-content: center;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        background-color: black;
+        flex-direction: column;
+        margin-top: 300px;
+        font-family: 'Open Sans', sans-serif;
+    
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+    
+        h2 {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        h6 {
+            display: flex;
+            justify-content: center
+        }
+    }
+    .pochemu_nas {
+        .container {
+            display: flex;
+            
+            flex-direction: column;
+            font-family: 'Open Sans', sans-serif;
+    
+            .kart_1 {
+                p {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    
+                }
+    
+                .foto_i_spisok {
+                    display: flex;
+                }
+            }
+    
+            .kart_2 {
+                margin-top: 25px;
+                p {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+    
+                .napolnenie {
+                    display: flex;
+                    flex-direction: column;
+    
+                    .net_nevip_zadach {
+                        .knopka_vizova {
+                            margin-top: 104px;
+                        }
+                    }
+    
+                    .call_us {
+                        background-color: #646464;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: yellow;
+                    }
+                }
+            }
+        }
+    }
+    .chto_govoryat_clienti {
+        background-image: url('../img/notebook-12.jpg');
+        height: 839px;
+    
+    
+        .container {
+            
+            display: flex;
+            flex-direction: column;
+    
+            .chto_govoryat_clienti_zagolovok {
+                margin-top: 200px;
+                color: #FFF;
+                font-size: 35px
+            }
+    
+            .mi_priedem {
+                color: #FFF;
+                font-style: italic;
+                margin-bottom: 60px;
+            }
+    
+            .otziv {
+    
+                margin-bottom: 110px;
+    
+                p {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: white;
+                }
+    
+                div {
+                    color: white;
+                    text-transform: lowercase;
+                }
+            }
+        }
+    }
+    footer {
+        background-color: #646464;
         color: white;
         font-family: 'Open Sans', sans-serif;
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+    
+            .columnn_1 {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                margin-right: 50px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+    
+                h5 {
+                    span {
+                        color: yellow;
+                    }
+                }
+            }
+    
+            .columnn_2 {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                margin-right: 250px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+    
+            .columnn_3 {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+        }
+    
+        .enddd {
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: black;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
     }
 }
