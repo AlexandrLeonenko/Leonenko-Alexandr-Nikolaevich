@@ -1297,7 +1297,7 @@
 
   .pochemu_nas .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: 'Open Sans', sans-serif; }
     .pochemu_nas .container .kart_1 p {
       text-transform: uppercase;
