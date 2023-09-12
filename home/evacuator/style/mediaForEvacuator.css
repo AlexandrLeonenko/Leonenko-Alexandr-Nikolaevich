@@ -1,4 +1,12 @@
 @media screen and (max-width: 575px) {
+  .knopka_vizova {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    padding-left: 38px;
+    padding-right: 38px; }
+
   .container {
     width: 100%; }
 
@@ -63,7 +71,7 @@
           color: #8f8f8f;
           text-transform: uppercase; }
       .header11 .container1 .knopka_vizova {
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         background-color: yellow;
@@ -1128,6 +1136,13 @@
       color: white;
       font-family: 'Open Sans', sans-serif; } }
 @media screen and (min-width: 1200px) {
+  .aaa {
+    display: flex;
+    justify-content: space-between;
+    width: 620px; }
+    .aaa li {
+      list-style-type: none; }
+
   .header1 {
     display: none;
     justify-content: center;
@@ -1145,24 +1160,28 @@
       .header1 .container1 .container {
         display: flex;
         justify-content: space-between; }
-      .header1 .container1 .spisok_header {
-        position: relative;
-        display: flex;
-        width: 620px;
-        justify-content: space-between;
-        align-items: center;
-        font-family: 'Open Sans', sans-serif; }
-        .header1 .container1 .spisok_header li {
-          list-style-type: none;
-          color: #8f8f8f;
-          text-transform: uppercase; }
-      .header1 .container1 .knopka_vizova {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: yellow;
-        padding-left: 38px;
-        padding-right: 38px; }
+        .header1 .container1 .container .header_nav {
+          display: flex;
+          justify-content: space-between; }
+          .header1 .container1 .container .header_nav ul.menu .header_menu {
+            display: flex;
+            width: 620px;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif; }
+            .header1 .container1 .container .header_nav ul.menu .header_menu li > .menu_item {
+              display: flex;
+              justify-content: space-between;
+              list-style-type: none;
+              color: #8f8f8f;
+              text-transform: uppercase; }
+        .header1 .container1 .container .knopka_vizova {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: yellow;
+          padding-left: 38px;
+          padding-right: 38px; }
 
   .header11 {
     display: flex;

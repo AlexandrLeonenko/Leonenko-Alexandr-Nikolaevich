@@ -149,14 +149,6 @@ a {
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif; }
 
-.knopka_vizova {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: yellow;
-  padding-left: 38px;
-  padding-right: 38px; }
-
 .header {
   background-color: #646464; }
   .header .container {
@@ -183,17 +175,18 @@ a {
     .header1 .container1 .container {
       display: flex;
       justify-content: space-between; }
-    .header1 .container1 .spisok_header {
-      position: relative;
-      display: flex;
-      width: 620px;
-      justify-content: space-between;
-      align-items: center;
-      font-family: 'Open Sans', sans-serif; }
-      .header1 .container1 .spisok_header li {
-        list-style-type: none;
-        color: #8f8f8f;
-        text-transform: uppercase; }
+      .header1 .container1 .container .header_nav .header_menu {
+        display: flex;
+        width: 620px;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif; }
+        .header1 .container1 .container .header_nav .header_menu li > .menu_item {
+          display: flex;
+          justify-content: space-between;
+          list-style-type: none;
+          color: #8f8f8f;
+          text-transform: uppercase; }
     .header1 .container1 .knopka_vizova {
       display: flex;
       justify-content: center;
@@ -217,24 +210,28 @@ a {
     .header11 .container1 .container {
       display: flex;
       justify-content: space-between; }
-    .header11 .container1 .spisok_header {
-      position: relative;
-      display: flex;
-      width: 620px;
-      justify-content: space-between;
-      align-items: center;
-      font-family: 'Open Sans', sans-serif; }
-      .header11 .container1 .spisok_header li {
-        list-style-type: none;
-        color: #8f8f8f;
-        text-transform: uppercase; }
-    .header11 .container1 .knopka_vizova {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: yellow;
-      padding-left: 38px;
-      padding-right: 38px; }
+      .header11 .container1 .container .header_nav {
+        display: flex;
+        justify-content: space-between; }
+        .header11 .container1 .container .header_nav .menu .header_menu {
+          display: flex;
+          width: 620px;
+          justify-content: space-between;
+          align-items: center;
+          font-family: 'Open Sans', sans-serif; }
+          .header11 .container1 .container .header_nav .menu .header_menu li > .menu_item {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            color: #8f8f8f;
+            text-transform: uppercase; }
+      .header11 .container1 .container .knopka_vizova {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        padding-left: 38px;
+        padding-right: 38px; }
 
 .avtopom_text {
   display: flex;

@@ -1,6 +1,10 @@
 
-a{text-decoration: none;
-color:#8f8f8f;}
+
+a {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
 .carousel-inner {
     position: relative;
     display: flex;
@@ -233,14 +237,7 @@ color:#8f8f8f;}
     font-family: 'Open Sans', sans-serif;
 }
 
-.knopka_vizova {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: yellow;
-    padding-left: 38px;
-    padding-right: 38px;
-}
+
 
 .header {
     background-color: #646464;
@@ -280,26 +277,31 @@ color:#8f8f8f;}
         .container {
             display: flex;
             justify-content: space-between;
-        }
 
+            .header_nav {
+                .header_menu {
 
+                    display: flex;
+                    width: 620px;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-family: 'Open Sans', sans-serif;
 
-
-
-        .spisok_header {
-            position: relative;
-            display: flex;
-            width: 620px;
-            justify-content: space-between;
-            align-items: center;
-            font-family: 'Open Sans', sans-serif;
-
-            li {
-                list-style-type: none;
-                color: #8f8f8f;
-                text-transform: uppercase;
+                    li>.menu_item {
+                        display: flex;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        color: #8f8f8f;
+                        text-transform: uppercase;
+                    }
+                }
             }
         }
+
+
+
+
+
 
         .knopka_vizova {
             display: flex;
@@ -311,6 +313,7 @@ color:#8f8f8f;}
         }
     }
 }
+
 .header11 {
     display: none;
     justify-content: center;
@@ -324,42 +327,47 @@ color:#8f8f8f;}
 
         display: flex;
         justify-content: space-between;
-        
+
         background-color: #FFF;
         border: solid 1px gray;
 
         .container {
             display: flex;
             justify-content: space-between;
-        }
 
+            .header_nav {
+                display: flex;
+                justify-content: space-between;
 
+                .menu .header_menu {
 
+                    display: flex;
+                    width: 620px;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-family: 'Open Sans', sans-serif;
 
+                    li>.menu_item {
+                        display: flex;
+                        justify-content: space-between;
+                        list-style-type: none;
+                        color: #8f8f8f;
+                        text-transform: uppercase;
+                    }
+                }
+            }
 
-        .spisok_header {
-            position: relative;
-            display: flex;
-            width: 620px;
-            justify-content: space-between;
-            align-items: center;
-            font-family: 'Open Sans', sans-serif;
-
-            li {
-                list-style-type: none;
-                color: #8f8f8f;
-                text-transform: uppercase;
+            .knopka_vizova {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: yellow;
+                padding-left: 38px;
+                padding-right: 38px;
             }
         }
 
-        .knopka_vizova {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: yellow;
-            padding-left: 38px;
-            padding-right: 38px;
-        }
+
     }
 }
 
@@ -371,7 +379,7 @@ color:#8f8f8f;}
     font-size: 20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 .kart {
@@ -518,7 +526,7 @@ hgroup {
             p {
                 text-transform: uppercase;
                 font-weight: bold;
-                
+
             }
 
             .foto_i_spisok {
