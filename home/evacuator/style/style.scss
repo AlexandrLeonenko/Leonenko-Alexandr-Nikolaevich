@@ -310,6 +310,57 @@
         }
     }
 }
+.header11 {
+    display: none;
+    justify-content: center;
+
+    background-image: url('../img/backgroung_header.PNG');
+    background-size: cover;
+    background-attachment: fixed;
+
+    .container1 {
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+        
+        background-color: #FFF;
+        border: solid 1px gray;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+
+
+
+        .spisok_header {
+            position: relative;
+            display: flex;
+            width: 620px;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+
+            li {
+                list-style-type: none;
+                color: #8f8f8f;
+                text-transform: uppercase;
+            }
+        }
+
+        .knopka_vizova {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+            padding-left: 38px;
+            padding-right: 38px;
+        }
+    }
+}
 
 .avtopom_text {
     display: flex;
@@ -558,7 +609,7 @@ hgroup {
 .evacuatori {
     margin-top: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 12.5%;
     font-family: 'Open Sans', sans-serif;
 
