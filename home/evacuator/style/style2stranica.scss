@@ -1,11 +1,14 @@
-p{font-family: 'Open Sans', sans-serif;}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .content {
 
     color: #54595f;
     margin-top: 80px;
 
     .container {
-        
+
         h1 {
             text-transform: uppercase;
             display: flex;
@@ -18,7 +21,10 @@ p{font-family: 'Open Sans', sans-serif;}
             color: #4a6672;
             font-family: 'Open Sans', sans-serif;
         }
-        .abz1{font-family: 'Open Sans', sans-serif;}
+
+        .abz1 {
+            font-family: 'Open Sans', sans-serif;
+        }
 
         img {
             margin-left: 11%;
@@ -59,8 +65,11 @@ p{font-family: 'Open Sans', sans-serif;}
             padding: 20px;
             font-family: 'Open Sans', sans-serif;
         }
-        .abz3{margin-bottom: 15px;
-            font-family: 'Open Sans', sans-serif;}
+
+        .abz3 {
+            margin-bottom: 15px;
+            font-family: 'Open Sans', sans-serif;
+        }
 
     }
 }
