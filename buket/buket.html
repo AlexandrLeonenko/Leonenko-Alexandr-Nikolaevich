@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/buket1.css">
 </head>
+
 <body>
     <div class="scelet">
         <header>
@@ -14,16 +16,155 @@
                 <div class="vbaranovichah">в Барановичах</div>
                 <div class="small_text">Здесь самые эффектные и практичные<br> букеты!</div>
                 <div class="knopki">
-                    <a href="#"><div class="button1">Перейти в каталог</div></a>
-                    <a href="#"><div class="button2">Позвонить</div></a>
+                    <a href="#">
+                        <div class="button1">Перейти в каталог</div>
+                    </a>
+                    <a href="#">
+                        <div class="button2">Позвонить</div>
+                    </a>
                 </div>
             </div>
         </header>
         <div class="vtorayaChast">
             <div class="container">
                 <h2>КАТАЛОГ ТОВАРОВ</h2>
+                <div class="kartochki_js">
+                    <div class="container222">
+                        <div onDOMContentLoaded="render()"></div>
+
+
+                        <div id="app"></div>
+                        <script>
+
+                            var avto = [
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild3832-3432-4563-a362-303932313361/photo_2023-03-19_155.jpeg",
+
+                                    event: "Пивные букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild6135-6436-4634-a666-663464363165/photo_2023-03-19_155.jpeg",
+
+                                    event: "Колбасно-сырные букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild3964-3766-4431-a466-613137303263/photo_2023-03-19_155.jpeg",
+
+                                    event: "Раковые букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild3832-3432-4563-a362-303932313361/photo_2023-03-19_155.jpeg",
+
+                                    event: "Пивные букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild6135-6436-4634-a666-663464363165/photo_2023-03-19_155.jpeg",
+
+                                    event: "Колбасно-сырные букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild3964-3766-4431-a466-613137303263/photo_2023-03-19_155.jpeg",
+
+                                    event: "Раковые букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild3832-3432-4563-a362-303932313361/photo_2023-03-19_155.jpeg",
+
+                                    event: "Пивные букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild6135-6436-4634-a666-663464363165/photo_2023-03-19_155.jpeg",
+
+                                    event: "Колбасно-сырные букеты"
+                                },
+                                {
+
+                                    imgUrl: "https://static.tildacdn.com/tild3964-3766-4431-a466-613137303263/photo_2023-03-19_155.jpeg",
+
+                                    event: "Раковые букеты"
+                                },
+
+                            ]
+                            var app = document.getElementById("app");
+                            function render() {
+                                var avtoHtml = "";
+                                for (i = 0; i < avto.length; i++) {
+                                    avtoHtml += `
+                    <a class="karta_tovara" href="#"> 
+                        <div class="card">
+                        
+                            <img src="${avto[i].imgUrl}" class="card-img-top" alt="..." >
+                        
+                               
+                            <div class="ssylka" href="index2.html">${avto[i].event}</div>
+                            
+                        </div>
+                    </a>
+                    `
+                                }
+                                app.innerHTML = avtoHtml;
+                            }
+                            document.addEventListener("DOMContentLoaded", render);
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tretiaChast">
+            <div class="container">
+                <h2>РАБОТАЕМ С КОРПОРАТИВНЫМИ ЗАКАЗАМИ</h2>
+                <div class="fotoSoSpiskom">
+                    <img src="https://static.tildacdn.com/tild6362-6135-4332-b934-643034666436/photo_2023-03-27_142.png" alt="">
+                    <ul>
+                        <li>Индивидуальная разработка подарков</li>
+                        <li>Безналичная оплата</li>
+                        <li>Договор</li>
+                        <li>Высокое качество исполнения</li>
+                        <li>Скидки корпоративным клиентам</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="chetvertayaChast">
+            <div class="container">
+                <h2>НАМ ДОВЕРЯЮТ</h2>
+            </div>
+        </div>
+        <div class="piatayaChast">
+            <div class="container">
+                <h2>ОТЗЫВЫ КЛИЕНТОВ</h2>
+                <div class="otzivi">
+                    <img src="img/3d-render-customer-leave-feedback-on-phone-screen_107791-17460.jpg" alt="">
+                    <h2>Только положительные!<br><br> А мы ко всем прислушиваемся<br><br> И стараемся на все отвечать</h2>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="sixChast">
+            <div class="container">
+                <h2>ДОСТАВКА И ОПЛАТА</h2>
+                <ul>
+                    <li>Самовывоз Советская 154</li>
+                    <li>Приезжать за букетом можно только после согласования времени.</li>
+                    <li>Доставка производится с 10.00 до 19.00. Время доставки оговариваем индивидуально с каждым заказчиком!</li>
+                    <li>Доставка по городу 5-10 руб в зависимости от района.</li>
+                    <li>При осуществлении доставки, оплата заказа производится заранее онлайн на рассчётный счёт при оформлении заказа.</li>
+                    <li>При самовывозе оплата заказа может осуществляется наличными/безналичными или онлайн на расчётный счёт.</li>
+                    
+                </ul>
             </div>
         </div>
     </div>
+    </div>
 </body>
+
 </html>

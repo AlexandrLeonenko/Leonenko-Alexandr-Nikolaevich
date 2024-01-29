@@ -2,6 +2,35 @@
   width: 1236px;
   margin: 0 auto; }
 
+h2 {
+  color: #eba1a9;
+  font-size: 56px;
+  font-family: 'Florentia', Arial, sans-serif;
+  font-weight: 700; }
+
+.karta_tovara {
+  display: flex;
+  margin-right: 13px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-family: 'Florentia',Arial,sans-serif;
+  font-weight: 600;
+  color: #eba1a9; }
+  .karta_tovara .card .card-img-top {
+    width: 360px;
+    height: 360px; }
+  .karta_tovara .card .ssylka {
+    display: flex;
+    justify-content: center;
+    text-decoration: none; }
+
+.karta_tovara:hover {
+  box-shadow: 0px 4px 8px 20px rgba(241, 142, 197, 0.2); }
+
+.card-img-top {
+  width: 360px;
+  height: 360px; }
+
 .scelet .container h1 {
   color: #eba1a9;
   font-size: 72px;
@@ -59,5 +88,51 @@
       margin-left: 50px; }
     .scelet .container .knopki a .button2:hover {
       box-shadow: 0px 4px 8px 20px rgba(16, 112, 186, 0.2); }
+.scelet .vtorayaChast .container h2 {
+  color: #eba1a9;
+  font-size: 56px;
+  font-family: 'Florentia', Arial, sans-serif;
+  font-weight: 700; }
+.scelet .vtorayaChast .container .kartochki_js .container222 {
+  width: 1236px;
+  margin: 0 auto; }
+  .scelet .vtorayaChast .container .kartochki_js .container222 #app {
+    display: flex;
+    width: 1172px;
+    flex-flow: wrap;
+    justify-content: space-between; }
+.scelet .tretiaChast .container h2 {
+  color: #eba1a9;
+  font-size: 56px;
+  font-family: 'Florentia', Arial, sans-serif;
+  font-weight: 700; }
+.scelet .tretiaChast .container .fotoSoSpiskom {
+  display: flex; }
+  .scelet .tretiaChast .container .fotoSoSpiskom img {
+    width: 460px;
+    height: 562px; }
+  .scelet .tretiaChast .container .fotoSoSpiskom ul li {
+    color: #eba1a9;
+    font-size: 20px;
+    font-family: 'Florentia',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 500;
+    margin-bottom: 106px;
+    margin-left: 20px; }
+.scelet .piatayaChast .container .otzivi {
+  display: flex; }
+.scelet .sixChast .container ul {
+  background-color: gold;
+  background-size: 860px 410px;
+  border-radius: 20px;
+  padding: 20px; }
+  .scelet .sixChast .container ul li {
+    color: #030303;
+    font-size: 20px;
+    font-family: 'Florentia',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 20px; }
 
 /*# sourceMappingURL=buket1.css.map */

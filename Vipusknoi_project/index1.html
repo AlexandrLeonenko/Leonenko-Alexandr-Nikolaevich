@@ -451,7 +451,8 @@
             </div>
             <div class="kartochki_js">
                 <div class="container222">
-                    <button class="knopka_so_spiskom_avto" onclick="render()">Click here for car choose</button>
+                    <div onDOMContentLoaded="render()"></div>
+                    
 
                     <div id="app"></div>
                     <script>
@@ -700,7 +701,7 @@
                             }
                             app.innerHTML = avtoHtml;
                         }
-
+                        document.addEventListener("DOMContentLoaded", render);
                     </script>
                 </div>
             </div>
