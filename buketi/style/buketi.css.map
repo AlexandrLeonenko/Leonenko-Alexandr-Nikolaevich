@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACN,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;;AAIV,qBAAE;EACE,eAAe,EAAE,SAAS",
+"sources": ["buketi.scss"],
+"names": [],
+"file": "buketi.css"
+}
