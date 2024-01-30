@@ -13,7 +13,7 @@ h2 {
   margin-right: 13px;
   margin-bottom: 50px;
   text-decoration: none;
-  font-family: 'Florentia',Arial,sans-serif;
+  font-family: 'Florentia', Arial, sans-serif;
   font-weight: 600;
   color: #eba1a9; }
   .karta_tovara .card .card-img-top {
@@ -114,7 +114,7 @@ h2 {
   .scelet .tretiaChast .container .fotoSoSpiskom ul li {
     color: #eba1a9;
     font-size: 20px;
-    font-family: 'Florentia',Arial,sans-serif;
+    font-family: 'Florentia', Arial, sans-serif;
     line-height: NaN;
     font-weight: 500;
     margin-bottom: 106px;
@@ -129,10 +129,14 @@ h2 {
   .scelet .sixChast .container ul li {
     color: #030303;
     font-size: 20px;
-    font-family: 'Florentia',Arial,sans-serif;
+    font-family: 'Florentia', Arial, sans-serif;
     line-height: NaN;
     font-weight: 500;
     margin-bottom: 20px;
     margin-left: 20px; }
+.scelet .eightChast .container .footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between; }
 
 /*# sourceMappingURL=buket1.css.map */
